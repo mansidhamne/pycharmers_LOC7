@@ -34,7 +34,7 @@ export default function Dashboard() {
   useEffect(() => {
     const token = localStorage.getItem('token');
     const data = localStorage.getItem('employeeData');
-
+   
     console.log("Stored Employee Data:", data); // Debugging
     if (!token || !data) {
       console.error("Authentication failed, redirecting...");
@@ -67,7 +67,7 @@ export default function Dashboard() {
         <div className="flex justify-between items-center mb-6">
           <div>
             <h1 className="text-3xl font-bold text-gray-900">Welcome back, {employeeData.email}</h1>
-            <p className="text-muted-foreground">{employeeData.department} • {employeeData.role}</p>
+            <p className="text-muted-foreground">{employeeData.department} • {employeeData.role} • {employeeData.company}</p>
           </div>
           <Button onClick={() => router.push('/expenses/new')}>
             <Plus className="mr-2 h-4 w-4" /> New Expense

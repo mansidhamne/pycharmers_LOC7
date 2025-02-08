@@ -6,7 +6,7 @@ const AuthController = require('./controllers/AuthController');
 const AuthRoutes = require('./routes/authRoutes');
 // Load environment variables
 dotenv.config();
-
+const ExpenseRoutes=require('./routes/expenseRoutes');
 // Initialize Express app
 const app = express();
 
@@ -26,6 +26,7 @@ mongoose.connect(process.env.MONGO_URI, {
 
 // Use user routes
 app.use('/auth', AuthRoutes);
+app.use('/expenses', ExpenseRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
