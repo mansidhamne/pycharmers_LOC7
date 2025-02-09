@@ -154,11 +154,11 @@ export default function Register() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-700">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-amber-50 p-8">
       <div className="w-full max-w-md space-y-6">
           <div className="flex flex-col items-center space-y-2 mb-8">
-            <h2 className="text-2xl font-semibold text-white">Enterprise Compliance Suite</h2>
-            <p className="text-slate-300 text-center max-w-sm">
+            <h2 className="text-5xl font-semibold text-blue-700">Fraud Zero</h2>
+            <p className="text-slate-700 text-center max-w-sm">
               Automated compliance checks, reimbursements, and data analytics for modern enterprises
             </p>
           </div>

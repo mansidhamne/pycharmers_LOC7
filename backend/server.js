@@ -344,6 +344,9 @@ app.get('/reports/:type', async (req, res) => {
   }
 });
 
+app.get('/get-hotels', async (req, res) => {
+  
+});
 
 // Start the server
 const PORT = process.env.PORT || 3000;

@@ -175,7 +175,7 @@ export default function ApprovalPage() {
         department: parsedData.department,
       });
 
-      const response = await fetch(`http://localhost:7000/reimbursement?${queryParams}`, {
+      const response = await fetch(`http://localhost:3001/reimbursement?${queryParams}`, {
         headers: {
           'Authorization': `Bearer ${token}`,
         },
@@ -225,7 +225,7 @@ export default function ApprovalPage() {
       setIsLoading(true);
       const token = localStorage.getItem("token");
   
-      const response = await fetch(`http://localhost:7000/reimbursement/${id}/decision`, {
+      const response = await fetch(`http://localhost:3001/reimbursement/${id}/decision`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

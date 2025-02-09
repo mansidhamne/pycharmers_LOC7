@@ -5,9 +5,16 @@ from tamper import detect_tampering
 from datetime import datetime
 from ocr import ocr_main
 from chat import *
+import requests
+import google.generativeai as genai
 
 app = Flask(__name__)
 CORS(app)  # Allow frontend to communicate with backend
+
+ACCESS_TOKEN = "kbOQu2mx2R689ucldB48CyiygnCx"
+GEMINI_API_KEY_2 = "AIzaSyBICHgplwdgfcYVWIFUFLJtcXHXI9dfKpM"
+
+genai.configure(api_key=GEMINI_API_KEY_2)
 
 UPLOAD_FOLDER = "uploads"
 UPLOAD_FOLDER_2 = "uploads_ocr"
@@ -112,6 +119,70 @@ def ask_question():
 
     result = nlp({"question": question, "context": context})
     return jsonify({"answer": result["answer"]})
+
+CITIES = {
+    "United Kingdom - London": "LON",
+    "France - Paris": "PAR",
+    "Germany - Berlin": "BER",
+    "Spain - Madrid": "MAD",
+    "Italy - Rome": "ROM",
+    "Netherlands - Amsterdam": "AMS",
+    "Switzerland - Zurich": "ZRH",
+    "Belgium - Brussels": "BRU",
+    "Portugal - Lisbon": "LIS",
+    "Austria - Vienna": "VIE",
+}
+
+def get_hotel_offers(city_code, ratings):
+    """Fetch hotel offers using Amadeus API."""
+    url = "https://test.api.amadeus.com/v1/reference-data/locations/hotels/by-city"
+    
+    headers = {"Authorization": f"Bearer {ACCESS_TOKEN}"}
+    
+    params = {
+        "cityCode": city_code,
+        "ratings": ratings  # Example: "3,4,5"
+    }
+    
+    response = requests.get(url, headers=headers, params=params)
+    
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return {"error": "Failed to fetch hotel offers"}
+
+def process_hotel_data(hotel_data):
+    """Extract structured hotel data using Gemini API."""
+    prompt = f"""
+    Based on rating and location, assign a price and extract the cheapest 5 hotels.
+    Data: {hotel_data}
+
+    Required output:
+    - Hotel Name
+    - City
+    - Rating
+    - Price (INR)
+    - Comment (e.g., 'Budget-friendly, close to airport')
+    """
+    
+    model = genai.GenerativeModel("gemini-pro")
+    response = model.generate_content(prompt)
+    
+    return response.text  # Assuming this returns JSON-like data
+
+@app.route("/get-hotels", methods=["GET"])
+def get_hotels():
+    city = request.args.get("city")
+    ratings = request.args.get("ratings")
+
+    hotel_offers = get_hotel_offers(city, ratings)
+    
+    if "error" in hotel_offers:
+        return jsonify({"error": hotel_offers["error"]})
+
+    structured_data = process_hotel_data(hotel_offers)
+    return jsonify({"hotels": structured_data})
+
 
 if __name__ == '__main__':
     app.run(host="0.0.0.0", port=3002, debug=True)

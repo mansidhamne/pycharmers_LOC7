@@ -22,7 +22,7 @@ export default function RootLayout({
         <div className="flex min-h-screen flex-col">
           {!hideNavbar && <Navbar />}
           <div className="flex-1 flex">
-            {!hideSidebar && !hideNavbar && <><Navbar className="w-64 hidden md:block" /><Sidebar className="w-64 hidden md:block" /></>}
+            {!hideSidebar && <Sidebar className="w-64 hidden md:block" />}
             <main className="flex-1  bg-slate-50">{children}</main>
           </div>
         </div>

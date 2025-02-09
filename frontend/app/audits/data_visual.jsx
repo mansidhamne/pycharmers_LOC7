@@ -13,7 +13,7 @@ const DepartmentStatsVisualization = () => {
   const fetchDepartmentStats = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://localhost:7000/departmentstats');
+      const response = await axios.get('http://localhost:3001/departmentstats');
       setStats(response.data.data);
     } catch (error) {
       console.error('Error fetching department stats:', error);

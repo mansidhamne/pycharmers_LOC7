@@ -1,21 +1,9 @@
 "use client"
-import React, { useState, useEffect, useRef } from 'react'
-import { motion } from 'framer-motion'
-import { Shield, ChevronDown, Search, MessageSquare, User, Eye, EyeOff, Lock, Unlock, Globe, Server } from 'lucide-react'
+import React, { useEffect, useRef } from 'react'
 import { Boxes } from "../components/bacnground-boxes";
-import { cn } from "@/lib/utils";
-import Buton from "@/components/Buton";
-import { Input } from "@/components/ui/input"
 import { useRouter } from 'next/navigation';
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
-import Logo from "../lib/CyberGuard AI.png"
-import Image from "next/image";
 import Link from "next/link";
+import { Button } from '@/components/ui/button';
 
 const DigitalRain = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -93,7 +81,9 @@ export default function LandingPage() {
             Streamline your expense management with real-time collaboration. 
             Track receipts, generate reports, and manage budgets from anywhere.
           </p>
-          <Buton>Sign up free</Buton>
+          <Link href="/register">
+            <Button className="p-2.5">Sign up free</Button>
+          </Link>
         </div>
 
         {/* Right side preview (Increased size) */}

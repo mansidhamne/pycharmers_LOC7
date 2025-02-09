@@ -18,7 +18,7 @@ const HierarchyTree = () => {
 console.log("Employee Data:", employeeData); // Debugging
   // Fetch stats when employeeData changes
   useEffect(() => {
-    fetch(`http://localhost:7000/subordinates?role=${employeeData.role}&department=${employeeData.department}`, )
+    fetch(`http://localhost:3001/subordinates?role=${employeeData.role}&department=${employeeData.department}`, )
       .then(res => res.json())
       .then(data => {
         const formattedNodes = data.map((emp, index) => ({

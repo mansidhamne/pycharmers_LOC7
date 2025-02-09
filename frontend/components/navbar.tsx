@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -15,6 +16,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Bell, Search, Plus, LogOut, Settings, User } from 'lucide-react';
+import logo from '@/public/logo.png';
 
 interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {}
 
@@ -36,15 +38,15 @@ export function Navbar({ className }: NavbarProps) {
   }, []);
 
   return (
-    <nav className={`sticky top-0 z-40 w-full transition-all duration-200 ${
+    <nav className={`px-8 sticky top-0 z-40 w-full transition-all duration-200 ${
       isScrolled ? 'bg-background/80 backdrop-blur-md shadow-sm' : 'bg-background'
     }`}>
       <div className="container flex h-16 items-center justify-between">
         {/* Logo and Name - Always visible */}
         <Link href="/" className="flex items-center space-x-3 hover:opacity-90 transition-opacity">
-          <img src="/logo.svg" alt="Logo" className="h-8 w-8" />
+          <Image src={logo} alt="Logo" className="h-10 w-16" />
           <span className="font-bold text-xl bg-gradient-to-r from-primary to-primary/80 bg-clip-text text-transparent">
-            ExpenseFlow
+            Fraud Zero
           </span>
         </Link>
 
@@ -98,7 +100,7 @@ export function Navbar({ className }: NavbarProps) {
                 <Button variant="ghost" className="relative h-9 w-9 rounded-full">
                   <Avatar className="h-9 w-9">
                     <AvatarImage src="/avatars/01.png" alt="@username" />
-                    <AvatarFallback>JD</AvatarFallback>
+                    <AvatarFallback>MD</AvatarFallback>
                   </Avatar>
                 </Button>
               </DropdownMenuTrigger>
