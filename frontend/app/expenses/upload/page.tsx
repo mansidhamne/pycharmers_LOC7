@@ -111,7 +111,7 @@ export default function UploadReceipt() {
         setSummary(summaryData);
       }
 
-      await fetch("http://localhost:3001/save_summary", {
+      await fetch("http://localhost:7000/save_summary", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(summaryData),

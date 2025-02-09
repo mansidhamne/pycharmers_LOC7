@@ -14,13 +14,12 @@ export default function RootLayout({
 
   // Define pages where the sidebar should be hidden
   const hideSidebar = ["/", "/login", "/register"].includes(pathname);
-  const hideNavbar = ["/", "/login", "/register"].includes(pathname);
 
   return (
     <html lang="en">
       <body>
         <div className="flex min-h-screen flex-col">
-          {!hideNavbar && <Navbar />}
+          <Navbar />
           <div className="flex-1 flex">
             {!hideSidebar && <Sidebar className="w-64 hidden md:block" />}
             <main className="flex-1  bg-slate-50">{children}</main>
