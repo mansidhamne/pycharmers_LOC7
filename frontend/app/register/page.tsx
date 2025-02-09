@@ -25,7 +25,7 @@
 //   const handleSubmit = async (e: React.FormEvent) => {
 //     e.preventDefault()
 //     try {
-//       const response = await axios.post("http://localhost:3001/auth/register", formData)
+//       const response = await axios.post("http://localhost:7000/auth/register", formData)
 //       setSuccess(response.data.message)
 //       setTimeout(() => router.push("/login"), 3000)
 //     } catch (error: any) {
@@ -145,7 +145,7 @@ export default function Register() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     try {
-      const response = await axios.post("http://localhost:3001/auth/register", formData)
+      const response = await axios.post("http://localhost:7000/auth/register", formData)
       setSuccess(response.data.message)
       setTimeout(() => router.push("/login"), 3000)
     } catch (error: any) {
@@ -154,11 +154,11 @@ export default function Register() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-amber-50 p-8">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-yellow-50  via-amber-50 to-amber-100">
       <div className="w-full max-w-md space-y-6">
           <div className="flex flex-col items-center space-y-2 mb-8">
-            <h2 className="text-5xl font-semibold text-blue-700">Fraud Zero</h2>
-            <p className="text-slate-700 text-center max-w-sm">
+            <h2 className="text-2xl font-semibold text-black">Enterprise Compliance Suite</h2>
+            <p className="text-slate-800 text-center max-w-sm">
               Automated compliance checks, reimbursements, and data analytics for modern enterprises
             </p>
           </div>

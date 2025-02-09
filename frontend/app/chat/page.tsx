@@ -32,7 +32,7 @@ export default function ComplianceChatbot() {
     setMessages((prevMessages) => [...prevMessages, { user: message, bot: '' }])
 
     try {
-      const response = await axios.post('http://localhost:3001/chat', { message })
+      const response = await axios.post('http://localhost:7000/chat', { message })
       setMessages((prevMessages) => [
         ...prevMessages.slice(0, -1),
         { user: message, bot: response.data.message },

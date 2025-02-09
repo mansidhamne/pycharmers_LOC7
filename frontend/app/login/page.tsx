@@ -25,7 +25,7 @@ export default function Login() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/auth/login', formData);
+      const response = await axios.post('http://localhost:7000/auth/login', formData);
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('employeeData', JSON.stringify(response.data.employee));
       router.push('/dashboard');
