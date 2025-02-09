@@ -1,101 +1,135 @@
+"use client"
+import React, { useState, useEffect, useRef } from 'react'
+import { motion } from 'framer-motion'
+import { Shield, ChevronDown, Search, MessageSquare, User, Eye, EyeOff, Lock, Unlock, Globe, Server } from 'lucide-react'
+import { Boxes } from "../components/bacnground-boxes";
+import { cn } from "@/lib/utils";
+import Buton from "@/components/Buton";
+import { Input } from "@/components/ui/input"
+import { useRouter } from 'next/navigation';
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
+import Logo from "../lib/CyberGuard AI.png"
 import Image from "next/image";
+import Link from "next/link";
 
-export default function Home() {
+const DigitalRain = () => {
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return
+
+    canvas.width = window.innerWidth
+    canvas.height = window.innerHeight
+
+    const fontSize = 14
+    const columns = canvas.width / fontSize
+
+    const drops: number[] = []
+    for (let i = 0; i < columns; i++) {
+      drops[i] = 1
+    }
+
+    const draw = () => {
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.05)'
+      ctx.fillRect(0, 0, canvas.width, canvas.height)
+
+      ctx.fillStyle = '#0f0'
+      ctx.font = `${fontSize}px monospace`
+
+      for (let i = 0; i < drops.length; i++) {
+        const text = String.fromCharCode(Math.random() * 128)
+        ctx.fillText(text, i * fontSize, drops[i] * fontSize)
+
+        if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {
+          drops[i] = 0
+        }
+
+        drops[i]++
+      }
+    }
+
+    const interval = setInterval(draw, 33)
+
+    const handleResize = () => {
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      clearInterval(interval)
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
+  return <canvas ref={canvasRef} className="fixed top-0 left-0 w-full h-full -z-10" />
+}
+
+export default function LandingPage() {
+  const router = useRouter();
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <div className="min-h-screen relative w-full overflow-hidden rounded-lg bg-[conic-gradient(at_bottom_right,_var(--tw-gradient-stops))] from-yellow-100 via-amber-100 to-white">
+      <div className="inset-0 w-full h-full pointer-events-none" />
+      <Boxes />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      <div className="container relative min-h-[600px] flex items-center">
+        {/* Left side content */}
+        <div className="flex-1 pl-20 py-20">
+          <h1 className="text-7xl pb-5 pl-3 font-bold tracking-tight bg-gradient-to-r from-purple-600 to-blue-400 bg-clip-text text-transparent">
+            Run smarter <br />
+            expense tracking
+          </h1>
+          <p className="mt-6 pl-3 font-bold text-xl pb-10 text-gray-700 max-w-[600px]">
+            Streamline your expense management with real-time collaboration. 
+            Track receipts, generate reports, and manage budgets from anywhere.
+          </p>
+          <Buton>Sign up free</Buton>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+
+        {/* Right side preview (Increased size) */}
+        <div className="flex-1 relative flex justify-center">
+          <div className="bg-white/50 backdrop-blur-sm rounded-lg border shadow-xl w-[700px] p-6">
+            <div className="flex items-center justify-between mb-4">
+              <div className="flex items-center space-x-4">
+                <div className="h-5 w-5 rounded-full bg-red-500" />
+                <div className="h-5 w-5 rounded-full bg-yellow-500" />
+                <div className="h-5 w-5 rounded-full bg-green-500" />
+              </div>
+              <div className="flex items-center space-x-2">
+                <div className="h-5 w-5 rounded-full bg-blue-100" />
+                <div className="h-5 w-5 rounded-full bg-blue-100" />
+              </div>
+            </div>
+
+            {/* Expense cards grid */}
+            <div className="grid grid-cols-3 gap-7">
+              {[
+                { name: "Travel", amount: "$245.00", color: "bg-pink-100" },
+                { name: "Office", amount: "$129.99", color: "bg-blue-100" },
+                { name: "Meals", amount: "$89.50", color: "bg-yellow-100" },
+                { name: "Tech", amount: "$399.99", color: "bg-violet-100" },
+                { name: "Transport", amount: "$65.00", color: "bg-green-100" },
+                { name: "Others", amount: "$149.99", color: "bg-orange-100" }
+              ].map((expense, index) => (
+                <div key={index} className={`${expense.color} p-4 rounded-lg shadow-sm`}>
+                  <div className="text-sm font-medium">{expense.name}</div>
+                  <div className="text-lg font-bold mt-1">{expense.amount}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  );
+  )
 }
