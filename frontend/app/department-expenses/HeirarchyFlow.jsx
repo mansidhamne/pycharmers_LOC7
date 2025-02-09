@@ -4,10 +4,21 @@ import ReactFlow, { Controls } from 'reactflow';
 import 'reactflow/dist/style.css';
 
 const HierarchyTree = () => {
+      const router = useRouter();
   const [nodes, setNodes] = useState([]);
-
+  const [employeeData, setEmployeeData] = useState(null);
   useEffect(() => {
-    fetch('http://localhost:7000/subordinates', { credentials: 'include' })
+    const edata = localStorage.getItem('employeeData');
+    console.log("Stored Employee Data:", edata); // Debugging
+    if (edata) {
+      const parsedData = JSON.parse(edata);
+      setEmployeeData(parsedData);
+    }
+  }, []); // Empty dependency array means this runs once on mount
+console.log("Employee Data:", employeeData); // Debugging
+  // Fetch stats when employeeData changes
+  useEffect(() => {
+    fetch(`http://localhost:7000/subordinates?role=${employeeData.role}&department=${employeeData.department}`, )
       .then(res => res.json())
       .then(data => {
         const formattedNodes = data.map((emp, index) => ({

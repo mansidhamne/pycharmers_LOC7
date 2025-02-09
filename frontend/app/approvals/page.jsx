@@ -2,19 +2,15 @@
 
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { toast } from 'react-toastify';
+import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { 
   Card, 
   CardHeader, 
   CardTitle, 
   CardContent,
- 
 } from "@/components/ui/card";
-import { Tabs,
-  TabsList,
-  TabsTrigger,
-  TabsContent,} from "@/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { Button } from "@/components/ui/button";
 import { 
   Dialog,
@@ -22,11 +18,32 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { CheckCircle, XCircle, FileText } from 'lucide-react';
+import { CheckCircle, XCircle, FileText, AlertTriangle, Shield } from 'lucide-react';
 
-const ReimbursementCard = ({ reimbursement, onView, onApprove, onReject }) => (
+const AIScoreBadge = ({ score }) => {
+  const getColor = () => {
+    if (score < 30) return 'bg-green-100 text-green-700';
+    if (score < 70) return 'bg-yellow-100 text-yellow-700';
+    return 'bg-red-100 text-red-700';
+  };
+
+  const getIcon = () => {
+    if (score < 30) return <Shield className="h-4 w-4 mr-1" />;
+    if (score < 70) return <AlertTriangle className="h-4 w-4 mr-1" />;
+    return <XCircle className="h-4 w-4 mr-1" />;
+  };
+
+  return (
+    <div className={`flex items-center px-2 py-1 rounded-full ${getColor()}`}>
+      {getIcon()}
+      <span className="text-sm font-medium">AI Score: {score}</span>
+    </div>
+  );
+};
+
+const ReimbursementCard = ({ reimbursement, onView, onApprove, onReject, showActions = true }) => (
   <div className="flex items-center justify-between p-4 border-b last:border-b-0">
-    <div>
+    <div className="space-y-2">
       <p className="font-medium">{reimbursement.employee.email}</p>
       <p className="text-sm text-muted-foreground">
         {reimbursement.category} - ${reimbursement.amount.toFixed(2)}
@@ -34,25 +51,30 @@ const ReimbursementCard = ({ reimbursement, onView, onApprove, onReject }) => (
       <p className="text-xs text-muted-foreground">
         Submitted: {new Date(reimbursement.dateSubmitted).toLocaleDateString()}
       </p>
+      <AIScoreBadge score={reimbursement.aiAnalysis.fraudProbability} />
     </div>
     <div className="flex items-center space-x-4">
       <Button variant="outline" onClick={onView}>
         <FileText className="h-4 w-4 mr-2" /> View Details
       </Button>
-      <Button 
-        variant="outline" 
-        className="bg-green-50 hover:bg-green-100 text-green-600"
-        onClick={onApprove}
-      >
-        <CheckCircle className="h-4 w-4 mr-2" /> Approve
-      </Button>
-      <Button 
-        variant="outline" 
-        className="bg-red-50 hover:bg-red-100 text-red-600"
-        onClick={onReject}
-      >
-        <XCircle className="h-4 w-4 mr-2" /> Reject
-      </Button>
+      {showActions && (
+        <>
+          <Button 
+            variant="outline" 
+            className="bg-green-50 hover:bg-green-100 text-green-600"
+            onClick={onApprove}
+          >
+            <CheckCircle className="h-4 w-4 mr-2" /> Approve
+          </Button>
+          <Button 
+            variant="outline" 
+            className="bg-red-50 hover:bg-red-100 text-red-600"
+            onClick={onReject}
+          >
+            <XCircle className="h-4 w-4 mr-2" /> Reject
+          </Button>
+        </>
+      )}
     </div>
   </div>
 );
@@ -231,6 +253,7 @@ export default function ApprovalPage() {
 
   return (
     <div className="min-h-screen bg-slate-50 p-6">
+      <ToastContainer position="top-right" autoClose={3000} />
       <div className="container mx-auto">
         <Tabs defaultValue="pending" onValueChange={setActiveTab}>
           <TabsList className="grid grid-cols-3 w-full max-w-md mb-6">
@@ -258,6 +281,7 @@ export default function ApprovalPage() {
                       onView={() => setSelectedReimbursement(reimbursement)}
                       onApprove={() => handleDecision(reimbursement._id, 'approved')}
                       onReject={() => handleDecision(reimbursement._id, 'rejected')}
+                      showActions={true}
                     />
                   ))
                 )}
@@ -282,8 +306,7 @@ export default function ApprovalPage() {
                       key={reimbursement._id}
                       reimbursement={reimbursement}
                       onView={() => setSelectedReimbursement(reimbursement)}
-                      onApprove={() => handleDecision(reimbursement._id, 'approved')}
-                      onReject={() => handleDecision(reimbursement._id, 'rejected')}
+                      showActions={false}
                     />
                   ))
                 )}
@@ -308,8 +331,7 @@ export default function ApprovalPage() {
                       key={reimbursement._id}
                       reimbursement={reimbursement}
                       onView={() => setSelectedReimbursement(reimbursement)}
-                      onApprove={() => handleDecision(reimbursement._id, 'approved')}
-                      onReject={() => handleDecision(reimbursement._id, 'rejected')}
+                      showActions={false}
                     />
                   ))
                 )}
