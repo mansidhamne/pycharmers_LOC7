@@ -8,7 +8,6 @@ import { UploadCloud, FileText, CheckCircle, Clock, Plus, DollarSign, TrendingUp
 
 // Interface for Employee Data
 
-
 // Mock data for Expense Chart
 const expenseData = [
   { month: 'Jan', amount: 1200 },

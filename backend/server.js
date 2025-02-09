@@ -193,7 +193,219 @@ app.get('/reports/:type', async (req, res) => {
   }
 });
 
+app.get('/api/expenses/:employeeId', authenticateToken, async (req, res) => {
+  try {
+    const expenses = await Reimbursement.find({ employee: req.params.employeeId })
+      .sort({ dateSubmitted: -1 })
+      .limit(10);
 
+    res.json({ expenses });
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching expenses', error: error.message });
+  }
+});
+
+// Get expense statistics
+app.get('/api/expenses/stats/:employeeId', authenticateToken, async (req, res) => {
+  try {
+    const { employeeId } = req.params;
+
+    // Get current date and 30 days ago
+    const thirtyDaysAgo = new Date();
+    thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+
+    // Calculate total expenses this month
+    const totalExpenses = await Reimbursement.aggregate([
+      {
+        $match: {
+          employee: employeeId,
+          dateSubmitted: {
+            $gte: new Date(new Date().getFullYear(), new Date().getMonth(), 1)
+          }
+        }
+      },
+      {
+        $group: {
+          _id: null,
+          total: { $sum: "$amount" }
+        }
+      }
+    ]);
+
+    // Get pending count
+    const pendingCount = await Reimbursement.countDocuments({
+      employee: employeeId,
+      status: 'pending'
+    });
+
+    // Calculate approval rate
+    const approvedCount = await Reimbursement.countDocuments({
+      employee: employeeId,
+      status: 'approved',
+      dateSubmitted: { $gte: thirtyDaysAgo }
+    });
+
+    const totalSubmitted = await Reimbursement.countDocuments({
+      employee: employeeId,
+      dateSubmitted: { $gte: thirtyDaysAgo }
+    });
+
+    const approvalRate = totalSubmitted > 0 
+      ? Math.round((approvedCount / totalSubmitted) * 100)
+      : 0;
+
+    // Get monthly trends
+    const monthlyTrends = await Reimbursement.aggregate([
+      {
+        $match: {
+          employee: employeeId,
+          dateSubmitted: {
+            $gte: new Date(new Date().getFullYear(), new Date().getMonth() - 5, 1)
+          }
+        }
+      },
+      {
+        $group: {
+          _id: {
+            year: { $year: "$dateSubmitted" },
+            month: { $month: "$dateSubmitted" }
+          },
+          amount: { $sum: "$amount" }
+        }
+      },
+      {
+        $sort: {
+          "_id.year": 1,
+          "_id.month": 1
+        }
+      },
+      {
+        $project: {
+          _id: 0,
+          month: {
+            $let: {
+              vars: {
+                monthsInString: [
+                  "", "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+                  "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+                ]
+              },
+              in: {
+                $arrayElemAt: ["$$monthsInString", "$_id.month"]
+              }
+            }
+          },
+          amount: 1
+        }
+      }
+    ]);
+
+    res.json({
+      totalExpenses: totalExpenses[0]?.total || 0,
+      pendingCount,
+      approvalRate,
+      monthlyTrends
+    });
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching stats', error: error.message });
+  }
+});
+
+// Create new expense
+app.post('/expenses', authenticateToken, async (req, res) => {
+  try {
+    const newExpense = new Reimbursement({
+      ...req.body,
+      dateSubmitted: new Date(),
+      status: 'pending',
+      aiAnalysis: {
+        fraudProbability: 0, // You could implement AI analysis here
+        anomalies: []
+      }
+    });
+
+    await newExpense.save();
+    res.status(201).json(newExpense);
+  } catch (error) {
+    res.status(500).json({ message: 'Error creating expense', error: error.message });
+  }
+});
+
+// Update expense status
+app.patch('/expenses/:id/status', authenticateToken, async (req, res) => {
+  try {
+    const { status, approverRole, reason } = req.body;
+    
+    const expense = await Reimbursement.findById(req.params.id);
+    if (!expense) {
+      return res.status(404).json({ message: 'Expense not found' });
+    }
+
+    expense.status = status;
+    expense.approvalChain.push({
+      role: approverRole,
+      approved: status === 'approved',
+      reason,
+      date: new Date()
+    });
+
+    if (status === 'approved') {
+      expense.currentApprover = null;
+    }
+
+    await expense.save();
+    res.json(expense);
+  } catch (error) {
+    res.status(500).json({ message: 'Error updating expense status', error: error.message });
+  }
+});
+
+// Delete expense
+app.delete('/expenses/:id', authenticateToken, async (req, res) => {
+  try {
+    const expense = await Reimbursement.findById(req.params.id);
+    if (!expense) {
+      return res.status(404).json({ message: 'Expense not found' });
+    }
+
+    if (expense.status !== 'pending') {
+      return res.status(400).json({ message: 'Can only delete pending expenses' });
+    }
+
+    await expense.remove();
+    res.json({ message: 'Expense deleted successfully' });
+  } catch (error) {
+    res.status(500).json({ message: 'Error deleting expense', error: error.message });
+  }
+});
+
+// Get expense by ID
+app.get('/expenses/detail/:id', authenticateToken, async (req, res) => {
+  try {
+    const expense = await Reimbursement.findById(req.params.id);
+    if (!expense) {
+      return res.status(404).json({ message: 'Expense not found' });
+    }
+    res.json(expense);
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching expense', error: error.message });
+  }
+});
+
+// Get expenses by status
+app.get('/expenses/status/:status', async (req, res) => {
+  try {
+    const {id}=req.params;
+    const expenses = await Reimbursement.find({ 
+      status: req.params.status,
+      employee: id
+    }).sort({ dateSubmitted: -1 });
+    
+    res.json({ expenses });
+  } catch (error) {
+    res.status(500).json({ message: 'Error fetching expenses', error: error.message });
+  }
+});
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
