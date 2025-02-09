@@ -36,7 +36,7 @@ router.get('/pending', async (req, res) => {
       const { status, role, department } = req.query;
       const query = { status };
       console.log(query.status)
-      const reimbursements = await Reimbursement.find({ status: query.status })
+      const reimbursements = await Reimbursement.find({status:query.status})
       .populate({
         path: 'employee',
         select: 'employeeId email department role',
