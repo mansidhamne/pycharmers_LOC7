@@ -11,8 +11,9 @@ import { LayoutDashboard, Receipt, ClipboardCheck, BarChart3, Users, Settings, H
 
 const sidebarItems = [
   { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
-  { name: "Expenses", href: "/expenses", icon: Receipt },
+  { name: "Expenses", href: "/expenses/upload", icon: Receipt },
   { name: "Approvals", href: "/approvals", icon: ClipboardCheck },
+  { name: "ReimHelp", href: "/chat", icon: HelpCircle },
   { name: "Reports", href: "/reports", icon: BarChart3 },
   { name: "Team", href: "/team", icon: Users },
   { name: "Settings", href: "/settings", icon: Settings },
@@ -43,9 +44,8 @@ export function Sidebar({ className }: SidebarProps) {
       </Sheet>
       <nav className={cn("hidden md:block", className)}>
         <ScrollArea className="py-6">
-          <div className="px-3 py-2">
-            <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">Menu</h2>
-            <div className="space-y-1">
+          <div className="px-3 py-1">
+            <div className="space-y-1.5">
               {sidebarItems.map((item) => (
                 <Button
                   key={item.href}
@@ -54,8 +54,8 @@ export function Sidebar({ className }: SidebarProps) {
                   asChild
                 >
                   <Link href={item.href}>
-                    <item.icon className="mr-2 h-4 w-4" />
-                    {item.name}
+                    <item.icon className="mr-2 h-8 w-8" />
+                    <p className="text-lg font-medium">{item.name}</p>
                   </Link>
                 </Button>
               ))}
@@ -74,7 +74,7 @@ function MobileNav() {
     <div className="flex flex-col h-full">
       <div className="flex items-center h-16 px-6">
         <Link href="/" className="flex items-center">
-          <img src="/logo.svg" alt="Logo" className="h-6 w-6 mr-2" />
+          {/* <img src="/logo.svg" alt="Logo" className="h-6 w-6 mr-2" /> */}
           <span className="font-bold">ExpenseFlow</span>
         </Link>
       </div>
