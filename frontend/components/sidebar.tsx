@@ -14,7 +14,7 @@ const sidebarItems = [
   { name: "Expenses", href: "/expenses/upload", icon: Receipt },
   { name: "Approvals", href: "/approvals", icon: ClipboardCheck },
   { name: "ReimHelp", href: "/chat", icon: HelpCircle },
-  { name: "Reports", href: "/reports", icon: BarChart3 },
+  { name: "Reports", href: "/audits", icon: BarChart3 },
   { name: "Team", href: "/team", icon: Users },
   { name: "Settings", href: "/settings", icon: Settings },
   { name: "Help & Support", href: "/help", icon: HelpCircle },

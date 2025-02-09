@@ -10,6 +10,7 @@ import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Camera, UploadCloud, X } from 'lucide-react'
+import { toast, ToastContainer } from 'react-toastify';
 
 interface Bill {
   id: string;
@@ -27,6 +28,7 @@ export default function UploadReceipt() {
   const [bills, setBills] = useState<Bill[]>();
   const [description, setDescription] = useState<string>("");
   const [summary, setSummary] = useState<any>(null);
+  const [ocrData, setOcrData] = useState<any>(null);
   console.log(summary)
   useEffect(() => {
     fetch("http://localhost:3002/bills")
@@ -62,6 +64,9 @@ export default function UploadReceipt() {
   
     const formData = new FormData();
     files.forEach(file => formData.append("file", file));
+    formData.append("description", description);
+    formData.append("date", new Date().toISOString());
+    formData.append("status", "Pending");
   
     try {
       // 1️⃣ Upload receipts to file server
@@ -74,48 +79,74 @@ export default function UploadReceipt() {
       const uploadedFiles = await uploadResponse.json(); // Assuming it returns file paths
       console.log(uploadedFiles)
       // 2️⃣ Perform tampering detection
+      const tamperingFormData = new FormData();
+      files.forEach(file => tamperingFormData.append("file", file));
+      tamperingFormData.append("description", description);
+      tamperingFormData.append("date", new Date().toISOString());
+      tamperingFormData.append("status", "Pending");
+
       const tamperingResponse = await fetch("http://localhost:3002/detect_tampering", {
         method: "POST",
-        body: formData,
+        body: tamperingFormData,
       });
   
       if (!tamperingResponse.ok) throw new Error("Tampering check failed");
       const tamperingData = await tamperingResponse.json();
-  
-      // 3️⃣ Extract text using OCR
-      let OCRdata = null;
-      if (!tamperingData.tampered) {
+      if (tamperingData.tampered) {
+        toast.error("Receipt tampered. Please upload a valid receipt");
+        return;
+      } else {
+        const ocrFormData = new FormData();
+        files.forEach(file => ocrFormData.append("file", file));
+        ocrFormData.append("description", description);
+        ocrFormData.append("date", new Date().toISOString());
+        ocrFormData.append("status", "Pending");
+
         const ocrResponse = await fetch("http://localhost:3002/get_ocr", {
           method: "POST",
-          body: formData,
-        });
+          body: ocrFormData,
+        });      
   
         if (!ocrResponse.ok) throw new Error("OCR failed");
-        OCRdata = await ocrResponse.json();
+        const ocrResult = await ocrResponse.json();
+        if (ocrResult) {
+          setOcrData(ocrResult);
+          toast.success("OCR completed successfully");
+        }
       }
   
       // 4️⃣ Summarization API
       let summaryData = null;
-      if (OCRdata) {
-        const summaryResponse = await fetch("https://297e-35-247-172-164.ngrok-free.app/summary", {
+      if (ocrData) {
+        const summaryResponse = await fetch("https://a742-34-124-159-89.ngrok-free.app/summary", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ bill_text: OCRdata.text }),
+          body: JSON.stringify({ bill_text: ocrData.text }),
         });
   
         if (!summaryResponse.ok) throw new Error("Summarization failed");
         summaryData = await summaryResponse.json();
         console.log(summaryData)
-        // summaryData=JSON.parse(summaryData)
-        // alert(summaryData["summary"])
-        setSummary(summaryData);
+        if (summaryData) {
+          toast.success("Summary generated successfully");
+        } else {
+          toast.error("Server error. Please try again later");
+        }
+        alert(summaryData);
+        setSummary(summaryData.summary);
       }
 
-      await fetch("http://localhost:3001/save_summary", {
+      // await fetch("http://localhost:3001/save_summary", {
+      //   method: "POST",
+      //   headers: { "Content-Type": "application/json" },
+      //   body: JSON.stringify(summaryData),
+      // });
+      await fetch("http://localhost:3002/save_summary", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(summaryData),
+        body: JSON.stringify(summaryData.summary),
       });
+
 
       setPreviews([])
       setFiles([]);
@@ -164,6 +195,7 @@ export default function UploadReceipt() {
 
   return (
     <div className="min-h-screen bg-slate-50 py-12 px-12">
+      <ToastContainer position='top-right' autoClose={3000} />
       <div className="container mx-auto max-w-7xl">
         <div className="flex flex-row gap-8">
           <div className='w-1/2'>
@@ -183,16 +215,16 @@ export default function UploadReceipt() {
                           <div className="text-center">
                             <p className="text-sm text-muted-foreground">
                               Drag and drop your receipt here, or{' '}
-                              <label className="text-primary hover:underline cursor-pointer">
+                                <label className="text-primary hover:underline cursor-pointer">
                                 browse
                                 <Input
                                   type="file"
                                   className="hidden"
-                                  accept="image/*"
+                                  accept="image/*,application/pdf"
                                   multiple
                                   onChange={handleFileChange}
                                 />
-                              </label>
+                                </label>
                             </p>
                             <p className="text-xs text-muted-foreground mt-1">
                               Supports: JPG, PNG, PDF up to 10MB
@@ -252,9 +284,7 @@ export default function UploadReceipt() {
                   </form>
                 </CardContent>
               </Card>
-            </div>
-          <div className="w-1/2 min-h-[500px]">
-            <Card className="">
+              <Card className="mt-6">
               <CardHeader>
                 <CardTitle className="text-blue-700 text-2xl">Submitted Bills</CardTitle>
               </CardHeader>
@@ -264,7 +294,7 @@ export default function UploadReceipt() {
                     <tr className="bg-gray-100">
                       <th className="border border-gray-100 p-2">Filename</th>
                       <th className="border border-gray-100 p-2">Date</th>
-                      <th className="border border-gray-100 p-2">Description</th>
+                      {/* <th className="border border-gray-100 p-2">Description</th> */}
                       <th className="border border-gray-100 p-2">Status</th>
                     </tr>
                   </thead>
@@ -274,7 +304,7 @@ export default function UploadReceipt() {
                         <tr key={index} className="text-center">
                           <td className="border border-gray-100 p-2">{bill.filename}</td>
                           <td className="border border-gray-100 p-2">{bill.date}</td>
-                          <td className="border border-gray-100 p-2">{bill.description}</td>
+                          {/* <td className="border border-gray-100 p-2">{bill.description}</td> */}
                           <td className={`border border-gray-100 p-2 ${bill.status === "Approved" ? "text-green-600" : bill.status === "Flagged" ? "text-yellow-600" : bill.status === "Rejected" ? "text-red-500" : "bg-gray-300 rounded px-8 text-gray-600"}`}>
                             {bill.status}
                           </td>
@@ -289,9 +319,31 @@ export default function UploadReceipt() {
                 </table>
               </CardContent>
             </Card>
+            </div>
+            <div className="w-1/2 min-h-[500px]">
+              <Card className="">
+                <CardHeader>
+                  <CardTitle className="text-blue-700 text-2xl">OCR Data</CardTitle>
+                </CardHeader>
+                  <CardContent>
+                  {ocrData?.text.split('\n').map((line: string, index: number) => (
+                    <p key={index}>{line}</p>
+                  ))}
+                  </CardContent>
+              </Card>
+              <Card className="mt-6">
+                <CardHeader>
+                  <CardTitle className="text-blue-700 text-2xl">Summarized Data</CardTitle>
+                </CardHeader>
+                  <CardContent className='overflow-auto'>
+                    <pre>{summary && summary.split('\n').map((line: string, index: number) => (
+                    <div key={index}>{line}</div>
+                    ))}</pre>
+                  </CardContent>
+              </Card>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  );
-}
+    );
+  }

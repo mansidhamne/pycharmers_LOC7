@@ -46,7 +46,7 @@ const AuditReports = () => {
   const fetchAuditReport = async () => {
     setLoading(true);
     try {
-      const response = await axios.get(`http://localhost:3001audit/${period}`);
+      const response = await axios.get(`http://localhost:3001/audit/${period}`);
       setReportData(response.data.data);
     } catch (error) {
       console.error('Error fetching audit report:', error);
@@ -71,7 +71,7 @@ const AuditReports = () => {
           head: [['Category', 'Amount']],
           body: Object.entries(data.categories).map(([category, amount]) => [
             category,
-            `$${amount}`
+            `₹${amount}`
           ])
         });
       });
@@ -137,7 +137,7 @@ const AuditReports = () => {
                       </CardHeader>
                       <CardContent>
                         <div className="text-2xl font-bold">
-                          Total Expenses: ${data.total.toLocaleString()}
+                          Total Expenses: ₹{data.total.toLocaleString()}
                         </div>
                       </CardContent>
                     </Card>

@@ -301,7 +301,7 @@ def ocr_main ():
   user_details = {
       "user_id": "EMP099"
   }
-  organize_files("uploads_ocr", "input", "temp_images", user_details)
+  organize_files("uploads", "input", "temp_images", user_details)
   convert_images_in_folder("temp_images", "input")
 
   #paddleOCRX

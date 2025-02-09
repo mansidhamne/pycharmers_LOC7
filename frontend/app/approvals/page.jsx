@@ -86,7 +86,7 @@ const ReimbursementDetails = ({ reimbursement }) => (
         <strong>Employee:</strong> {reimbursement.employee.email}
       </div>
       <div>
-        <strong>Amount:</strong> ${reimbursement.amount.toFixed(2)}
+        <strong>Amount:</strong> ₹{reimbursement.amount.toFixed(2)}
       </div>
       <div>
         <strong>Category:</strong> {reimbursement.category}

@@ -1,13 +1,8 @@
-Hotel Imperial
-4.ResidencyRoad
-Bargalore
-Pixege ,INNO29490345596
-Table12 ,BillNo332
-07.4521PM ,Date31012/2016
-KOTN686.707710 ,Captan Hasaioar ,ShitNght ,Water21sreenvas
-PriceAmount ,aty ,Item
-260.00260.00 ,CHICKENKABAB FUUL ,65.00 ,65.00 ,1 ,Ghee Rice ,135.00 ,CHIGKENKABAS HAF135.00
-460.00 ,Grand Total:
-Rounded Otf to Nearestindan Rupee
-Box
-Thank You,PleaseVisit agaln
+PEESIPT
+01-02-2013=-11:32AM ,Terminal#
+18T-Shirt ,$25.50
+$305.00 ,1xWatches
+1xPants ,$32.99
+$6.50 ,1xSocks
+TOTALAMOUNT ,$363.99
+CASH ,$400.00

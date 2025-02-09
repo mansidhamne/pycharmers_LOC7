@@ -81,7 +81,7 @@ export function Navbar({ className }: NavbarProps) {
 
             {/* New Expense Button */}
             <Button 
-              onClick={() => router.push('/expenses/new')} 
+              onClick={() => router.push('/expenses/upload')} 
               size="sm" 
               className="hidden sm:flex items-center rounded-full shadow-md"
             >
@@ -99,7 +99,7 @@ export function Navbar({ className }: NavbarProps) {
               <DropdownMenuTrigger asChild>
                 <Button variant="ghost" className="relative h-9 w-9 rounded-full">
                   <Avatar className="h-9 w-9">
-                    <AvatarImage src="/avatars/01.png" alt="@username" />
+                    {/* <AvatarImage src="/avatars/01.png" alt="@username" /> */}
                     <AvatarFallback>MD</AvatarFallback>
                   </Avatar>
                 </Button>

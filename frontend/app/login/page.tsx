@@ -35,11 +35,11 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-700">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-amber-50 p-6">
       <div className="w-full max-w-md space-y-4">
         <Card>
           <CardHeader className="space-y-1">
-            <CardTitle className="text-2xl text-center">Sign in</CardTitle>
+            <CardTitle className="text-2xl text-center text-blue-700">Sign in</CardTitle>
             <CardDescription className="text-center">
               Enter your credentials to access your account
             </CardDescription>
@@ -95,7 +95,7 @@ export default function Login() {
                   Forgot password?
                 </Link>
               </div>
-              <Button type="submit" className="w-full">
+              <Button type="submit" className="w-full bg-blue-500">
                 Sign in
               </Button>
             </form>

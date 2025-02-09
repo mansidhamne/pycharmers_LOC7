@@ -81,7 +81,7 @@ export default function Dashboard() {
               <DollarSign className="h-5 w-5 text-muted-foreground" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold">$3,445</div>
+              <div className="text-2xl font-bold">₹3,445</div>
               <p className="text-sm text-muted-foreground">+20.1% from last month</p>
             </CardContent>
           </Card>
@@ -141,7 +141,7 @@ export default function Dashboard() {
                       </div>
                     </div>
                     <div className="flex items-center space-x-4">
-                      <p className="font-medium">${expense.amount}</p>
+                      <p className="font-medium">₹{expense.amount}</p>
                       <span className={`text-sm font-medium ${getStatusColor(expense.status)}`}>
                         {expense.status}
                       </span>

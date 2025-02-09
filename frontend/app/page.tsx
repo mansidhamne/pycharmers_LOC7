@@ -104,12 +104,12 @@ export default function LandingPage() {
             {/* Expense cards grid */}
             <div className="grid grid-cols-3 gap-7">
               {[
-                { name: "Travel", amount: "$245.00", color: "bg-pink-100" },
-                { name: "Office", amount: "$129.99", color: "bg-blue-100" },
-                { name: "Meals", amount: "$89.50", color: "bg-yellow-100" },
-                { name: "Tech", amount: "$399.99", color: "bg-violet-100" },
-                { name: "Transport", amount: "$65.00", color: "bg-green-100" },
-                { name: "Others", amount: "$149.99", color: "bg-orange-100" }
+                { name: "Travel", amount: "₹245.00", color: "bg-pink-100" },
+                { name: "Office", amount: "₹129.99", color: "bg-blue-100" },
+                { name: "Meals", amount: "₹89.50", color: "bg-yellow-100" },
+                { name: "Tech", amount: "₹399.99", color: "bg-violet-100" },
+                { name: "Transport", amount: "₹65.00", color: "bg-green-100" },
+                { name: "Others", amount: "₹149.99", color: "bg-orange-100" }
               ].map((expense, index) => (
                 <div key={index} className={`${expense.color} p-4 rounded-lg shadow-sm`}>
                   <div className="text-sm font-medium">{expense.name}</div>

@@ -8,11 +8,12 @@ Original file is located at
 
 # PHASE 1
 """
-from sentence_transformers import SentenceTransformer, util
+
+import json
 import dataclasses
 from pinecone.grpc import PineconeGRPC as Pinecone
-from pinecone import ServerlessSpec
 import time
+import googleapiclient
 from sentence_transformers import SentenceTransformer
 import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
@@ -22,11 +23,13 @@ from typing import List, Dict
 from datetime import datetime, timedelta
 import tensorflow as tf
 from tensorflow.keras import layers, models
-from typing import Dict
+import os
+from pinecone import ServerlessSpec
+from sentence_transformers import SentenceTransformer, util
+model = SentenceTransformer("jinaai/jina-embeddings-v2-small-en", trust_remote_code=True)
+
 
 """## DATA"""
-
-model = SentenceTransformer("jinaai/jina-embeddings-v2-small-en", trust_remote_code=True)
 
 user_details={
     103: {
@@ -324,8 +327,6 @@ flag_user_expense={
       'user_list':[]
 }
 
-
-
 """## CODES"""
 
 def embed_query(query:str):
@@ -377,7 +378,7 @@ def update_user_expense(user_expense:Dict,emp_id:str,temp_bill_details:Dict):
     user_expense[emp_id]['bill_count']+=1
     user_expense[emp_id][user_expense[emp_id]['bill_count']]=temp_bill_details
 
-update_user_expense(flag_user_expense,'1',temp_bill)
+# update_user_expense(flag_user_expense,'1',temp_bill)
 
 def reject_reasons_summary(details:List,emp_id:str):
   filename=f'{emp_id}_reject_reason'
@@ -432,7 +433,7 @@ def validate_duplicate_bill(emp_id:str,bill_id:str,bill_id_index:List)->bool:
       return True
 
   if not check_bill_id_index(bill_id):
-    #update_bill_for_employee(emp_id,bill_id) # updates the bill_id_index (SHOULDNT BE DONE TILL PHASE 3)
+    update_bill_for_employee(emp_id,bill_id) # updates the bill_id_index (SHOULDNT BE DONE TILL PHASE 3)
     #print(f"Bill: {bill_id} submitted successfully")
     return False
 
@@ -526,29 +527,31 @@ def PHASE1(bill_id_index:Dict,policies:Dict,user_details:Dict,emp_id:str,temp_bi
     update_user_expense(flag_user_expense,emp_id,temp_bill_details)
   return phase2,status,reject_path
 
-phase2,bill_status,reject_path=PHASE1(bill_id_index,policies,user_details,103,temp_bill)
+# phase2,bill_status,reject_path=PHASE1(bill_id_index,policies,user_details,103,temp_bill)
 
-print(phase2)
-print(bill_status)
-print(reject_path)
+# print(phase2)
+# print(bill_status)
+# print(reject_path)
+
+# flag_list
 
 """## Check all databases"""
 
-user_details
+# user_details
 
-bill_id_index['common_list']
+# bill_id_index['common_list']
 
-flag_list
+# flag_list
 
-user_expense
+# user_expense
 
-flag_user_expense
+# flag_user_expense
 
 """# PHASE 2"""
 
 @dataclasses.dataclass
 class DEFAULT:
-    PINECONE_API_KEY: str = "pcsk_3eraW6_RUoZ8LwgeTgH8NZxnxyxcpgPXuSSUSUHvX5PEKySLeFAXLgoVGmPKjJcKquhb9"
+    PINECONE_API_KEY: str = "your pinecone key"
     INDEX_NAME: str = "loc-phase-2"
 
 class EMBEDDINGSingleton:
@@ -600,18 +603,20 @@ class GenerateVectorEmbeddings:
 class IndexHandling:
     def __init__(self, index_name):
         self.key = Pinecone(api_key=DEFAULT.PINECONE_API_KEY)
-        self.index_name = index_name
+        self.index_name = "loc-phase-2"
         self.index = self.key.Index(self.index_name)
         self.model = EMBEDDINGSingleton().model
 
-        if not self.key.has_index(index_name):
-            print(f'Creating index with name {self.index_name}....')
-            self.key.create_index(
-                name=self.index_name,
-                dimension=515,
-                metric='cosine',
-                spec=ServerlessSpec(cloud='aws', region='us-east-1')
-            )
+        # if index_name not in self.key.list_indexes():
+        #     print(f'Creating index with name {self.index_name}....')
+        #     self.key.create_index(
+        #         name=self.index_name,
+        #         dimension=515,
+        #         metric='cosine',
+        #         spec=ServerlessSpec(cloud='aws', region='us-east-1')
+        #     )
+        # else:
+        #     print(f"Index '{index_name}' already exists. Skipping creation.")
         while not self.key.describe_index(self.index_name).status['ready']:
             time.sleep(2)
 
@@ -689,8 +694,10 @@ def normalize_expense_details( details):
     amount_max = np.max(df['Amount'])
     amount_min = np.min(df['Amount'])
 
+
     rate_max=np.max(df['Rate'])
     rate_min=np.min(df['Rate'])
+
 
     quantity_max=np.max(df['Quantity'])
     quantity_min=np.min(df['Quantity'])
@@ -698,18 +705,21 @@ def normalize_expense_details( details):
     # Iterate through each expense detail in the list
     for detail in details:
         amount = detail['Amount']
+        print(amount)
         rate = detail['Rate']
         quantity = detail['Quantity']
         result.append((amount - amount_min) / (amount_max - amount_min))
         result.append((rate - rate_min) / (rate_max - rate_min))
         result.append((quantity - quantity_min) / (quantity_max - quantity_min))
-
+        print(result)
+        print(f'result len : {len(result)}')
     return result
 def generate_query_temp(query_string):
   query_embedding = EMBEDDINGSingleton().model.encode(query_string).tolist()
   return query_embedding
 def generate_query(query_string,norms):
   query_string_embed=generate_query_temp(query_string)
+  print(len(query_string_embed))
   query_embedding=np.append(query_string_embed,norms).tolist()
   return query_embedding
 def extract_vectors(results_search):
@@ -718,6 +728,7 @@ def extract_vectors(results_search):
   for vec in vector_list:
     vectors.append(vec.values)
   return vectors
+
 def anomaly(base_vec,query_vector):
   # Assuming base_vec is already defined and contains 100 vectors
   base_vec = np.array(base_vec)
@@ -747,28 +758,48 @@ def anomaly(base_vec,query_vector):
   threshold = np.percentile(reconstruction_error, 95)
   return reconstruction_error[-1] > threshold
 
+details = []
+for user_id, bills in user_expense.items():
+    if isinstance(bills, dict) and "BILL_ID" in bills:
+        bill_details = bills["BILL_ID"]["bill_details"]
+        for bill in bill_details:
+            for item in bill["items"]:
+                details.append({
+                    "Amount": item["amount"],
+                    "Rate": item["rate"],
+                    "Quantity": item["quantity"]
+                })
+
+details
+
+from typing import Dict
 def PHASE2(user_details:Dict,user_expense:Dict):
   phase3=False
   extracted_details,query_string = extract_details(user_details, user_expense)
-  norms=normalize_expense_details(extracted_details)
+  norms=normalize_expense_details(details)
+  print(norms)
   query=query_string
   index=IndexHandling(DEFAULT.INDEX_NAME)
   results_search = index.searchIndex(query,norms, 'default')
   base_vec=extract_vectors(results_search)
   query_vector=generate_query(query_string,norms)
+  print(len(query_vector))
   is_anomaly= anomaly(base_vec,query_vector)
   if is_anomaly==False:
     phase3=True
 
   return phase3,is_anomaly
 
-approval,is_anomaly=PHASE2(user_details,user_expense)
-print(approval,is_anomaly)
+# approval,is_anomaly=PHASE2(user_details,user_expense)
+# print(approval,is_anomaly)
 
 """# COMBINED"""
 
 def combined(bill_id_index:Dict,policies:Dict,user_details:Dict,user_expense:Dict,emp_id:str,temp_bill):
   phase1,bill_status,reject_path=PHASE1(bill_id_index,policies,user_details,emp_id,temp_bill)
+  print(phase1)
+  print(bill_status)
+  print(reject_path)
   if phase1==False:
     update_flag(emp_id,'phase1_flag',False,False)
     print("Failed PHASE 1!")
@@ -786,5 +817,15 @@ def combined(bill_id_index:Dict,policies:Dict,user_details:Dict,user_expense:Dic
       update_user_expense(user_expense,emp_id,temp_bill)
       validate_duplicate_bill(emp_id,temp_bill['extracted_bill_id'],bill_id_index)
 
+    return phase1,approval,is_anomaly
+
+#combined(bill_id_index,policies,user_details,user_expense,103,temp_bill)
+
 combined(bill_id_index,policies,user_details,user_expense,103,temp_bill)
+
+# bill_id_index['common_list']
+
+
+
+
 
