@@ -76,7 +76,7 @@ const generationConfig = {
 
 // Use user routes
 app.use('/auth', AuthRoutes);
-// app.use('/reimbursement',reimbursementRoutes);
+app.use('/reimbursement',reimbursementRoutes);
 
 // Basic route
 app.get('/', (req, res) => {
@@ -344,7 +344,7 @@ app.get('/reports/:type', async (req, res) => {
   }
 });
 
-app.get('/api/expenses/:employeeId', authenticateToken, async (req, res) => {
+app.get('/api/expenses/:employeeId', async (req, res) => {
   try {
     const expenses = await Reimbursement.find({ employee: req.params.employeeId })
       .sort({ dateSubmitted: -1 })
@@ -357,7 +357,7 @@ app.get('/api/expenses/:employeeId', authenticateToken, async (req, res) => {
 });
 
 // Get expense statistics
-app.get('/api/expenses/stats/:employeeId', authenticateToken, async (req, res) => {
+app.get('/api/expenses/stats/:employeeId', async (req, res) => {
   try {
     const { employeeId } = req.params;
 
@@ -463,7 +463,7 @@ app.get('/api/expenses/stats/:employeeId', authenticateToken, async (req, res) =
 });
 
 // Create new expense
-app.post('/expenses', authenticateToken, async (req, res) => {
+app.post('/expenses', async (req, res) => {
   try {
     const newExpense = new Reimbursement({
       ...req.body,
@@ -483,7 +483,7 @@ app.post('/expenses', authenticateToken, async (req, res) => {
 });
 
 // Update expense status
-app.patch('/expenses/:id/status', authenticateToken, async (req, res) => {
+app.patch('/expenses/:id/status', async (req, res) => {
   try {
     const { status, approverRole, reason } = req.body;
     
@@ -512,7 +512,7 @@ app.patch('/expenses/:id/status', authenticateToken, async (req, res) => {
 });
 
 // Delete expense
-app.delete('/expenses/:id', authenticateToken, async (req, res) => {
+app.delete('/expenses/:id', async (req, res) => {
   try {
     const expense = await Reimbursement.findById(req.params.id);
     if (!expense) {
@@ -531,7 +531,7 @@ app.delete('/expenses/:id', authenticateToken, async (req, res) => {
 });
 
 // Get expense by ID
-app.get('/expenses/detail/:id', authenticateToken, async (req, res) => {
+app.get('/expenses/detail/:id', async (req, res) => {
   try {
     const expense = await Reimbursement.findById(req.params.id);
     if (!expense) {
