@@ -88,7 +88,7 @@ const DepartmentStatsVisualization = () => {
     const fetchData = async () => {
       setIsLoading(true)
       try {
-        const response = await axios.get('http://localhost:7000/departmentstats')
+        const response = await axios.get('http://localhost:3001/departmentstats')
         setStats(response.data.data.length ? response.data.data : mockData)
       } catch (error) {
         setIsError(true)

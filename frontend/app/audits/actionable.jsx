@@ -10,7 +10,7 @@ const AIInsights = () => {
   const fetchAIInsights = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('http://localhost:7000/ai-insights');
+      const response = await axios.get('http://localhost:3001/ai-insights');
       setInsights(response.data.insights);
     } catch (error) {
       console.error('Error fetching AI insights:', error);

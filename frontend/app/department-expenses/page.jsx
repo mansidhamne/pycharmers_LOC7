@@ -22,7 +22,7 @@ console.log("Employee Data:", employeeData); // Debugging
   // Fetch stats when employeeData changes
   useEffect(() => {
     if (employeeData?.role && employeeData?.department) {
-      const response =fetch(`http://localhost:7000/department-stats?role=${employeeData.role}&department=${employeeData.department}`)
+      const response =fetch(`http://localhost:3001/department-stats?role=${employeeData.role}&department=${employeeData.department}`)
         .then(res => res.json())
         .then(data => setStats(data))
         .catch(err => console.error("Error fetching stats:", err));

@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -15,6 +16,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Bell, Search, Plus, LogOut, Settings, User } from 'lucide-react';
+import logo from '@/public/logo.png';
 
 interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {}
 
@@ -80,7 +82,7 @@ export function Navbar({ className }: NavbarProps) {
                 <Button variant="ghost" className="relative h-11 w-11 rounded-full">
                   <Avatar className="h-11 w-11">
                     <AvatarImage src="/avatars/01.png" alt="@username" />
-                    <AvatarFallback>JD</AvatarFallback>
+                    <AvatarFallback>MD</AvatarFallback>
                   </Avatar>
                 </Button>
               </DropdownMenuTrigger>

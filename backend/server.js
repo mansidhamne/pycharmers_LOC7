@@ -557,6 +557,7 @@ app.get('/expenses/status/:status', async (req, res) => {
     res.status(500).json({ message: 'Error fetching expenses', error: error.message });
   }
 });
+
 // Start the server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
