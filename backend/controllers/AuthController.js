@@ -57,6 +57,7 @@ class AuthController {
         company,
         department: employeeData.department,
         role: employeeData.role.toLowerCase(),
+        name: employeeData.name,
         isVerified: true // Set to true by default since we removed email verification
       });
 
@@ -82,6 +83,8 @@ class AuthController {
           email: employee.email,
           role: employee.role,
           department: employee.department,
+          company: employee.company,
+          name: employee.name
         }
       });
     } catch (error) {
@@ -124,6 +127,8 @@ class AuthController {
           email: employee.email,
           role: employee.role,
           department: employee.department,
+          company: employee.company,
+          name: employee.name
         },
       });
     } catch (error) {

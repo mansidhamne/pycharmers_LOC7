@@ -1,0 +1,236 @@
+{
+    "policies": [
+    {
+        "title": "Employee Reimbursement Policy",
+        "subtitle": "Effective Date:",
+        "content": "8th February 2025 ",
+        "tables": []
+    },
+    {
+        "title": "Employee Reimbursement Policy",
+        "subtitle": "Last Updated:",
+        "content": "8th February 2025 ",
+        "tables": []
+    },
+    {
+        "title": "1. Purpose",
+        "subtitle": "",
+        "content": "This policy outlines the procedures and guidelines for reimbursing\nemployees for expenses incurred during official business activities. The\npurpose is to ensure fair and transparent reimbursement while\nmaintaining cost efficiency. ",
+        "tables": []
+    },
+    {
+        "title": "2. Scope",
+        "subtitle": "",
+        "content": "This policy applies to all employees of [Company Name], including\nEmployees, Team Leads, Managers, Department Heads, and the CEO. ",
+        "tables": []
+    },
+    {
+        "title": "3. General Guidelines",
+        "subtitle": "",
+        "content": "All claims must be submitted within 30 days of incurring the expense. Expenses must be business-related and adequately documented with\nreceipts. Pre-approval is required for expenses exceeding individual limits. Reimbursement requests should be submitted through the company's expense\nmanagement system. Any expenses deemed excessive or unreasonable may be denied at the\ncompany\u2019s discretion. ",
+        "tables": []
+    },
+    {
+        "title": "4. Expense Categories and Limits (All amounts in INR)",
+        "subtitle": "Domestic Travel",
+        "content": "",
+        "tables": [
+            [
+                {
+                    "Expense Category": "Travel (Transport, Accommodation)",
+                    "Employee": "\u20b940,000 per trip",
+                    "Team Lead": "\u20b980,000 per trip",
+                    "Manager": "\u20b91,60,000 per trip",
+                    "Dept Head": "\u20b94,00,000 per trip",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Meals (Breakfast/Lunch/Dinner)",
+                    "Employee": "\u20b92,500 per day",
+                    "Team Lead": "\u20b94,000 per day",
+                    "Manager": "\u20b98,000 per day",
+                    "Dept Head": "\u20b916,000 per day",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Office Supplies",
+                    "Employee": "\u20b98,000 per month",
+                    "Team Lead": "\u20b916,000 per month",
+                    "Manager": "\u20b940,000 per month",
+                    "Dept Head": "\u20b980,000 per month",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Communication (Phone, Internet, etc.)",
+                    "Employee": "\u20b94,000 per month",
+                    "Team Lead": "\u20b98,000 per month",
+                    "Manager": "\u20b916,000 per month",
+                    "Dept Head": "\u20b940,000 per month",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Gifts (For Clients, Employees, or Vendors)",
+                    "Employee": "\u20b94,000 per occasion",
+                    "Team Lead": "\u20b98,000 per occasion",
+                    "Manager": "\u20b940,000 per occasion",
+                    "Dept Head": "\u20b980,000 per occasion",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Events (Business Conferences, Client Meetings)",
+                    "Employee": "\u20b940,000 per event",
+                    "Team Lead": "\u20b980,000 per event",
+                    "Manager": "\u20b94,00,000 per event",
+                    "Dept Head": "\u20b98,00,000 per event",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Training & Development",
+                    "Employee": "\u20b980,000 per year",
+                    "Team Lead": "\u20b91,60,000 per year",
+                    "Manager": "\u20b94,00,000 per year",
+                    "Dept Head": "\u20b98,00,000 per year",
+                    "CEO": "No cap (as required)"
+                }
+            ]
+        ]
+    },
+    {
+        "title": "4. Expense Categories and Limits (All amounts in INR)",
+        "subtitle": "International Travel",
+        "content": "",
+        "tables": [
+            [
+                {
+                    "Expense Category": "Travel (Transport, Accommodation)",
+                    "Employee": "\u20b91,00,000 per trip",
+                    "Team Lead": "\u20b92,00,000 per trip",
+                    "Manager": "\u20b94,00,000 per trip",
+                    "Dept Head": "\u20b910,00,000 per trip",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Meals (Breakfast/Lunch/Dinner)",
+                    "Employee": "\u20b95,000 per day",
+                    "Team Lead": "\u20b910,000 per day",
+                    "Manager": "\u20b920,000 per day",
+                    "Dept Head": "\u20b940,000 per day",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Events (Business Conferences, Client Meetings)",
+                    "Employee": "\u20b91,00,000 per event",
+                    "Team Lead": "\u20b92,00,000 per event",
+                    "Manager": "\u20b910,00,000 per event",
+                    "Dept Head": "\u20b920,00,000 per event",
+                    "CEO": "No cap (as required)"
+                },
+                {
+                    "Expense Category": "Training & Development",
+                    "Employee": "\u20b92,00,000 per year",
+                    "Team Lead": "\u20b94,00,000 per year",
+                    "Manager": "\u20b910,00,000 per year",
+                    "Dept Head": "\u20b920,00,000 per year",
+                    "CEO": "No cap (as required)"
+                }
+            ]
+        ]
+    },
+    {
+        "title": "5. Duration of Stay and Hotel Booking Guidelines",
+        "subtitle": "Domestic travel:",
+        "content": "Maximum of 5 days per trip unless pre-approved by Department Head. ",
+        "tables": []
+    },
+    {
+        "title": "5. Duration of Stay and Hotel Booking Guidelines",
+        "subtitle": "International travel:",
+        "content": "Maximum of 10 days per trip unless\npre-approved by the CEO. ",
+        "tables": []
+    },
+    {
+        "title": "Hotel Booking Guidelines:",
+        "subtitle": "Employees & Team Leads:",
+        "content": "3-star hotels ",
+        "tables": []
+    },
+    {
+        "title": "Hotel Booking Guidelines:",
+        "subtitle": "Managers:",
+        "content": "4-star hotels ",
+        "tables": []
+    },
+    {
+        "title": "Hotel Booking Guidelines:",
+        "subtitle": "Department Heads & CEO:",
+        "content": "5-star hotels or as required. Any extension beyond the approved duration must be pre-approved. ",
+        "tables": []
+    },
+    {
+        "title": "6. Business-Related Food and Drink",
+        "subtitle": "Domestic:",
+        "content": "\u20b92,000 for breakfast, \u20b93,000 for lunch, \u20b96,000 for dinner\nper person per night. ",
+        "tables": []
+    },
+    {
+        "title": "6. Business-Related Food and Drink",
+        "subtitle": "International:",
+        "content": "\u20b95,000 for breakfast, \u20b910,000 for lunch, \u20b920,000 for\ndinner per person per night. Business meals with third parties must be approved and should not exceed\n\u20b96,000 per head unless pre-approved. A gratuity of up to 15% of the bill value is reimbursable. ",
+        "tables": []
+    },
+    {
+        "title": "7. Communication Expense Reimbursement",
+        "subtitle": "",
+        "content": "Employees may claim business-related call costs (excluding line rental\nfees) upon submission of appropriate documentation. Mobile phone usage reimbursement is capped at \u20b95,000 per month if a\ncompany phone is not provided. ",
+        "tables": []
+    },
+    {
+        "title": "8. Car Mileage and Parking",
+        "subtitle": "",
+        "content": "Employees may claim car mileage at: \u20b95 per km for personal vehicles. \u20b93 per km for two-wheelers. Parking charges are reimbursable only for official business travel, not\nfor regular commutes. ",
+        "tables": []
+    },
+    {
+        "title": "9. Flight Travel Policy",
+        "subtitle": "Domestic Flights:",
+        "content": "Employees & Team Leads: Economy Class Managers: Premium Economy Department Heads & CEO: Business Class ",
+        "tables": []
+    },
+    {
+        "title": "9. Flight Travel Policy",
+        "subtitle": "International Flights:",
+        "content": "Economy for flights under 5 hours Business Class for flights exceeding 5 hours or overnight flights Any ticket exceeding \u20b98,00,000 requires CEO approval. ",
+        "tables": []
+    },
+    {
+        "title": "10. Approval Process",
+        "subtitle": "",
+        "content": "Employees: Approved by Team Lead Team Leads: Approved by Manager Managers: Approved by Department Head Department Heads: Approved by CEO CEO: Approved by Board of Directors ",
+        "tables": []
+    },
+    {
+        "title": "11. Non-Reimbursable Expenses",
+        "subtitle": "",
+        "content": "The following sets forth non-reimbursable expenses under this policy,\nbut does not constitute an exhaustive list: \u2022 Athletic and social club dues; \u2022 Babysitting or day care center late pick-up charges; \u2022 Catering and meeting event space rentals (a Company P-Card should be\nused for incurring these types of expenses after receiving pre-approval); \u2022 Personal charitable contributions (matching gifts are covered under a\nseparate policy); \u2022 Clothing is not reimbursable except for hospital scrubs used for\nbusiness purposes or purchases reimbursable under the India Winter Clothing and Baggage Allowance Policy; \u2022 College/university alumni dues; \u2022 Credit card fees including T&E Card annual reward fees and card\nupgrade fees and any other charges (except for one ATM transaction fee per trip); \u2022 Gifts cards and cash equivalents; \u2022 Gifts of any kind to Company employees; \u2022 House-sitting - regardless of the circumstances (e.g., accompanying\nspouse); \u2022 In-room hotel movies; \u2022 Jury duty expenses; \u2022 Parking and traffic fines; \u2022 Pet boarding charges; \u2022 Political contributions; \u2022 Social activities that involve other employees (celebrations of\nwedding, birthday, baby showers, farewell parties, other personal events, etc.) \u2022 Relocation (moving) expenses \u2013 These amounts should not be charged\nthrough the designated expense reporting system; \u2022 Subscriptions \u2013 including newspapers, general business periodicals\n(i.e., Forbes, Fortune, etc.), and consumer periodicals (i.e., Sports Illustrated, People, etc.). This does\nnot apply to departmental subscriptions to general business or industry periodicals or to specific subscriptions\nthat are approved by a member of the SET and that are deemed necessary for an employee to perform their job\nresponsibilities; \u2022 Toiletries; \u2022 Travel accident insurance - refer to sections 4.4.3 and 4.18.7 for\nreimbursable and non-reimbursable coverages; and \u2022 Tuition reimbursement - (see Educational Assistance Policy) In addition to the aforementioned, the following types of expenditures\nare covered by Company-wide purchase agreements and are generally not\nreimbursable through the designated expense reporting system and should\nbe purchased through the Company\u2019s requisition\nand purchase order process. \u2022 Computer hardware and software - both new and upgrades; \u2022 Furniture; \u2022 Equipment rentals - including slide and overhead projectors, screens,\ncomputers, printers, sound systems and similar items; and \u2022 Outside services \u2013 including consulting and contractor services. If in doubt regarding a particular expenditure, contact T&E Operations\nbefore incurring the expense. Any deviation from the non-reimbursable expense policy requires approval\nby a SET member and the CFO and such approval is required to be attached\nto the expense reimbursement\u00a0submission. ",
+        "tables": []
+    },
+    {
+        "title": "12. Submission and Processing of Claims",
+        "subtitle": "",
+        "content": "Employees must submit an expense report with all required receipts. Reports should include justification for each claim. The Finance Department will review and process reimbursements within 15\nbusiness days of approval. Any discrepancies will be communicated to the claimant for\nclarification. ",
+        "tables": []
+    },
+    {
+        "title": "13. Policy Violations",
+        "subtitle": "",
+        "content": "Any falsification or exaggeration of expenses will result in\ndisciplinary action. Repeated violations may lead to termination of employment. ",
+        "tables": []
+    },
+    {
+        "title": "14. Amendments and Exceptions",
+        "subtitle": "",
+        "content": "The company reserves the right to amend this policy as needed. Any exceptions to this policy must be approved in writing by the CEO or\nBoard of Directors. ",
+        "tables": []
+    }
+]
+}

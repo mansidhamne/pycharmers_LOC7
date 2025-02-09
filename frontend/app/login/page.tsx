@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useState } from 'react';
@@ -23,7 +25,7 @@ export default function Login() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:7000/auth/login', formData);
+      const response = await axios.post('http://localhost:3001/auth/login', formData);
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('employeeData', JSON.stringify(response.data.employee));
       router.push('/dashboard');
@@ -33,16 +35,8 @@ export default function Login() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-slate-50 px-4">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-700">
       <div className="w-full max-w-md space-y-4">
-        <div className="flex justify-center mb-6">
-          <img 
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-k7l8OwXuw1W4Jg3WyMDSw1oH5oiV8i.png" 
-            alt="Logo" 
-            className="h-12 w-auto"
-          />
-        </div>
-        
         <Card>
           <CardHeader className="space-y-1">
             <CardTitle className="text-2xl text-center">Sign in</CardTitle>
@@ -108,7 +102,7 @@ export default function Login() {
           </CardContent>
           <CardFooter className="flex flex-col space-y-4">
             <div className="text-sm text-center text-muted-foreground">
-              Don't have an account?{' '}
+              Don&apos;t have an account?{' '}
               <Link href="/register" className="text-primary hover:underline">
                 Sign up
               </Link>
