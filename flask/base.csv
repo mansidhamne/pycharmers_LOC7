@@ -1,0 +1,1001 @@
+Vendor,Location,Department,Role,Currency,Amount,Item,Rate,Quantity,Summary,Tag,id
+Amazon,"Bangalore, India",Human Resource,Manager,INR,8370,Projector,4185,2,"Manager from Human Resource spent 8370 INR on Projector at Amazon in Bangalore, India.",Office Supply,OVE8BDZC0D
+Swiggy,"Chennai, India",Operations,Employee,INR,14598,Meal,4866,3,"Employee from Operations spent 14598 INR on Meal at Swiggy in Chennai, India.",Meals,7S14V2ZXDV
+OYO,"Mumbai, India",Sales,Manager,INR,4262,Flight Ticket,2131,2,"Manager from Sales spent 4262 INR on Flight Ticket at OYO in Mumbai, India.",Travel,H01IKW1IX6
+Ola,"New Delhi, India",Operations,Team Lead,INR,12027,Flight Ticket,4009,3,"Team Lead from Operations spent 12027 INR on Flight Ticket at Ola in New Delhi, India.",Travel,1H170IQY0M
+MakeMyTrip,"Hyderabad, India",Marketing,Manager,INR,14190,Flight Ticket,4730,3,"Manager from Marketing spent 14190 INR on Flight Ticket at MakeMyTrip in Hyderabad, India.",Travel,VQQILYVQQX
+Amazon,"Toronto, Canada",Marketing,Manager,CAD,12789,Projector,4263,3,"Manager from Marketing spent 12789 CAD on Projector at Amazon in Toronto, Canada.",Office Supply,WGNSDLP1O3
+Uber,"Paris, France",Finance & Accounting,Employee,EUR,4083,Flight Ticket,1361,3,"Employee from Finance & Accounting spent 4083 EUR on Flight Ticket at Uber in Paris, France.",Travel,5XPFBGZ3RE
+Expedia,"Mumbai, India",Finance & Accounting,Team Lead,INR,7446,Flight Ticket,2482,3,"Team Lead from Finance & Accounting spent 7446 INR on Flight Ticket at Expedia in Mumbai, India.",Travel,QPW5PTSJE2
+Expedia,"New York, USA",Marketing,Employee,USD,2104,Flight Ticket,2104,1,"Employee from Marketing spent 2104 USD on Flight Ticket at Expedia in New York, USA.",Travel,MZBWG547R1
+Zomato,"New Delhi, India",Finance & Accounting,Manager,INR,1278,Meal,1278,1,"Manager from Finance & Accounting spent 1278 INR on Meal at Zomato in New Delhi, India.",Meals,16EJCCW2ZL
+Ola,"Lucknow, India",Human Resource,Manager,INR,5193,Deluxe Room,1731,3,"Manager from Human Resource spent 5193 INR on Deluxe Room at Ola in Lucknow, India.",Travel,PZK7UQS2H3
+Goibibo,"Bangalore, India",Marketing,Dept Head,INR,7464,Flight Ticket,3732,2,"Dept Head from Marketing spent 7464 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,BWENQEO916
+Goibibo,"Chennai, India",Finance & Accounting,Team Lead,INR,8526,Flight Ticket,4263,2,"Team Lead from Finance & Accounting spent 8526 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,LB4P7N8DXB
+OYO,"New York, USA",Marketing,Team Lead,USD,14106,Flight Ticket,4702,3,"Team Lead from Marketing spent 14106 USD on Flight Ticket at OYO in New York, USA.",Travel,4CG8B7TLD8
+Zomato,"Bangalore, India",Finance & Accounting,Team Lead,INR,2743,Meal,2743,1,"Team Lead from Finance & Accounting spent 2743 INR on Meal at Zomato in Bangalore, India.",Meals,MHNP5BQ6P4
+Swiggy,"Chennai, India",Operations,Team Lead,INR,6608,Meal,3304,2,"Team Lead from Operations spent 6608 INR on Meal at Swiggy in Chennai, India.",Meals,U6B51ZPDLJ
+MakeMyTrip,"Bangalore, India",Human Resource,Dept Head,INR,8362,Flight Ticket,4181,2,"Dept Head from Human Resource spent 8362 INR on Flight Ticket at MakeMyTrip in Bangalore, India.",Travel,0K0H033BOI
+OYO,"Kolkata, India",Sales,Manager,INR,11985,Deluxe Room,3995,3,"Manager from Sales spent 11985 INR on Deluxe Room at OYO in Kolkata, India.",Travel,LNRBQ8FBKM
+Zomato,"New Delhi, India",Marketing,Dept Head,INR,9646,Meal,4823,2,"Dept Head from Marketing spent 9646 INR on Meal at Zomato in New Delhi, India.",Meals,IS6DBD2W0J
+Flipkart,"Bangalore, India",Customer Support,Dept Head,INR,1721,Projector,1721,1,"Dept Head from Customer Support spent 1721 INR on Projector at Flipkart in Bangalore, India.",Office Supply,44J65VZMSI
+Flipkart,"Hyderabad, India",Human Resource,Employee,INR,2119,Laptop,2119,1,"Employee from Human Resource spent 2119 INR on Laptop at Flipkart in Hyderabad, India.",Office Supply,2PFM01WSI8
+Zomato,"Mumbai, India",Operations,Team Lead,INR,9108,Meal,3036,3,"Team Lead from Operations spent 9108 INR on Meal at Zomato in Mumbai, India.",Meals,KAA840Y6AL
+MakeMyTrip,"Kolkata, India",IT,Employee,INR,8638,Flight Ticket,4319,2,"Employee from IT spent 8638 INR on Flight Ticket at MakeMyTrip in Kolkata, India.",Travel,HOWMZQ8VDA
+Expedia,"Hyderabad, India",Human Resource,Manager,INR,9494,Flight Ticket,4747,2,"Manager from Human Resource spent 9494 INR on Flight Ticket at Expedia in Hyderabad, India.",Travel,I4043969QJ
+Ola,"Jaipur, India",Operations,Manager,INR,14667,Deluxe Room,4889,3,"Manager from Operations spent 14667 INR on Deluxe Room at Ola in Jaipur, India.",Travel,6NBXW7I9M8
+Expedia,"Kolkata, India",Customer Support,Manager,INR,11751,Deluxe Room,3917,3,"Manager from Customer Support spent 11751 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,T0WTGCJVUE
+MakeMyTrip,"Jaipur, India",IT,Employee,INR,4214,Deluxe Room,4214,1,"Employee from IT spent 4214 INR on Deluxe Room at MakeMyTrip in Jaipur, India.",Travel,ELQDNDYQJF
+Ola,"Chennai, India",Operations,Manager,INR,5636,Flight Ticket,2818,2,"Manager from Operations spent 5636 INR on Flight Ticket at Ola in Chennai, India.",Travel,HS3BFY936P
+Amazon,"Lucknow, India",Sales,Team Lead,INR,2559,Projector,853,3,"Team Lead from Sales spent 2559 INR on Projector at Amazon in Lucknow, India.",Office Supply,Q9IJ4D15QS
+Goibibo,"Lucknow, India",Sales,Employee,INR,2545,Deluxe Room,2545,1,"Employee from Sales spent 2545 INR on Deluxe Room at Goibibo in Lucknow, India.",Travel,XZG9DI2LZL
+Goibibo,"Bangalore, India",Customer Support,Manager,INR,1628,Flight Ticket,1628,1,"Manager from Customer Support spent 1628 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,R75BEVCACK
+MakeMyTrip,"Hyderabad, India",Sales,Dept Head,INR,4379,Flight Ticket,4379,1,"Dept Head from Sales spent 4379 INR on Flight Ticket at MakeMyTrip in Hyderabad, India.",Travel,3QJX0SKPUX
+Amazon,"Jaipur, India",Operations,Team Lead,INR,3298,Printer,1649,2,"Team Lead from Operations spent 3298 INR on Printer at Amazon in Jaipur, India.",Office Supply,0XU5PYE29U
+Zomato,"Lucknow, India",Sales,Manager,INR,5420,Meal,2710,2,"Manager from Sales spent 5420 INR on Meal at Zomato in Lucknow, India.",Meals,1TJ7AH8IJ5
+Swiggy,"Lucknow, India",Operations,Dept Head,INR,2391,Meal,2391,1,"Dept Head from Operations spent 2391 INR on Meal at Swiggy in Lucknow, India.",Meals,8KYQCSLPGH
+MakeMyTrip,"Pune, India",Sales,Dept Head,INR,2448,Flight Ticket,816,3,"Dept Head from Sales spent 2448 INR on Flight Ticket at MakeMyTrip in Pune, India.",Travel,KH92G2P718
+Zomato,"Bangalore, India",IT,Employee,INR,3408,Meal,3408,1,"Employee from IT spent 3408 INR on Meal at Zomato in Bangalore, India.",Meals,2KUR06C03J
+Expedia,"Hyderabad, India",Finance & Accounting,Manager,INR,2797,Flight Ticket,2797,1,"Manager from Finance & Accounting spent 2797 INR on Flight Ticket at Expedia in Hyderabad, India.",Travel,9G9BRZH4C8
+MakeMyTrip,"Pune, India",IT,Dept Head,INR,5076,Deluxe Room,2538,2,"Dept Head from IT spent 5076 INR on Deluxe Room at MakeMyTrip in Pune, India.",Travel,XCKWZR6T9S
+Amazon,"New Delhi, India",Customer Support,Team Lead,INR,11778,Printer,3926,3,"Team Lead from Customer Support spent 11778 INR on Printer at Amazon in New Delhi, India.",Office Supply,0QJ92GGOFD
+Amazon,"Jaipur, India",Human Resource,Manager,INR,3272,Office Chair,1636,2,"Manager from Human Resource spent 3272 INR on Office Chair at Amazon in Jaipur, India.",Office Supply,3M733DYW9Q
+Expedia,"Paris, France",Sales,Employee,EUR,1009,Flight Ticket,1009,1,"Employee from Sales spent 1009 EUR on Flight Ticket at Expedia in Paris, France.",Travel,SQ3NJ33TE4
+Zomato,"Hyderabad, India",IT,Manager,INR,4914,Meal,1638,3,"Manager from IT spent 4914 INR on Meal at Zomato in Hyderabad, India.",Meals,N8AXPLX4K4
+Ola,"Hyderabad, India",Finance & Accounting,Employee,INR,9688,Deluxe Room,4844,2,"Employee from Finance & Accounting spent 9688 INR on Deluxe Room at Ola in Hyderabad, India.",Travel,GGCC776TM5
+Expedia,"Mumbai, India",IT,Manager,INR,14850,Deluxe Room,4950,3,"Manager from IT spent 14850 INR on Deluxe Room at Expedia in Mumbai, India.",Travel,EJG8L4ZEJZ
+MakeMyTrip,"Mumbai, India",Human Resource,Dept Head,INR,2331,Deluxe Room,777,3,"Dept Head from Human Resource spent 2331 INR on Deluxe Room at MakeMyTrip in Mumbai, India.",Travel,C97641ZM1Q
+Ola,"Bangalore, India",Operations,Dept Head,INR,4534,Flight Ticket,2267,2,"Dept Head from Operations spent 4534 INR on Flight Ticket at Ola in Bangalore, India.",Travel,1HA3HL3XJ9
+OYO,"Ahmedabad, India",Operations,Employee,INR,4682,Flight Ticket,2341,2,"Employee from Operations spent 4682 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,HG2FN9MGS8
+Expedia,"Bangalore, India",IT,Employee,INR,1611,Flight Ticket,1611,1,"Employee from IT spent 1611 INR on Flight Ticket at Expedia in Bangalore, India.",Travel,VA37NL2QRO
+MakeMyTrip,"Mumbai, India",IT,Manager,INR,14589,Deluxe Room,4863,3,"Manager from IT spent 14589 INR on Deluxe Room at MakeMyTrip in Mumbai, India.",Travel,QDZ9QMS2NG
+Flipkart,"Bangalore, India",Customer Support,Employee,INR,6510,Laptop,3255,2,"Employee from Customer Support spent 6510 INR on Laptop at Flipkart in Bangalore, India.",Office Supply,DFDGZJPK5S
+MakeMyTrip,"Chennai, India",IT,Team Lead,INR,3941,Flight Ticket,3941,1,"Team Lead from IT spent 3941 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,YHBIHKXZ6N
+Amazon,"Lucknow, India",Marketing,Dept Head,INR,6900,Laptop,2300,3,"Dept Head from Marketing spent 6900 INR on Laptop at Amazon in Lucknow, India.",Office Supply,IGATRFCT5A
+MakeMyTrip,Hong Kong,Human Resource,Team Lead,HKD,1424,Deluxe Room,712,2,Team Lead from Human Resource spent 1424 HKD on Deluxe Room at MakeMyTrip in Hong Kong.,Travel,M207JYEZ3T
+Goibibo,Singapore,IT,Dept Head,SGD,2594,Deluxe Room,1297,2,Dept Head from IT spent 2594 SGD on Deluxe Room at Goibibo in Singapore.,Travel,WE8DA9DBZJ
+MakeMyTrip,"Lucknow, India",Finance & Accounting,Manager,INR,6078,Flight Ticket,3039,2,"Manager from Finance & Accounting spent 6078 INR on Flight Ticket at MakeMyTrip in Lucknow, India.",Travel,O9HIMDDLT4
+Ola,"Bangalore, India",Operations,Manager,INR,9076,Flight Ticket,4538,2,"Manager from Operations spent 9076 INR on Flight Ticket at Ola in Bangalore, India.",Travel,CWMWFQK567
+OYO,"New Delhi, India",Customer Support,Manager,INR,2142,Flight Ticket,2142,1,"Manager from Customer Support spent 2142 INR on Flight Ticket at OYO in New Delhi, India.",Travel,K9L0EBA566
+MakeMyTrip,"New Delhi, India",Sales,Employee,INR,3958,Deluxe Room,1979,2,"Employee from Sales spent 3958 INR on Deluxe Room at MakeMyTrip in New Delhi, India.",Travel,2FWL2UKXHB
+Ola,Singapore,Sales,Team Lead,SGD,2496,Flight Ticket,1248,2,Team Lead from Sales spent 2496 SGD on Flight Ticket at Ola in Singapore.,Travel,H3OUVZFVE9
+Flipkart,"New York, USA",Operations,Manager,USD,14595,Office Chair,4865,3,"Manager from Operations spent 14595 USD on Office Chair at Flipkart in New York, USA.",Office Supply,NW6DPONOMO
+Expedia,"Jaipur, India",Finance & Accounting,Dept Head,INR,4629,Flight Ticket,4629,1,"Dept Head from Finance & Accounting spent 4629 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,C8APTBTI6X
+Goibibo,"Bangalore, India",Customer Support,Employee,INR,9333,Flight Ticket,3111,3,"Employee from Customer Support spent 9333 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,VHW3P2TG13
+MakeMyTrip,"Bangalore, India",Operations,Manager,INR,3490,Deluxe Room,1745,2,"Manager from Operations spent 3490 INR on Deluxe Room at MakeMyTrip in Bangalore, India.",Travel,801VJE6ZQP
+OYO,"Mumbai, India",Finance & Accounting,Employee,INR,3889,Deluxe Room,3889,1,"Employee from Finance & Accounting spent 3889 INR on Deluxe Room at OYO in Mumbai, India.",Travel,EF1QBNK6ET
+Goibibo,"New Delhi, India",Finance & Accounting,Team Lead,INR,3896,Flight Ticket,3896,1,"Team Lead from Finance & Accounting spent 3896 INR on Flight Ticket at Goibibo in New Delhi, India.",Travel,MYWCWADX0M
+Amazon,"Mumbai, India",IT,Dept Head,INR,1525,Printer,1525,1,"Dept Head from IT spent 1525 INR on Printer at Amazon in Mumbai, India.",Office Supply,0578ZF67GO
+Goibibo,"Mumbai, India",Sales,Employee,INR,2814,Deluxe Room,2814,1,"Employee from Sales spent 2814 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,8SUE6IZ9TX
+OYO,Singapore,Customer Support,Dept Head,SGD,4743,Deluxe Room,1581,3,Dept Head from Customer Support spent 4743 SGD on Deluxe Room at OYO in Singapore.,Travel,S83HHMG7SB
+Zomato,"New Delhi, India",Sales,Team Lead,INR,7004,Meal,3502,2,"Team Lead from Sales spent 7004 INR on Meal at Zomato in New Delhi, India.",Meals,3K9CGU5BKB
+MakeMyTrip,"Paris, France",Operations,Employee,EUR,4410,Flight Ticket,1470,3,"Employee from Operations spent 4410 EUR on Flight Ticket at MakeMyTrip in Paris, France.",Travel,NDFAYLMF32
+Goibibo,"Lucknow, India",Customer Support,Dept Head,INR,3099,Flight Ticket,3099,1,"Dept Head from Customer Support spent 3099 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,4T4LRS9T8O
+Expedia,"Chennai, India",Finance & Accounting,Team Lead,INR,10749,Flight Ticket,3583,3,"Team Lead from Finance & Accounting spent 10749 INR on Flight Ticket at Expedia in Chennai, India.",Travel,2F6UYIO6D8
+Expedia,"Lucknow, India",Sales,Employee,INR,7440,Deluxe Room,2480,3,"Employee from Sales spent 7440 INR on Deluxe Room at Expedia in Lucknow, India.",Travel,Y20C7276SU
+Swiggy,"Pune, India",Finance & Accounting,Manager,INR,1574,Meal,787,2,"Manager from Finance & Accounting spent 1574 INR on Meal at Swiggy in Pune, India.",Meals,VP8PX72IRO
+Ola,"Ahmedabad, India",Customer Support,Team Lead,INR,1147,Flight Ticket,1147,1,"Team Lead from Customer Support spent 1147 INR on Flight Ticket at Ola in Ahmedabad, India.",Travel,J1RBUUNGSH
+OYO,"Sydney, Australia",Marketing,Manager,AUD,1437,Deluxe Room,1437,1,"Manager from Marketing spent 1437 AUD on Deluxe Room at OYO in Sydney, Australia.",Travel,08P85F9DXX
+Amazon,"Ahmedabad, India",Finance & Accounting,Manager,INR,8520,Printer,2840,3,"Manager from Finance & Accounting spent 8520 INR on Printer at Amazon in Ahmedabad, India.",Office Supply,VF4MSXOCUY
+Zomato,"Hyderabad, India",Operations,Dept Head,INR,2316,Meal,2316,1,"Dept Head from Operations spent 2316 INR on Meal at Zomato in Hyderabad, India.",Meals,PSUFXQCLEE
+Goibibo,"Lucknow, India",Marketing,Manager,INR,9372,Deluxe Room,3124,3,"Manager from Marketing spent 9372 INR on Deluxe Room at Goibibo in Lucknow, India.",Travel,B4WX1JM2SS
+OYO,"Kolkata, India",Human Resource,Manager,INR,2928,Flight Ticket,2928,1,"Manager from Human Resource spent 2928 INR on Flight Ticket at OYO in Kolkata, India.",Travel,HRZUM2QF78
+Flipkart,"Dubai, UAE",Sales,Team Lead,AED,4812,Laptop,4812,1,"Team Lead from Sales spent 4812 AED on Laptop at Flipkart in Dubai, UAE.",Office Supply,RTBILDMDII
+Flipkart,"Ahmedabad, India",IT,Employee,INR,2094,Office Chair,1047,2,"Employee from IT spent 2094 INR on Office Chair at Flipkart in Ahmedabad, India.",Office Supply,DQI9713MUY
+MakeMyTrip,"Toronto, Canada",IT,Dept Head,CAD,10959,Deluxe Room,3653,3,"Dept Head from IT spent 10959 CAD on Deluxe Room at MakeMyTrip in Toronto, Canada.",Travel,NA6TAEFDN7
+Swiggy,"Bangalore, India",Operations,Team Lead,INR,3840,Meal,1920,2,"Team Lead from Operations spent 3840 INR on Meal at Swiggy in Bangalore, India.",Meals,HNYE0PE5PL
+Expedia,"Lucknow, India",Human Resource,Employee,INR,1946,Deluxe Room,1946,1,"Employee from Human Resource spent 1946 INR on Deluxe Room at Expedia in Lucknow, India.",Travel,D1DOZ545IJ
+Goibibo,"Hyderabad, India",Sales,Dept Head,INR,8598,Flight Ticket,4299,2,"Dept Head from Sales spent 8598 INR on Flight Ticket at Goibibo in Hyderabad, India.",Travel,Q8ESDNS9RE
+Uber,"Mumbai, India",Operations,Employee,INR,11058,Flight Ticket,3686,3,"Employee from Operations spent 11058 INR on Flight Ticket at Uber in Mumbai, India.",Travel,33BXFBB7QK
+Uber,"Lucknow, India",IT,Team Lead,INR,8145,Deluxe Room,2715,3,"Team Lead from IT spent 8145 INR on Deluxe Room at Uber in Lucknow, India.",Travel,65V02HQN6F
+Zomato,"Mumbai, India",Finance & Accounting,Manager,INR,4638,Meal,1546,3,"Manager from Finance & Accounting spent 4638 INR on Meal at Zomato in Mumbai, India.",Meals,24Y3SFQJ32
+Uber,"Lucknow, India",Human Resource,Employee,INR,6038,Flight Ticket,3019,2,"Employee from Human Resource spent 6038 INR on Flight Ticket at Uber in Lucknow, India.",Travel,5N94ALH22D
+Uber,"Jaipur, India",Marketing,Employee,INR,1528,Deluxe Room,764,2,"Employee from Marketing spent 1528 INR on Deluxe Room at Uber in Jaipur, India.",Travel,OE0B3BZABR
+Zomato,"Hyderabad, India",Sales,Dept Head,INR,1864,Meal,932,2,"Dept Head from Sales spent 1864 INR on Meal at Zomato in Hyderabad, India.",Meals,9RKHQ7KHDR
+Zomato,"Tokyo, Japan",Marketing,Manager,JPY,3071,Meal,3071,1,"Manager from Marketing spent 3071 JPY on Meal at Zomato in Tokyo, Japan.",Meals,2CDJ7U3AT0
+Swiggy,"Jaipur, India",Customer Support,Team Lead,INR,9436,Meal,4718,2,"Team Lead from Customer Support spent 9436 INR on Meal at Swiggy in Jaipur, India.",Meals,BPDYE73531
+Goibibo,"Kolkata, India",Finance & Accounting,Employee,INR,908,Flight Ticket,908,1,"Employee from Finance & Accounting spent 908 INR on Flight Ticket at Goibibo in Kolkata, India.",Travel,4L72Z3B9MP
+Expedia,"Kolkata, India",Operations,Employee,INR,4281,Flight Ticket,1427,3,"Employee from Operations spent 4281 INR on Flight Ticket at Expedia in Kolkata, India.",Travel,RJ18L9YJO3
+Amazon,"Jaipur, India",IT,Manager,INR,1100,Printer,1100,1,"Manager from IT spent 1100 INR on Printer at Amazon in Jaipur, India.",Office Supply,4QCIU9X20G
+Flipkart,"Tokyo, Japan",Finance & Accounting,Manager,JPY,5991,Office Chair,1997,3,"Manager from Finance & Accounting spent 5991 JPY on Office Chair at Flipkart in Tokyo, Japan.",Office Supply,8OL5CKILR9
+Expedia,"Bangalore, India",Marketing,Employee,INR,4916,Deluxe Room,4916,1,"Employee from Marketing spent 4916 INR on Deluxe Room at Expedia in Bangalore, India.",Travel,4QQY6T9J7V
+Zomato,"Toronto, Canada",Human Resource,Employee,CAD,12924,Meal,4308,3,"Employee from Human Resource spent 12924 CAD on Meal at Zomato in Toronto, Canada.",Meals,01F4FIUKQJ
+Amazon,"Chennai, India",Operations,Team Lead,INR,6608,Printer,3304,2,"Team Lead from Operations spent 6608 INR on Printer at Amazon in Chennai, India.",Office Supply,F16AG0BAXO
+Swiggy,"Bangalore, India",IT,Employee,INR,3280,Meal,1640,2,"Employee from IT spent 3280 INR on Meal at Swiggy in Bangalore, India.",Meals,7VRF593P8S
+Expedia,"New Delhi, India",Sales,Dept Head,INR,4835,Deluxe Room,4835,1,"Dept Head from Sales spent 4835 INR on Deluxe Room at Expedia in New Delhi, India.",Travel,Q2TZR8TAKR
+Ola,"Pune, India",Marketing,Team Lead,INR,9770,Deluxe Room,4885,2,"Team Lead from Marketing spent 9770 INR on Deluxe Room at Ola in Pune, India.",Travel,Z4Z8Y6CB0B
+Ola,"New Delhi, India",Sales,Dept Head,INR,2965,Flight Ticket,2965,1,"Dept Head from Sales spent 2965 INR on Flight Ticket at Ola in New Delhi, India.",Travel,O1P860YYSY
+OYO,"Pune, India",Human Resource,Manager,INR,2930,Deluxe Room,1465,2,"Manager from Human Resource spent 2930 INR on Deluxe Room at OYO in Pune, India.",Travel,6VFICEY2NM
+Goibibo,"Chennai, India",Sales,Dept Head,INR,3366,Flight Ticket,3366,1,"Dept Head from Sales spent 3366 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,QCP8WGY3QN
+Swiggy,"Kolkata, India",Finance & Accounting,Manager,INR,4851,Meal,4851,1,"Manager from Finance & Accounting spent 4851 INR on Meal at Swiggy in Kolkata, India.",Meals,FZZS181Z74
+OYO,"New Delhi, India",IT,Employee,INR,7353,Flight Ticket,2451,3,"Employee from IT spent 7353 INR on Flight Ticket at OYO in New Delhi, India.",Travel,KJXTNVI0LK
+Goibibo,"Chennai, India",Human Resource,Team Lead,INR,2032,Deluxe Room,1016,2,"Team Lead from Human Resource spent 2032 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,WFQG0B8W0H
+Amazon,"Pune, India",Operations,Team Lead,INR,909,Projector,909,1,"Team Lead from Operations spent 909 INR on Projector at Amazon in Pune, India.",Office Supply,4IM3YKLIVC
+Zomato,"Lucknow, India",Human Resource,Dept Head,INR,9370,Meal,4685,2,"Dept Head from Human Resource spent 9370 INR on Meal at Zomato in Lucknow, India.",Meals,G7W7KDOM5X
+Amazon,"Pune, India",Finance & Accounting,Team Lead,INR,11748,Laptop,3916,3,"Team Lead from Finance & Accounting spent 11748 INR on Laptop at Amazon in Pune, India.",Office Supply,1E3TC05EKF
+Amazon,"Pune, India",IT,Manager,INR,7892,Office Chair,3946,2,"Manager from IT spent 7892 INR on Office Chair at Amazon in Pune, India.",Office Supply,9LMRVH0FFF
+Flipkart,"Pune, India",Finance & Accounting,Team Lead,INR,3297,Projector,1099,3,"Team Lead from Finance & Accounting spent 3297 INR on Projector at Flipkart in Pune, India.",Office Supply,II0FB4LUUY
+Swiggy,"Bangalore, India",Customer Support,Dept Head,INR,3536,Meal,3536,1,"Dept Head from Customer Support spent 3536 INR on Meal at Swiggy in Bangalore, India.",Meals,C8U7X4E23X
+Zomato,"Chennai, India",Sales,Employee,INR,3999,Meal,3999,1,"Employee from Sales spent 3999 INR on Meal at Zomato in Chennai, India.",Meals,09NN8BQQJT
+Swiggy,"Jaipur, India",Finance & Accounting,Manager,INR,8396,Meal,4198,2,"Manager from Finance & Accounting spent 8396 INR on Meal at Swiggy in Jaipur, India.",Meals,VD2UK2V4IL
+Flipkart,"Hyderabad, India",Customer Support,Dept Head,INR,4854,Projector,4854,1,"Dept Head from Customer Support spent 4854 INR on Projector at Flipkart in Hyderabad, India.",Office Supply,YUPLVKXEL6
+Ola,"Berlin, Germany",Marketing,Manager,EUR,891,Flight Ticket,891,1,"Manager from Marketing spent 891 EUR on Flight Ticket at Ola in Berlin, Germany.",Travel,04P5U41A9N
+Amazon,"Bangalore, India",Customer Support,Employee,INR,7332,Projector,2444,3,"Employee from Customer Support spent 7332 INR on Projector at Amazon in Bangalore, India.",Office Supply,KNSTCEQ1R8
+Swiggy,"New Delhi, India",Marketing,Employee,INR,9279,Meal,3093,3,"Employee from Marketing spent 9279 INR on Meal at Swiggy in New Delhi, India.",Meals,87XVIAVPI5
+Flipkart,"Ahmedabad, India",Operations,Dept Head,INR,7982,Printer,3991,2,"Dept Head from Operations spent 7982 INR on Printer at Flipkart in Ahmedabad, India.",Office Supply,DDXKZJ9MAG
+MakeMyTrip,"Mumbai, India",Human Resource,Manager,INR,2308,Deluxe Room,1154,2,"Manager from Human Resource spent 2308 INR on Deluxe Room at MakeMyTrip in Mumbai, India.",Travel,KHBJ3DGICU
+MakeMyTrip,"Chennai, India",Human Resource,Dept Head,INR,7416,Flight Ticket,3708,2,"Dept Head from Human Resource spent 7416 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,NW2U1MFKSR
+Amazon,"Toronto, Canada",Customer Support,Dept Head,CAD,12762,Laptop,4254,3,"Dept Head from Customer Support spent 12762 CAD on Laptop at Amazon in Toronto, Canada.",Office Supply,PL3G0IV2BY
+Uber,"Lucknow, India",Sales,Manager,INR,6474,Flight Ticket,3237,2,"Manager from Sales spent 6474 INR on Flight Ticket at Uber in Lucknow, India.",Travel,19VDHCBJ91
+Goibibo,"Chennai, India",Customer Support,Team Lead,INR,12606,Deluxe Room,4202,3,"Team Lead from Customer Support spent 12606 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,T4ARD2FYWN
+Amazon,"Pune, India",Operations,Employee,INR,2243,Printer,2243,1,"Employee from Operations spent 2243 INR on Printer at Amazon in Pune, India.",Office Supply,T8RG78OWRI
+Expedia,"Mumbai, India",Human Resource,Manager,INR,5910,Deluxe Room,2955,2,"Manager from Human Resource spent 5910 INR on Deluxe Room at Expedia in Mumbai, India.",Travel,C6IS1AB4CR
+Amazon,"New Delhi, India",Human Resource,Manager,INR,2637,Laptop,879,3,"Manager from Human Resource spent 2637 INR on Laptop at Amazon in New Delhi, India.",Office Supply,CCYALTOW1T
+Swiggy,"New Delhi, India",Sales,Dept Head,INR,1124,Meal,1124,1,"Dept Head from Sales spent 1124 INR on Meal at Swiggy in New Delhi, India.",Meals,BTVJA9V22D
+Amazon,"Toronto, Canada",IT,Manager,CAD,13212,Office Chair,4404,3,"Manager from IT spent 13212 CAD on Office Chair at Amazon in Toronto, Canada.",Office Supply,80NXCAGCC8
+OYO,"Dubai, UAE",Customer Support,Dept Head,AED,4872,Deluxe Room,2436,2,"Dept Head from Customer Support spent 4872 AED on Deluxe Room at OYO in Dubai, UAE.",Travel,WG5IXWB89B
+Amazon,"Sydney, Australia",IT,Dept Head,AUD,11127,Laptop,3709,3,"Dept Head from IT spent 11127 AUD on Laptop at Amazon in Sydney, Australia.",Office Supply,6HP63I0L82
+Expedia,"Chennai, India",Finance & Accounting,Manager,INR,6252,Deluxe Room,3126,2,"Manager from Finance & Accounting spent 6252 INR on Deluxe Room at Expedia in Chennai, India.",Travel,CX6YOSD851
+Goibibo,"Ahmedabad, India",Customer Support,Dept Head,INR,7030,Flight Ticket,3515,2,"Dept Head from Customer Support spent 7030 INR on Flight Ticket at Goibibo in Ahmedabad, India.",Travel,QPGLUZ1NIT
+OYO,"Pune, India",Marketing,Manager,INR,6879,Deluxe Room,2293,3,"Manager from Marketing spent 6879 INR on Deluxe Room at OYO in Pune, India.",Travel,1B4UK0MIJG
+Amazon,"Ahmedabad, India",Sales,Team Lead,INR,3558,Laptop,3558,1,"Team Lead from Sales spent 3558 INR on Laptop at Amazon in Ahmedabad, India.",Office Supply,5HPVYEUWP0
+MakeMyTrip,"Hyderabad, India",Customer Support,Employee,INR,1417,Flight Ticket,1417,1,"Employee from Customer Support spent 1417 INR on Flight Ticket at MakeMyTrip in Hyderabad, India.",Travel,P1GONMLVYF
+Ola,"Pune, India",Operations,Team Lead,INR,2163,Flight Ticket,2163,1,"Team Lead from Operations spent 2163 INR on Flight Ticket at Ola in Pune, India.",Travel,HOB49149OM
+Uber,"Chennai, India",Marketing,Manager,INR,4545,Deluxe Room,1515,3,"Manager from Marketing spent 4545 INR on Deluxe Room at Uber in Chennai, India.",Travel,R8TWUK01T1
+Uber,"New Delhi, India",Customer Support,Team Lead,INR,7710,Flight Ticket,3855,2,"Team Lead from Customer Support spent 7710 INR on Flight Ticket at Uber in New Delhi, India.",Travel,ELYR6LTKK7
+MakeMyTrip,"New Delhi, India",Marketing,Team Lead,INR,4516,Flight Ticket,4516,1,"Team Lead from Marketing spent 4516 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,K2CU7A43TV
+Expedia,"Ahmedabad, India",Sales,Dept Head,INR,9816,Deluxe Room,4908,2,"Dept Head from Sales spent 9816 INR on Deluxe Room at Expedia in Ahmedabad, India.",Travel,6ADHY0C8E5
+OYO,"Lucknow, India",IT,Dept Head,INR,5216,Flight Ticket,2608,2,"Dept Head from IT spent 5216 INR on Flight Ticket at OYO in Lucknow, India.",Travel,AAZVNCDHMH
+Zomato,"Jaipur, India",Sales,Employee,INR,4713,Meal,1571,3,"Employee from Sales spent 4713 INR on Meal at Zomato in Jaipur, India.",Meals,XDF1TXD7P0
+Expedia,"Jaipur, India",Finance & Accounting,Team Lead,INR,1134,Flight Ticket,1134,1,"Team Lead from Finance & Accounting spent 1134 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,4Y9CFBELNE
+Ola,"Ahmedabad, India",Marketing,Dept Head,INR,1891,Flight Ticket,1891,1,"Dept Head from Marketing spent 1891 INR on Flight Ticket at Ola in Ahmedabad, India.",Travel,QTVQJ5HT8H
+Zomato,"Lucknow, India",Operations,Employee,INR,14934,Meal,4978,3,"Employee from Operations spent 14934 INR on Meal at Zomato in Lucknow, India.",Meals,WWRTGIKAGX
+Amazon,"Chennai, India",Human Resource,Dept Head,INR,3792,Laptop,3792,1,"Dept Head from Human Resource spent 3792 INR on Laptop at Amazon in Chennai, India.",Office Supply,A71QPLU5O7
+Uber,"Berlin, Germany",Marketing,Team Lead,EUR,4528,Deluxe Room,2264,2,"Team Lead from Marketing spent 4528 EUR on Deluxe Room at Uber in Berlin, Germany.",Travel,MOAPKFFZKJ
+Swiggy,"Bangalore, India",Sales,Manager,INR,8025,Meal,2675,3,"Manager from Sales spent 8025 INR on Meal at Swiggy in Bangalore, India.",Meals,D1N01QBYUU
+Goibibo,"Mumbai, India",Human Resource,Dept Head,INR,8310,Flight Ticket,4155,2,"Dept Head from Human Resource spent 8310 INR on Flight Ticket at Goibibo in Mumbai, India.",Travel,3NR9HZGNZ1
+Flipkart,"Ahmedabad, India",Sales,Team Lead,INR,5334,Office Chair,2667,2,"Team Lead from Sales spent 5334 INR on Office Chair at Flipkart in Ahmedabad, India.",Office Supply,Z0YPELSOVD
+Uber,"Toronto, Canada",Operations,Team Lead,CAD,5541,Flight Ticket,1847,3,"Team Lead from Operations spent 5541 CAD on Flight Ticket at Uber in Toronto, Canada.",Travel,07JVY9S2PT
+Swiggy,"Berlin, Germany",IT,Team Lead,EUR,13503,Meal,4501,3,"Team Lead from IT spent 13503 EUR on Meal at Swiggy in Berlin, Germany.",Meals,WQW289HAB4
+Goibibo,"Berlin, Germany",IT,Manager,EUR,6534,Deluxe Room,2178,3,"Manager from IT spent 6534 EUR on Deluxe Room at Goibibo in Berlin, Germany.",Travel,NBJZUDV4O4
+Swiggy,"Hyderabad, India",Finance & Accounting,Employee,INR,3076,Meal,1538,2,"Employee from Finance & Accounting spent 3076 INR on Meal at Swiggy in Hyderabad, India.",Meals,LWY8O6BS4Q
+Uber,"Hyderabad, India",Operations,Manager,INR,935,Flight Ticket,935,1,"Manager from Operations spent 935 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,KT7NIA7QPA
+Expedia,"Mumbai, India",Operations,Dept Head,INR,10017,Flight Ticket,3339,3,"Dept Head from Operations spent 10017 INR on Flight Ticket at Expedia in Mumbai, India.",Travel,F8OT7RVL64
+Ola,"Hyderabad, India",Human Resource,Employee,INR,8466,Deluxe Room,2822,3,"Employee from Human Resource spent 8466 INR on Deluxe Room at Ola in Hyderabad, India.",Travel,LB1VLNRHXW
+Swiggy,"Lucknow, India",IT,Manager,INR,3945,Meal,3945,1,"Manager from IT spent 3945 INR on Meal at Swiggy in Lucknow, India.",Meals,BVIJD2DX4R
+Uber,"Dubai, UAE",Sales,Team Lead,AED,11511,Flight Ticket,3837,3,"Team Lead from Sales spent 11511 AED on Flight Ticket at Uber in Dubai, UAE.",Travel,YXP42IXGK7
+Swiggy,"Berlin, Germany",Finance & Accounting,Manager,EUR,6412,Meal,3206,2,"Manager from Finance & Accounting spent 6412 EUR on Meal at Swiggy in Berlin, Germany.",Meals,IMQ91KC4NF
+Amazon,"Lucknow, India",Customer Support,Employee,INR,4683,Printer,1561,3,"Employee from Customer Support spent 4683 INR on Printer at Amazon in Lucknow, India.",Office Supply,AT4BTBEFNZ
+MakeMyTrip,"Jaipur, India",Sales,Employee,INR,6201,Flight Ticket,2067,3,"Employee from Sales spent 6201 INR on Flight Ticket at MakeMyTrip in Jaipur, India.",Travel,4463TAP9VR
+Goibibo,"Pune, India",Operations,Team Lead,INR,6458,Flight Ticket,3229,2,"Team Lead from Operations spent 6458 INR on Flight Ticket at Goibibo in Pune, India.",Travel,QUWLGP5GGB
+Swiggy,"Ahmedabad, India",Customer Support,Employee,INR,13035,Meal,4345,3,"Employee from Customer Support spent 13035 INR on Meal at Swiggy in Ahmedabad, India.",Meals,GGNTS2VM1Q
+Expedia,"Bangalore, India",Marketing,Team Lead,INR,1333,Flight Ticket,1333,1,"Team Lead from Marketing spent 1333 INR on Flight Ticket at Expedia in Bangalore, India.",Travel,HAKZAYUA9M
+Amazon,"Jaipur, India",Human Resource,Manager,INR,1929,Office Chair,643,3,"Manager from Human Resource spent 1929 INR on Office Chair at Amazon in Jaipur, India.",Office Supply,JKCYFMF655
+Flipkart,"Bangalore, India",Customer Support,Team Lead,INR,3179,Printer,3179,1,"Team Lead from Customer Support spent 3179 INR on Printer at Flipkart in Bangalore, India.",Office Supply,HGXOBS7WR9
+Expedia,"Bangalore, India",IT,Manager,INR,11076,Flight Ticket,3692,3,"Manager from IT spent 11076 INR on Flight Ticket at Expedia in Bangalore, India.",Travel,A07K2Z8KZI
+Goibibo,"Pune, India",Customer Support,Manager,INR,1894,Deluxe Room,947,2,"Manager from Customer Support spent 1894 INR on Deluxe Room at Goibibo in Pune, India.",Travel,9J24P9U0EG
+Swiggy,"Lucknow, India",Customer Support,Dept Head,INR,13539,Meal,4513,3,"Dept Head from Customer Support spent 13539 INR on Meal at Swiggy in Lucknow, India.",Meals,QC9CXA1X1Q
+Ola,"Pune, India",Marketing,Team Lead,INR,2119,Deluxe Room,2119,1,"Team Lead from Marketing spent 2119 INR on Deluxe Room at Ola in Pune, India.",Travel,IY8LEDJQSM
+Ola,"Chennai, India",Marketing,Dept Head,INR,3136,Deluxe Room,1568,2,"Dept Head from Marketing spent 3136 INR on Deluxe Room at Ola in Chennai, India.",Travel,IZCVHF7S9T
+OYO,"Jaipur, India",Operations,Dept Head,INR,2402,Flight Ticket,2402,1,"Dept Head from Operations spent 2402 INR on Flight Ticket at OYO in Jaipur, India.",Travel,LLSGLVUXNN
+Flipkart,"New Delhi, India",Sales,Employee,INR,5796,Laptop,1932,3,"Employee from Sales spent 5796 INR on Laptop at Flipkart in New Delhi, India.",Office Supply,QPARMD6P3B
+Swiggy,"Ahmedabad, India",Human Resource,Manager,INR,6134,Meal,3067,2,"Manager from Human Resource spent 6134 INR on Meal at Swiggy in Ahmedabad, India.",Meals,EWGGJGGQ65
+MakeMyTrip,"Mumbai, India",Customer Support,Dept Head,INR,963,Flight Ticket,963,1,"Dept Head from Customer Support spent 963 INR on Flight Ticket at MakeMyTrip in Mumbai, India.",Travel,D8XY33G3QW
+Amazon,"Bangalore, India",Sales,Dept Head,INR,3807,Projector,3807,1,"Dept Head from Sales spent 3807 INR on Projector at Amazon in Bangalore, India.",Office Supply,XE8NEMRG0F
+Ola,"Chennai, India",Sales,Employee,INR,2094,Deluxe Room,698,3,"Employee from Sales spent 2094 INR on Deluxe Room at Ola in Chennai, India.",Travel,WC6BP8VOQS
+Goibibo,"New Delhi, India",Marketing,Team Lead,INR,5664,Flight Ticket,2832,2,"Team Lead from Marketing spent 5664 INR on Flight Ticket at Goibibo in New Delhi, India.",Travel,6QGDF2CDYS
+Ola,"Ahmedabad, India",Customer Support,Dept Head,INR,3237,Deluxe Room,1079,3,"Dept Head from Customer Support spent 3237 INR on Deluxe Room at Ola in Ahmedabad, India.",Travel,N71B7H44R5
+Zomato,Singapore,Customer Support,Employee,SGD,7473,Meal,2491,3,Employee from Customer Support spent 7473 SGD on Meal at Zomato in Singapore.,Meals,H2W78U82DT
+Uber,"Chennai, India",Marketing,Team Lead,INR,4719,Deluxe Room,4719,1,"Team Lead from Marketing spent 4719 INR on Deluxe Room at Uber in Chennai, India.",Travel,KWMZBX32M3
+Zomato,"Ahmedabad, India",Sales,Dept Head,INR,7467,Meal,2489,3,"Dept Head from Sales spent 7467 INR on Meal at Zomato in Ahmedabad, India.",Meals,2ZVBUJJ5FV
+Zomato,"Hyderabad, India",Customer Support,Employee,INR,2117,Meal,2117,1,"Employee from Customer Support spent 2117 INR on Meal at Zomato in Hyderabad, India.",Meals,OFQ0NQCR1R
+Expedia,"New Delhi, India",Marketing,Team Lead,INR,14190,Deluxe Room,4730,3,"Team Lead from Marketing spent 14190 INR on Deluxe Room at Expedia in New Delhi, India.",Travel,QXEYS05N17
+Goibibo,"Kolkata, India",Customer Support,Team Lead,INR,4442,Deluxe Room,2221,2,"Team Lead from Customer Support spent 4442 INR on Deluxe Room at Goibibo in Kolkata, India.",Travel,96ALUKSNW6
+Amazon,"Pune, India",Customer Support,Manager,INR,2704,Laptop,1352,2,"Manager from Customer Support spent 2704 INR on Laptop at Amazon in Pune, India.",Office Supply,MXDEHO9CCD
+MakeMyTrip,"Hyderabad, India",IT,Team Lead,INR,7972,Flight Ticket,3986,2,"Team Lead from IT spent 7972 INR on Flight Ticket at MakeMyTrip in Hyderabad, India.",Travel,HMN8M3ZXM4
+Goibibo,"Chennai, India",Human Resource,Employee,INR,13935,Deluxe Room,4645,3,"Employee from Human Resource spent 13935 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,RAJDTSY241
+Flipkart,"Chennai, India",Operations,Manager,INR,3363,Printer,1121,3,"Manager from Operations spent 3363 INR on Printer at Flipkart in Chennai, India.",Office Supply,RGVHYDEB32
+Expedia,Hong Kong,Customer Support,Dept Head,HKD,4515,Deluxe Room,4515,1,Dept Head from Customer Support spent 4515 HKD on Deluxe Room at Expedia in Hong Kong.,Travel,SMKG24LZ8O
+Goibibo,"Kolkata, India",IT,Manager,INR,517,Flight Ticket,517,1,"Manager from IT spent 517 INR on Flight Ticket at Goibibo in Kolkata, India.",Travel,EV0I3BNV6I
+Uber,"Toronto, Canada",Customer Support,Dept Head,CAD,976,Flight Ticket,976,1,"Dept Head from Customer Support spent 976 CAD on Flight Ticket at Uber in Toronto, Canada.",Travel,U4VY1NN6OU
+Goibibo,"Pune, India",Customer Support,Manager,INR,4220,Flight Ticket,4220,1,"Manager from Customer Support spent 4220 INR on Flight Ticket at Goibibo in Pune, India.",Travel,HT6NZWM9FD
+Uber,"Jaipur, India",Sales,Manager,INR,4217,Flight Ticket,4217,1,"Manager from Sales spent 4217 INR on Flight Ticket at Uber in Jaipur, India.",Travel,WFYEYFG9XO
+Uber,"Toronto, Canada",Finance & Accounting,Dept Head,CAD,1498,Deluxe Room,749,2,"Dept Head from Finance & Accounting spent 1498 CAD on Deluxe Room at Uber in Toronto, Canada.",Travel,4RDEDF2YEK
+OYO,"New Delhi, India",Finance & Accounting,Dept Head,INR,11631,Flight Ticket,3877,3,"Dept Head from Finance & Accounting spent 11631 INR on Flight Ticket at OYO in New Delhi, India.",Travel,LENM7BGM52
+Amazon,"London, UK",Human Resource,Employee,GBP,5294,Office Chair,2647,2,"Employee from Human Resource spent 5294 GBP on Office Chair at Amazon in London, UK.",Office Supply,0ZYK7YDKKY
+Goibibo,"Chennai, India",Marketing,Manager,INR,3062,Flight Ticket,3062,1,"Manager from Marketing spent 3062 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,0VV0WRSK9X
+Ola,"New Delhi, India",Sales,Employee,INR,5728,Flight Ticket,2864,2,"Employee from Sales spent 5728 INR on Flight Ticket at Ola in New Delhi, India.",Travel,XGXA1LW6DZ
+OYO,"Bangalore, India",Sales,Employee,INR,7905,Flight Ticket,2635,3,"Employee from Sales spent 7905 INR on Flight Ticket at OYO in Bangalore, India.",Travel,47YR8IGXPF
+Uber,"Hyderabad, India",Operations,Manager,INR,9394,Flight Ticket,4697,2,"Manager from Operations spent 9394 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,QI5QLKHYZI
+Zomato,"Lucknow, India",Marketing,Dept Head,INR,669,Meal,669,1,"Dept Head from Marketing spent 669 INR on Meal at Zomato in Lucknow, India.",Meals,T7PL82S9AW
+Amazon,"Kolkata, India",Finance & Accounting,Team Lead,INR,1907,Printer,1907,1,"Team Lead from Finance & Accounting spent 1907 INR on Printer at Amazon in Kolkata, India.",Office Supply,XIOVM27D0S
+Swiggy,"Hyderabad, India",IT,Employee,INR,4293,Meal,4293,1,"Employee from IT spent 4293 INR on Meal at Swiggy in Hyderabad, India.",Meals,02LY47LZQ8
+Amazon,Singapore,Human Resource,Dept Head,SGD,4653,Office Chair,4653,1,Dept Head from Human Resource spent 4653 SGD on Office Chair at Amazon in Singapore.,Office Supply,LMZLJEXRMQ
+Uber,"Bangalore, India",IT,Dept Head,INR,3078,Flight Ticket,1026,3,"Dept Head from IT spent 3078 INR on Flight Ticket at Uber in Bangalore, India.",Travel,AW1UMPCP9W
+Goibibo,"Pune, India",Customer Support,Team Lead,INR,4143,Flight Ticket,1381,3,"Team Lead from Customer Support spent 4143 INR on Flight Ticket at Goibibo in Pune, India.",Travel,XKTIFEILAZ
+Expedia,"Mumbai, India",Human Resource,Team Lead,INR,1864,Flight Ticket,1864,1,"Team Lead from Human Resource spent 1864 INR on Flight Ticket at Expedia in Mumbai, India.",Travel,LEA0D9C473
+Flipkart,"Jaipur, India",Finance & Accounting,Manager,INR,2919,Office Chair,973,3,"Manager from Finance & Accounting spent 2919 INR on Office Chair at Flipkart in Jaipur, India.",Office Supply,MA4ZY0R26T
+Expedia,Singapore,Operations,Team Lead,SGD,7218,Flight Ticket,3609,2,Team Lead from Operations spent 7218 SGD on Flight Ticket at Expedia in Singapore.,Travel,I8HZXUCB3J
+Expedia,"Sydney, Australia",Operations,Team Lead,AUD,2680,Deluxe Room,1340,2,"Team Lead from Operations spent 2680 AUD on Deluxe Room at Expedia in Sydney, Australia.",Travel,10VBU5XWNC
+OYO,"Ahmedabad, India",Sales,Team Lead,INR,5932,Flight Ticket,2966,2,"Team Lead from Sales spent 5932 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,R76RHPEXK6
+OYO,"Lucknow, India",Marketing,Employee,INR,9400,Deluxe Room,4700,2,"Employee from Marketing spent 9400 INR on Deluxe Room at OYO in Lucknow, India.",Travel,LUQUZZR7ZE
+OYO,"Bangalore, India",Operations,Employee,INR,11055,Flight Ticket,3685,3,"Employee from Operations spent 11055 INR on Flight Ticket at OYO in Bangalore, India.",Travel,A9LZ8KH0LO
+Flipkart,"Pune, India",Operations,Team Lead,INR,3827,Office Chair,3827,1,"Team Lead from Operations spent 3827 INR on Office Chair at Flipkart in Pune, India.",Office Supply,1MIS0RIN2K
+Uber,"Jaipur, India",Sales,Employee,INR,4264,Deluxe Room,2132,2,"Employee from Sales spent 4264 INR on Deluxe Room at Uber in Jaipur, India.",Travel,SO3LBV83WC
+Goibibo,"Toronto, Canada",Finance & Accounting,Employee,CAD,7258,Flight Ticket,3629,2,"Employee from Finance & Accounting spent 7258 CAD on Flight Ticket at Goibibo in Toronto, Canada.",Travel,0FFMYV8WVH
+Flipkart,"Mumbai, India",IT,Employee,INR,9288,Printer,4644,2,"Employee from IT spent 9288 INR on Printer at Flipkart in Mumbai, India.",Office Supply,K7SVIB05LL
+OYO,"Mumbai, India",Finance & Accounting,Employee,INR,11118,Deluxe Room,3706,3,"Employee from Finance & Accounting spent 11118 INR on Deluxe Room at OYO in Mumbai, India.",Travel,XJ3DIPPXML
+Zomato,"Mumbai, India",Finance & Accounting,Employee,INR,9974,Meal,4987,2,"Employee from Finance & Accounting spent 9974 INR on Meal at Zomato in Mumbai, India.",Meals,WGMM1BS2KO
+Uber,"Pune, India",Customer Support,Employee,INR,8505,Flight Ticket,2835,3,"Employee from Customer Support spent 8505 INR on Flight Ticket at Uber in Pune, India.",Travel,XT17WR7C1P
+Uber,"Toronto, Canada",Human Resource,Employee,CAD,5703,Deluxe Room,1901,3,"Employee from Human Resource spent 5703 CAD on Deluxe Room at Uber in Toronto, Canada.",Travel,A57NIU8YE2
+Goibibo,"Jaipur, India",Marketing,Manager,INR,2189,Deluxe Room,2189,1,"Manager from Marketing spent 2189 INR on Deluxe Room at Goibibo in Jaipur, India.",Travel,J7EQZPS3K1
+Ola,"Sydney, Australia",IT,Dept Head,AUD,1340,Deluxe Room,670,2,"Dept Head from IT spent 1340 AUD on Deluxe Room at Ola in Sydney, Australia.",Travel,56FAK4KCXV
+Ola,"Mumbai, India",Sales,Dept Head,INR,7368,Flight Ticket,2456,3,"Dept Head from Sales spent 7368 INR on Flight Ticket at Ola in Mumbai, India.",Travel,WMB7LD0T1X
+OYO,"Mumbai, India",Marketing,Team Lead,INR,1776,Flight Ticket,888,2,"Team Lead from Marketing spent 1776 INR on Flight Ticket at OYO in Mumbai, India.",Travel,4BHOP6YDNX
+Ola,"Pune, India",Customer Support,Employee,INR,4947,Flight Ticket,4947,1,"Employee from Customer Support spent 4947 INR on Flight Ticket at Ola in Pune, India.",Travel,3TC1NYMVTI
+Swiggy,"New Delhi, India",Finance & Accounting,Team Lead,INR,8745,Meal,2915,3,"Team Lead from Finance & Accounting spent 8745 INR on Meal at Swiggy in New Delhi, India.",Meals,GGLHXRXBXK
+Amazon,"Sydney, Australia",Sales,Dept Head,AUD,2060,Projector,2060,1,"Dept Head from Sales spent 2060 AUD on Projector at Amazon in Sydney, Australia.",Office Supply,Y4S2XKWHKO
+OYO,"Chennai, India",IT,Employee,INR,9230,Deluxe Room,4615,2,"Employee from IT spent 9230 INR on Deluxe Room at OYO in Chennai, India.",Travel,8RN568028U
+Flipkart,"Hyderabad, India",IT,Team Lead,INR,6384,Laptop,2128,3,"Team Lead from IT spent 6384 INR on Laptop at Flipkart in Hyderabad, India.",Office Supply,0CLPNHWCLZ
+Zomato,"Kolkata, India",Marketing,Manager,INR,2068,Meal,1034,2,"Manager from Marketing spent 2068 INR on Meal at Zomato in Kolkata, India.",Meals,6FH8D6NUAC
+Swiggy,"Bangalore, India",Customer Support,Team Lead,INR,3768,Meal,1256,3,"Team Lead from Customer Support spent 3768 INR on Meal at Swiggy in Bangalore, India.",Meals,NPVUI73UQM
+MakeMyTrip,"Lucknow, India",Marketing,Team Lead,INR,6801,Deluxe Room,2267,3,"Team Lead from Marketing spent 6801 INR on Deluxe Room at MakeMyTrip in Lucknow, India.",Travel,TN8S5NSMFJ
+Goibibo,"Chennai, India",Sales,Dept Head,INR,14007,Deluxe Room,4669,3,"Dept Head from Sales spent 14007 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,BM84041S41
+OYO,"Jaipur, India",Operations,Employee,INR,7101,Flight Ticket,2367,3,"Employee from Operations spent 7101 INR on Flight Ticket at OYO in Jaipur, India.",Travel,GC04SC5XDG
+Zomato,"Lucknow, India",Finance & Accounting,Dept Head,INR,7562,Meal,3781,2,"Dept Head from Finance & Accounting spent 7562 INR on Meal at Zomato in Lucknow, India.",Meals,5XAC95BCPC
+Flipkart,"Bangalore, India",Operations,Team Lead,INR,7740,Projector,2580,3,"Team Lead from Operations spent 7740 INR on Projector at Flipkart in Bangalore, India.",Office Supply,P97LAJ9XZ9
+Flipkart,"Mumbai, India",Sales,Manager,INR,2358,Projector,2358,1,"Manager from Sales spent 2358 INR on Projector at Flipkart in Mumbai, India.",Office Supply,AWV6CT283W
+OYO,"Kolkata, India",Customer Support,Dept Head,INR,7473,Deluxe Room,2491,3,"Dept Head from Customer Support spent 7473 INR on Deluxe Room at OYO in Kolkata, India.",Travel,M04U2HOVUZ
+OYO,"Ahmedabad, India",Sales,Dept Head,INR,6012,Deluxe Room,3006,2,"Dept Head from Sales spent 6012 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,8VA5M5CHXF
+Ola,"Hyderabad, India",IT,Employee,INR,11397,Flight Ticket,3799,3,"Employee from IT spent 11397 INR on Flight Ticket at Ola in Hyderabad, India.",Travel,63MY1XWCZW
+Expedia,"London, UK",Human Resource,Dept Head,GBP,3350,Flight Ticket,1675,2,"Dept Head from Human Resource spent 3350 GBP on Flight Ticket at Expedia in London, UK.",Travel,IHXPBTLCX8
+OYO,"Jaipur, India",Sales,Employee,INR,6930,Flight Ticket,2310,3,"Employee from Sales spent 6930 INR on Flight Ticket at OYO in Jaipur, India.",Travel,IBZJS9S9FO
+Swiggy,"Chennai, India",Human Resource,Dept Head,INR,7407,Meal,2469,3,"Dept Head from Human Resource spent 7407 INR on Meal at Swiggy in Chennai, India.",Meals,93LFHMGWRO
+MakeMyTrip,"Jaipur, India",Human Resource,Team Lead,INR,2025,Deluxe Room,2025,1,"Team Lead from Human Resource spent 2025 INR on Deluxe Room at MakeMyTrip in Jaipur, India.",Travel,2LGT3XKSD4
+Expedia,"Hyderabad, India",Operations,Employee,INR,5664,Flight Ticket,2832,2,"Employee from Operations spent 5664 INR on Flight Ticket at Expedia in Hyderabad, India.",Travel,ZI9NFBZA0Y
+Flipkart,"Kolkata, India",Customer Support,Team Lead,INR,12528,Laptop,4176,3,"Team Lead from Customer Support spent 12528 INR on Laptop at Flipkart in Kolkata, India.",Office Supply,XKXN2MSRQZ
+Uber,"Ahmedabad, India",Human Resource,Team Lead,INR,9933,Deluxe Room,3311,3,"Team Lead from Human Resource spent 9933 INR on Deluxe Room at Uber in Ahmedabad, India.",Travel,BLP35BG7E5
+MakeMyTrip,"Pune, India",Human Resource,Manager,INR,4694,Deluxe Room,2347,2,"Manager from Human Resource spent 4694 INR on Deluxe Room at MakeMyTrip in Pune, India.",Travel,CEANVD1SDR
+Flipkart,"Hyderabad, India",Sales,Dept Head,INR,5397,Printer,1799,3,"Dept Head from Sales spent 5397 INR on Printer at Flipkart in Hyderabad, India.",Office Supply,J19FE9ED2K
+Amazon,"New Delhi, India",IT,Team Lead,INR,7467,Laptop,2489,3,"Team Lead from IT spent 7467 INR on Laptop at Amazon in New Delhi, India.",Office Supply,PVH08SHMW0
+Uber,"Jaipur, India",Marketing,Dept Head,INR,2602,Deluxe Room,1301,2,"Dept Head from Marketing spent 2602 INR on Deluxe Room at Uber in Jaipur, India.",Travel,HASNUB8EFG
+Flipkart,"Pune, India",Finance & Accounting,Manager,INR,4617,Laptop,4617,1,"Manager from Finance & Accounting spent 4617 INR on Laptop at Flipkart in Pune, India.",Office Supply,JTOHWBP9U6
+Ola,"Bangalore, India",Marketing,Team Lead,INR,916,Flight Ticket,916,1,"Team Lead from Marketing spent 916 INR on Flight Ticket at Ola in Bangalore, India.",Travel,ND585M36AN
+Amazon,"Mumbai, India",IT,Manager,INR,8150,Projector,4075,2,"Manager from IT spent 8150 INR on Projector at Amazon in Mumbai, India.",Office Supply,K499QIXIIY
+Amazon,"Lucknow, India",Human Resource,Manager,INR,7336,Laptop,3668,2,"Manager from Human Resource spent 7336 INR on Laptop at Amazon in Lucknow, India.",Office Supply,QQRO5HG91L
+MakeMyTrip,"Lucknow, India",Human Resource,Employee,INR,4704,Flight Ticket,1568,3,"Employee from Human Resource spent 4704 INR on Flight Ticket at MakeMyTrip in Lucknow, India.",Travel,CH6X6JVN31
+Expedia,"New York, USA",Finance & Accounting,Dept Head,USD,2033,Flight Ticket,2033,1,"Dept Head from Finance & Accounting spent 2033 USD on Flight Ticket at Expedia in New York, USA.",Travel,BHIJY3JBJ9
+Swiggy,"Chennai, India",IT,Manager,INR,13128,Meal,4376,3,"Manager from IT spent 13128 INR on Meal at Swiggy in Chennai, India.",Meals,D4J775UD6G
+Expedia,"Jaipur, India",Finance & Accounting,Dept Head,INR,2614,Deluxe Room,2614,1,"Dept Head from Finance & Accounting spent 2614 INR on Deluxe Room at Expedia in Jaipur, India.",Travel,HPGXLCE3K2
+Expedia,Hong Kong,IT,Manager,HKD,2830,Deluxe Room,2830,1,Manager from IT spent 2830 HKD on Deluxe Room at Expedia in Hong Kong.,Travel,VF04S4Y3EB
+MakeMyTrip,"Chennai, India",Operations,Team Lead,INR,4147,Flight Ticket,4147,1,"Team Lead from Operations spent 4147 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,C4B3T10EYO
+Amazon,"Lucknow, India",Operations,Employee,INR,3014,Printer,3014,1,"Employee from Operations spent 3014 INR on Printer at Amazon in Lucknow, India.",Office Supply,A0NKP9M1JZ
+OYO,"Bangalore, India",Customer Support,Team Lead,INR,1833,Flight Ticket,1833,1,"Team Lead from Customer Support spent 1833 INR on Flight Ticket at OYO in Bangalore, India.",Travel,HQWADQONBW
+OYO,"London, UK",IT,Employee,GBP,3022,Flight Ticket,1511,2,"Employee from IT spent 3022 GBP on Flight Ticket at OYO in London, UK.",Travel,2TFWGE5O2C
+Uber,"London, UK",Sales,Team Lead,GBP,14844,Flight Ticket,4948,3,"Team Lead from Sales spent 14844 GBP on Flight Ticket at Uber in London, UK.",Travel,7SYGB17OJN
+Flipkart,"Kolkata, India",Finance & Accounting,Manager,INR,7398,Office Chair,2466,3,"Manager from Finance & Accounting spent 7398 INR on Office Chair at Flipkart in Kolkata, India.",Office Supply,4S1KJLICOZ
+Swiggy,"Ahmedabad, India",IT,Employee,INR,1956,Meal,1956,1,"Employee from IT spent 1956 INR on Meal at Swiggy in Ahmedabad, India.",Meals,BRPS9VKKZ3
+Goibibo,"Mumbai, India",Finance & Accounting,Manager,INR,3793,Flight Ticket,3793,1,"Manager from Finance & Accounting spent 3793 INR on Flight Ticket at Goibibo in Mumbai, India.",Travel,IURMP24YF4
+Amazon,"Jaipur, India",Marketing,Dept Head,INR,4404,Projector,4404,1,"Dept Head from Marketing spent 4404 INR on Projector at Amazon in Jaipur, India.",Office Supply,0Q64XRDWRU
+Uber,"New Delhi, India",Sales,Manager,INR,9342,Flight Ticket,4671,2,"Manager from Sales spent 9342 INR on Flight Ticket at Uber in New Delhi, India.",Travel,TNKE0YA18N
+Swiggy,"Jaipur, India",Marketing,Manager,INR,4452,Meal,4452,1,"Manager from Marketing spent 4452 INR on Meal at Swiggy in Jaipur, India.",Meals,5FUJK846GP
+Zomato,"New Delhi, India",Customer Support,Dept Head,INR,12087,Meal,4029,3,"Dept Head from Customer Support spent 12087 INR on Meal at Zomato in New Delhi, India.",Meals,X2OVGTNBJJ
+OYO,"Bangalore, India",Marketing,Team Lead,INR,4818,Deluxe Room,2409,2,"Team Lead from Marketing spent 4818 INR on Deluxe Room at OYO in Bangalore, India.",Travel,H6XLLG9C40
+OYO,"Hyderabad, India",Operations,Employee,INR,704,Deluxe Room,704,1,"Employee from Operations spent 704 INR on Deluxe Room at OYO in Hyderabad, India.",Travel,LDDEQVABIG
+Amazon,"Pune, India",Sales,Dept Head,INR,4240,Laptop,2120,2,"Dept Head from Sales spent 4240 INR on Laptop at Amazon in Pune, India.",Office Supply,89ICKB0QYW
+OYO,"Jaipur, India",Finance & Accounting,Team Lead,INR,10500,Flight Ticket,3500,3,"Team Lead from Finance & Accounting spent 10500 INR on Flight Ticket at OYO in Jaipur, India.",Travel,O6S90QC4KU
+MakeMyTrip,"Ahmedabad, India",Operations,Dept Head,INR,10728,Deluxe Room,3576,3,"Dept Head from Operations spent 10728 INR on Deluxe Room at MakeMyTrip in Ahmedabad, India.",Travel,961IAP0UPK
+Amazon,"Kolkata, India",IT,Team Lead,INR,9420,Office Chair,3140,3,"Team Lead from IT spent 9420 INR on Office Chair at Amazon in Kolkata, India.",Office Supply,EZQ4FXGVKO
+Ola,"Jaipur, India",Finance & Accounting,Manager,INR,4414,Deluxe Room,4414,1,"Manager from Finance & Accounting spent 4414 INR on Deluxe Room at Ola in Jaipur, India.",Travel,8ZFI8VMI6O
+Ola,"Hyderabad, India",Marketing,Team Lead,INR,1746,Deluxe Room,1746,1,"Team Lead from Marketing spent 1746 INR on Deluxe Room at Ola in Hyderabad, India.",Travel,7WX11OJDBX
+Flipkart,"Bangalore, India",IT,Dept Head,INR,5672,Projector,2836,2,"Dept Head from IT spent 5672 INR on Projector at Flipkart in Bangalore, India.",Office Supply,15SLAVJCAZ
+Amazon,"Pune, India",IT,Manager,INR,6327,Laptop,2109,3,"Manager from IT spent 6327 INR on Laptop at Amazon in Pune, India.",Office Supply,8QERUGX2Z7
+MakeMyTrip,"Mumbai, India",Human Resource,Dept Head,INR,10233,Flight Ticket,3411,3,"Dept Head from Human Resource spent 10233 INR on Flight Ticket at MakeMyTrip in Mumbai, India.",Travel,Y6C7MZKWQO
+Flipkart,"Lucknow, India",Sales,Dept Head,INR,4824,Office Chair,2412,2,"Dept Head from Sales spent 4824 INR on Office Chair at Flipkart in Lucknow, India.",Office Supply,O39RT6JOWO
+Amazon,"Chennai, India",Marketing,Manager,INR,551,Laptop,551,1,"Manager from Marketing spent 551 INR on Laptop at Amazon in Chennai, India.",Office Supply,HOM38WDT39
+Uber,"Toronto, Canada",Operations,Dept Head,CAD,2646,Flight Ticket,2646,1,"Dept Head from Operations spent 2646 CAD on Flight Ticket at Uber in Toronto, Canada.",Travel,6VMKHA5L0R
+Flipkart,Singapore,IT,Employee,SGD,1998,Projector,999,2,Employee from IT spent 1998 SGD on Projector at Flipkart in Singapore.,Office Supply,Q36KPL6BM9
+Ola,"Jaipur, India",Operations,Team Lead,INR,2927,Flight Ticket,2927,1,"Team Lead from Operations spent 2927 INR on Flight Ticket at Ola in Jaipur, India.",Travel,QN6NXX2F8J
+OYO,"Hyderabad, India",IT,Dept Head,INR,1031,Flight Ticket,1031,1,"Dept Head from IT spent 1031 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,9XKZVXBHUY
+Uber,"Mumbai, India",IT,Dept Head,INR,6828,Deluxe Room,2276,3,"Dept Head from IT spent 6828 INR on Deluxe Room at Uber in Mumbai, India.",Travel,V172INY8CK
+Amazon,Singapore,Marketing,Employee,SGD,2585,Laptop,2585,1,Employee from Marketing spent 2585 SGD on Laptop at Amazon in Singapore.,Office Supply,AU4RL1AMKZ
+Goibibo,"Bangalore, India",Sales,Team Lead,INR,2973,Deluxe Room,2973,1,"Team Lead from Sales spent 2973 INR on Deluxe Room at Goibibo in Bangalore, India.",Travel,7H12CEX71S
+Zomato,"New Delhi, India",Finance & Accounting,Employee,INR,5306,Meal,2653,2,"Employee from Finance & Accounting spent 5306 INR on Meal at Zomato in New Delhi, India.",Meals,O924ZS6OQF
+Ola,"Kolkata, India",Sales,Manager,INR,2448,Deluxe Room,1224,2,"Manager from Sales spent 2448 INR on Deluxe Room at Ola in Kolkata, India.",Travel,TC2D7K1DKL
+Zomato,"Pune, India",IT,Team Lead,INR,2774,Meal,2774,1,"Team Lead from IT spent 2774 INR on Meal at Zomato in Pune, India.",Meals,NJGDBRD518
+Goibibo,"Sydney, Australia",Marketing,Dept Head,AUD,2900,Flight Ticket,2900,1,"Dept Head from Marketing spent 2900 AUD on Flight Ticket at Goibibo in Sydney, Australia.",Travel,K5GWBLQUOY
+Amazon,"Kolkata, India",Finance & Accounting,Dept Head,INR,11445,Office Chair,3815,3,"Dept Head from Finance & Accounting spent 11445 INR on Office Chair at Amazon in Kolkata, India.",Office Supply,SMOSM0EFLT
+Goibibo,"Tokyo, Japan",Finance & Accounting,Dept Head,JPY,2094,Flight Ticket,698,3,"Dept Head from Finance & Accounting spent 2094 JPY on Flight Ticket at Goibibo in Tokyo, Japan.",Travel,X4DYF7E67G
+Flipkart,Hong Kong,IT,Team Lead,HKD,5430,Projector,1810,3,Team Lead from IT spent 5430 HKD on Projector at Flipkart in Hong Kong.,Office Supply,90M3BYCA4B
+Flipkart,"Mumbai, India",Sales,Employee,INR,7644,Projector,3822,2,"Employee from Sales spent 7644 INR on Projector at Flipkart in Mumbai, India.",Office Supply,QXGQ4O68PQ
+Ola,"London, UK",Customer Support,Manager,GBP,7860,Deluxe Room,3930,2,"Manager from Customer Support spent 7860 GBP on Deluxe Room at Ola in London, UK.",Travel,J5B26WK54C
+Uber,"Lucknow, India",Customer Support,Employee,INR,6954,Flight Ticket,2318,3,"Employee from Customer Support spent 6954 INR on Flight Ticket at Uber in Lucknow, India.",Travel,NGSWX0QAMG
+Zomato,"Berlin, Germany",Finance & Accounting,Team Lead,EUR,2197,Meal,2197,1,"Team Lead from Finance & Accounting spent 2197 EUR on Meal at Zomato in Berlin, Germany.",Meals,R3QMX91U59
+Flipkart,"Lucknow, India",Sales,Dept Head,INR,9732,Office Chair,4866,2,"Dept Head from Sales spent 9732 INR on Office Chair at Flipkart in Lucknow, India.",Office Supply,8VM23N3NOB
+Goibibo,"Bangalore, India",Finance & Accounting,Manager,INR,1822,Flight Ticket,1822,1,"Manager from Finance & Accounting spent 1822 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,6E6SH1LOQ8
+MakeMyTrip,"Jaipur, India",Finance & Accounting,Manager,INR,3477,Deluxe Room,3477,1,"Manager from Finance & Accounting spent 3477 INR on Deluxe Room at MakeMyTrip in Jaipur, India.",Travel,XV87OFEULZ
+Zomato,"Jaipur, India",Finance & Accounting,Manager,INR,3586,Meal,1793,2,"Manager from Finance & Accounting spent 3586 INR on Meal at Zomato in Jaipur, India.",Meals,5CR7XS0H8Q
+Amazon,"Chennai, India",IT,Dept Head,INR,3841,Projector,3841,1,"Dept Head from IT spent 3841 INR on Projector at Amazon in Chennai, India.",Office Supply,0YMKKBTO1Z
+MakeMyTrip,"New Delhi, India",Sales,Employee,INR,1388,Deluxe Room,1388,1,"Employee from Sales spent 1388 INR on Deluxe Room at MakeMyTrip in New Delhi, India.",Travel,WI6LL6WR8G
+OYO,"Jaipur, India",Sales,Team Lead,INR,1791,Deluxe Room,597,3,"Team Lead from Sales spent 1791 INR on Deluxe Room at OYO in Jaipur, India.",Travel,0DD2NRR5WQ
+Flipkart,"Mumbai, India",Customer Support,Dept Head,INR,581,Laptop,581,1,"Dept Head from Customer Support spent 581 INR on Laptop at Flipkart in Mumbai, India.",Office Supply,BO69Z1UI4R
+Goibibo,"Hyderabad, India",Operations,Dept Head,INR,1357,Deluxe Room,1357,1,"Dept Head from Operations spent 1357 INR on Deluxe Room at Goibibo in Hyderabad, India.",Travel,ZLKUSERGJT
+Goibibo,"New Delhi, India",Operations,Team Lead,INR,13314,Deluxe Room,4438,3,"Team Lead from Operations spent 13314 INR on Deluxe Room at Goibibo in New Delhi, India.",Travel,HP3HS0FI7I
+MakeMyTrip,"Pune, India",Operations,Manager,INR,2850,Flight Ticket,950,3,"Manager from Operations spent 2850 INR on Flight Ticket at MakeMyTrip in Pune, India.",Travel,D5FNNTR0Q9
+Ola,"Pune, India",IT,Manager,INR,7842,Deluxe Room,3921,2,"Manager from IT spent 7842 INR on Deluxe Room at Ola in Pune, India.",Travel,7DWIZMHW41
+Flipkart,"Chennai, India",Human Resource,Dept Head,INR,1728,Projector,576,3,"Dept Head from Human Resource spent 1728 INR on Projector at Flipkart in Chennai, India.",Office Supply,C1UL7CTRFD
+Swiggy,"New Delhi, India",Human Resource,Employee,INR,825,Meal,825,1,"Employee from Human Resource spent 825 INR on Meal at Swiggy in New Delhi, India.",Meals,WDOMB92RI9
+Zomato,"Lucknow, India",Marketing,Employee,INR,5762,Meal,2881,2,"Employee from Marketing spent 5762 INR on Meal at Zomato in Lucknow, India.",Meals,VJ9N32UOL7
+Expedia,"Toronto, Canada",Human Resource,Team Lead,CAD,2892,Flight Ticket,1446,2,"Team Lead from Human Resource spent 2892 CAD on Flight Ticket at Expedia in Toronto, Canada.",Travel,DJ0J429QJL
+Uber,"New Delhi, India",Finance & Accounting,Employee,INR,14037,Flight Ticket,4679,3,"Employee from Finance & Accounting spent 14037 INR on Flight Ticket at Uber in New Delhi, India.",Travel,BHB3AQV122
+Expedia,"Lucknow, India",Human Resource,Dept Head,INR,817,Flight Ticket,817,1,"Dept Head from Human Resource spent 817 INR on Flight Ticket at Expedia in Lucknow, India.",Travel,1Y0Q2NSZPY
+Expedia,"New Delhi, India",Sales,Team Lead,INR,6753,Flight Ticket,2251,3,"Team Lead from Sales spent 6753 INR on Flight Ticket at Expedia in New Delhi, India.",Travel,ZJJH3RMPE4
+Swiggy,"Chennai, India",Sales,Manager,INR,7011,Meal,2337,3,"Manager from Sales spent 7011 INR on Meal at Swiggy in Chennai, India.",Meals,8VGU4C1VLH
+OYO,"Ahmedabad, India",Finance & Accounting,Dept Head,INR,11694,Deluxe Room,3898,3,"Dept Head from Finance & Accounting spent 11694 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,R5HENZEP9K
+Uber,"Lucknow, India",Sales,Employee,INR,3960,Flight Ticket,1320,3,"Employee from Sales spent 3960 INR on Flight Ticket at Uber in Lucknow, India.",Travel,ZC1JVHEER7
+Uber,"Kolkata, India",Operations,Employee,INR,8253,Flight Ticket,2751,3,"Employee from Operations spent 8253 INR on Flight Ticket at Uber in Kolkata, India.",Travel,34HDFCZ6GE
+Uber,"New Delhi, India",Customer Support,Team Lead,INR,8218,Flight Ticket,4109,2,"Team Lead from Customer Support spent 8218 INR on Flight Ticket at Uber in New Delhi, India.",Travel,25JJII99EK
+Amazon,"Ahmedabad, India",Human Resource,Manager,INR,7850,Office Chair,3925,2,"Manager from Human Resource spent 7850 INR on Office Chair at Amazon in Ahmedabad, India.",Office Supply,CDS499B5B1
+OYO,"Bangalore, India",Finance & Accounting,Employee,INR,708,Deluxe Room,708,1,"Employee from Finance & Accounting spent 708 INR on Deluxe Room at OYO in Bangalore, India.",Travel,56ME2FAMIF
+Zomato,"Pune, India",Operations,Dept Head,INR,9866,Meal,4933,2,"Dept Head from Operations spent 9866 INR on Meal at Zomato in Pune, India.",Meals,QUS8DQ9M7J
+Amazon,"Mumbai, India",Sales,Dept Head,INR,7782,Office Chair,3891,2,"Dept Head from Sales spent 7782 INR on Office Chair at Amazon in Mumbai, India.",Office Supply,WGQQG0VKFE
+Expedia,"New Delhi, India",Finance & Accounting,Dept Head,INR,9254,Flight Ticket,4627,2,"Dept Head from Finance & Accounting spent 9254 INR on Flight Ticket at Expedia in New Delhi, India.",Travel,A80B5XNVC3
+Swiggy,Hong Kong,Finance & Accounting,Employee,HKD,6807,Meal,2269,3,Employee from Finance & Accounting spent 6807 HKD on Meal at Swiggy in Hong Kong.,Meals,BU73G5C57I
+Goibibo,"New Delhi, India",Customer Support,Team Lead,INR,686,Deluxe Room,686,1,"Team Lead from Customer Support spent 686 INR on Deluxe Room at Goibibo in New Delhi, India.",Travel,N9PRT48JWW
+OYO,"Kolkata, India",Finance & Accounting,Employee,INR,8066,Flight Ticket,4033,2,"Employee from Finance & Accounting spent 8066 INR on Flight Ticket at OYO in Kolkata, India.",Travel,RUCQUGU8F7
+Goibibo,"Bangalore, India",Sales,Dept Head,INR,6600,Flight Ticket,2200,3,"Dept Head from Sales spent 6600 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,42EKVSVU4N
+Zomato,"Ahmedabad, India",Customer Support,Manager,INR,3810,Meal,1270,3,"Manager from Customer Support spent 3810 INR on Meal at Zomato in Ahmedabad, India.",Meals,CNJ9CP5O69
+Ola,"Bangalore, India",Sales,Team Lead,INR,2860,Deluxe Room,2860,1,"Team Lead from Sales spent 2860 INR on Deluxe Room at Ola in Bangalore, India.",Travel,J7F1TQ528U
+Ola,"Pune, India",Customer Support,Manager,INR,4072,Deluxe Room,4072,1,"Manager from Customer Support spent 4072 INR on Deluxe Room at Ola in Pune, India.",Travel,WEJNLWQJLL
+Zomato,"Lucknow, India",Finance & Accounting,Manager,INR,2225,Meal,2225,1,"Manager from Finance & Accounting spent 2225 INR on Meal at Zomato in Lucknow, India.",Meals,AQOS7P3IWP
+Uber,"Hyderabad, India",IT,Dept Head,INR,3191,Deluxe Room,3191,1,"Dept Head from IT spent 3191 INR on Deluxe Room at Uber in Hyderabad, India.",Travel,3RW9LQPVX7
+MakeMyTrip,"Berlin, Germany",Sales,Employee,EUR,9726,Flight Ticket,3242,3,"Employee from Sales spent 9726 EUR on Flight Ticket at MakeMyTrip in Berlin, Germany.",Travel,AY2Q67GUYP
+Zomato,"Lucknow, India",Customer Support,Team Lead,INR,1293,Meal,1293,1,"Team Lead from Customer Support spent 1293 INR on Meal at Zomato in Lucknow, India.",Meals,XLBTXXC6TN
+Goibibo,"Bangalore, India",Finance & Accounting,Employee,INR,8120,Flight Ticket,4060,2,"Employee from Finance & Accounting spent 8120 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,5G08NJMAHS
+Expedia,"Ahmedabad, India",Human Resource,Employee,INR,1784,Flight Ticket,1784,1,"Employee from Human Resource spent 1784 INR on Flight Ticket at Expedia in Ahmedabad, India.",Travel,R3KQ0N48YV
+Flipkart,"Chennai, India",Finance & Accounting,Dept Head,INR,7197,Projector,2399,3,"Dept Head from Finance & Accounting spent 7197 INR on Projector at Flipkart in Chennai, India.",Office Supply,63OYUSTXDA
+Flipkart,"New Delhi, India",Operations,Employee,INR,6560,Office Chair,3280,2,"Employee from Operations spent 6560 INR on Office Chair at Flipkart in New Delhi, India.",Office Supply,CGJ7OUZ9ZA
+Uber,"New York, USA",Marketing,Team Lead,USD,3621,Flight Ticket,1207,3,"Team Lead from Marketing spent 3621 USD on Flight Ticket at Uber in New York, USA.",Travel,JTR7M22PPT
+MakeMyTrip,Singapore,Marketing,Team Lead,SGD,14514,Flight Ticket,4838,3,Team Lead from Marketing spent 14514 SGD on Flight Ticket at MakeMyTrip in Singapore.,Travel,NWQUS913A4
+Uber,"Kolkata, India",IT,Team Lead,INR,1104,Flight Ticket,1104,1,"Team Lead from IT spent 1104 INR on Flight Ticket at Uber in Kolkata, India.",Travel,HPLBQL9QT7
+Expedia,"Chennai, India",Customer Support,Employee,INR,7434,Flight Ticket,3717,2,"Employee from Customer Support spent 7434 INR on Flight Ticket at Expedia in Chennai, India.",Travel,2H586I58MQ
+MakeMyTrip,"New York, USA",Finance & Accounting,Dept Head,USD,3122,Flight Ticket,1561,2,"Dept Head from Finance & Accounting spent 3122 USD on Flight Ticket at MakeMyTrip in New York, USA.",Travel,CP43BI2C8D
+Goibibo,"Ahmedabad, India",Customer Support,Employee,INR,7034,Deluxe Room,3517,2,"Employee from Customer Support spent 7034 INR on Deluxe Room at Goibibo in Ahmedabad, India.",Travel,753T21D5DM
+Swiggy,"Mumbai, India",Sales,Manager,INR,3572,Meal,3572,1,"Manager from Sales spent 3572 INR on Meal at Swiggy in Mumbai, India.",Meals,6KHSXD7CN8
+Goibibo,Hong Kong,Finance & Accounting,Employee,HKD,11055,Deluxe Room,3685,3,Employee from Finance & Accounting spent 11055 HKD on Deluxe Room at Goibibo in Hong Kong.,Travel,1LI0MYMERR
+Amazon,"Pune, India",Operations,Team Lead,INR,8040,Office Chair,2680,3,"Team Lead from Operations spent 8040 INR on Office Chair at Amazon in Pune, India.",Office Supply,2QN0MSX88N
+Amazon,Singapore,Finance & Accounting,Manager,SGD,1040,Projector,1040,1,Manager from Finance & Accounting spent 1040 SGD on Projector at Amazon in Singapore.,Office Supply,WUUS1FEWV4
+OYO,"New Delhi, India",Human Resource,Team Lead,INR,5964,Flight Ticket,2982,2,"Team Lead from Human Resource spent 5964 INR on Flight Ticket at OYO in New Delhi, India.",Travel,KW5LNPKL3G
+Ola,"Paris, France",IT,Dept Head,EUR,3209,Flight Ticket,3209,1,"Dept Head from IT spent 3209 EUR on Flight Ticket at Ola in Paris, France.",Travel,UCWD5PWOH8
+Uber,"Hyderabad, India",Sales,Team Lead,INR,3043,Flight Ticket,3043,1,"Team Lead from Sales spent 3043 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,N20THRV8JO
+Goibibo,"Chennai, India",Sales,Dept Head,INR,5632,Flight Ticket,2816,2,"Dept Head from Sales spent 5632 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,UPI3HEZLF8
+OYO,"New Delhi, India",Sales,Manager,INR,8890,Flight Ticket,4445,2,"Manager from Sales spent 8890 INR on Flight Ticket at OYO in New Delhi, India.",Travel,22LLYOR1CK
+OYO,"Ahmedabad, India",Sales,Team Lead,INR,3614,Flight Ticket,1807,2,"Team Lead from Sales spent 3614 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,BMVHOV12EK
+Flipkart,"Kolkata, India",Sales,Employee,INR,1664,Office Chair,1664,1,"Employee from Sales spent 1664 INR on Office Chair at Flipkart in Kolkata, India.",Office Supply,B53HRCP4K8
+Swiggy,"Pune, India",Marketing,Team Lead,INR,3897,Meal,1299,3,"Team Lead from Marketing spent 3897 INR on Meal at Swiggy in Pune, India.",Meals,3QKW9RHB0D
+Expedia,"Paris, France",IT,Employee,EUR,8462,Flight Ticket,4231,2,"Employee from IT spent 8462 EUR on Flight Ticket at Expedia in Paris, France.",Travel,A3GD8Y9XK9
+Goibibo,"Jaipur, India",Marketing,Team Lead,INR,7652,Flight Ticket,3826,2,"Team Lead from Marketing spent 7652 INR on Flight Ticket at Goibibo in Jaipur, India.",Travel,W8NLYMO04M
+Expedia,"Kolkata, India",Customer Support,Employee,INR,1241,Deluxe Room,1241,1,"Employee from Customer Support spent 1241 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,F30PLBW0AC
+Swiggy,"Chennai, India",IT,Dept Head,INR,6822,Meal,2274,3,"Dept Head from IT spent 6822 INR on Meal at Swiggy in Chennai, India.",Meals,6PIMSMWWGS
+Ola,"Hyderabad, India",Marketing,Employee,INR,14394,Deluxe Room,4798,3,"Employee from Marketing spent 14394 INR on Deluxe Room at Ola in Hyderabad, India.",Travel,XK0AQFOSRN
+Goibibo,"Hyderabad, India",Operations,Team Lead,INR,781,Flight Ticket,781,1,"Team Lead from Operations spent 781 INR on Flight Ticket at Goibibo in Hyderabad, India.",Travel,QVM5624R1P
+Flipkart,"Kolkata, India",IT,Dept Head,INR,6320,Projector,3160,2,"Dept Head from IT spent 6320 INR on Projector at Flipkart in Kolkata, India.",Office Supply,QLO8W3CZCW
+Expedia,"Jaipur, India",Sales,Team Lead,INR,2803,Deluxe Room,2803,1,"Team Lead from Sales spent 2803 INR on Deluxe Room at Expedia in Jaipur, India.",Travel,U3UGMVRSGR
+OYO,"Chennai, India",Human Resource,Employee,INR,2864,Flight Ticket,1432,2,"Employee from Human Resource spent 2864 INR on Flight Ticket at OYO in Chennai, India.",Travel,KIM7XSP0DR
+Swiggy,"Mumbai, India",IT,Team Lead,INR,9816,Meal,4908,2,"Team Lead from IT spent 9816 INR on Meal at Swiggy in Mumbai, India.",Meals,C725V05LH6
+Goibibo,"Berlin, Germany",Customer Support,Team Lead,EUR,1867,Deluxe Room,1867,1,"Team Lead from Customer Support spent 1867 EUR on Deluxe Room at Goibibo in Berlin, Germany.",Travel,6A918MOIEV
+Swiggy,"Bangalore, India",Operations,Team Lead,INR,1258,Meal,1258,1,"Team Lead from Operations spent 1258 INR on Meal at Swiggy in Bangalore, India.",Meals,TO5K707BIP
+OYO,"Lucknow, India",Operations,Team Lead,INR,6096,Flight Ticket,3048,2,"Team Lead from Operations spent 6096 INR on Flight Ticket at OYO in Lucknow, India.",Travel,BJLUPSR7LY
+Flipkart,"Toronto, Canada",Operations,Team Lead,CAD,1910,Printer,955,2,"Team Lead from Operations spent 1910 CAD on Printer at Flipkart in Toronto, Canada.",Office Supply,APHZKRE7P0
+Goibibo,"Lucknow, India",Operations,Team Lead,INR,12372,Deluxe Room,4124,3,"Team Lead from Operations spent 12372 INR on Deluxe Room at Goibibo in Lucknow, India.",Travel,9PBMM86Q8M
+MakeMyTrip,"Chennai, India",Marketing,Team Lead,INR,7408,Flight Ticket,3704,2,"Team Lead from Marketing spent 7408 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,Z1GBNFV6PW
+Flipkart,"Pune, India",Human Resource,Dept Head,INR,11433,Projector,3811,3,"Dept Head from Human Resource spent 11433 INR on Projector at Flipkart in Pune, India.",Office Supply,YW4BV5YHZE
+Swiggy,"Mumbai, India",Human Resource,Employee,INR,4932,Meal,1644,3,"Employee from Human Resource spent 4932 INR on Meal at Swiggy in Mumbai, India.",Meals,3U6MXSFKKN
+Uber,"Ahmedabad, India",IT,Employee,INR,4374,Deluxe Room,1458,3,"Employee from IT spent 4374 INR on Deluxe Room at Uber in Ahmedabad, India.",Travel,Z9WCC0UIOC
+OYO,"Jaipur, India",Operations,Employee,INR,6986,Flight Ticket,3493,2,"Employee from Operations spent 6986 INR on Flight Ticket at OYO in Jaipur, India.",Travel,6JQGASO7W3
+OYO,"Lucknow, India",Operations,Manager,INR,4521,Deluxe Room,4521,1,"Manager from Operations spent 4521 INR on Deluxe Room at OYO in Lucknow, India.",Travel,YUCIC0O7JO
+Swiggy,"Hyderabad, India",Sales,Dept Head,INR,3070,Meal,1535,2,"Dept Head from Sales spent 3070 INR on Meal at Swiggy in Hyderabad, India.",Meals,IP1MY8Z2K5
+Goibibo,"Jaipur, India",Marketing,Dept Head,INR,11373,Deluxe Room,3791,3,"Dept Head from Marketing spent 11373 INR on Deluxe Room at Goibibo in Jaipur, India.",Travel,LP8V85BBTD
+Zomato,"Pune, India",Finance & Accounting,Employee,INR,2798,Meal,1399,2,"Employee from Finance & Accounting spent 2798 INR on Meal at Zomato in Pune, India.",Meals,FMUNYQWOYV
+Ola,"New Delhi, India",Human Resource,Dept Head,INR,4073,Deluxe Room,4073,1,"Dept Head from Human Resource spent 4073 INR on Deluxe Room at Ola in New Delhi, India.",Travel,4FK2NNDWXH
+Amazon,"Chennai, India",Human Resource,Team Lead,INR,1976,Office Chair,988,2,"Team Lead from Human Resource spent 1976 INR on Office Chair at Amazon in Chennai, India.",Office Supply,AP7FD8ZC8Z
+Uber,"Kolkata, India",Finance & Accounting,Manager,INR,6122,Deluxe Room,3061,2,"Manager from Finance & Accounting spent 6122 INR on Deluxe Room at Uber in Kolkata, India.",Travel,60Q69UXQ53
+MakeMyTrip,"Pune, India",Sales,Employee,INR,1714,Flight Ticket,1714,1,"Employee from Sales spent 1714 INR on Flight Ticket at MakeMyTrip in Pune, India.",Travel,DXHJK33AK6
+Amazon,"Tokyo, Japan",Sales,Dept Head,JPY,3807,Projector,3807,1,"Dept Head from Sales spent 3807 JPY on Projector at Amazon in Tokyo, Japan.",Office Supply,YQWBXQXE8F
+MakeMyTrip,"New Delhi, India",Marketing,Team Lead,INR,7012,Flight Ticket,3506,2,"Team Lead from Marketing spent 7012 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,S1KNOSD2GB
+Amazon,"Hyderabad, India",Human Resource,Team Lead,INR,2714,Laptop,1357,2,"Team Lead from Human Resource spent 2714 INR on Laptop at Amazon in Hyderabad, India.",Office Supply,6BTKBGGTO9
+Amazon,"Chennai, India",Operations,Manager,INR,5871,Office Chair,1957,3,"Manager from Operations spent 5871 INR on Office Chair at Amazon in Chennai, India.",Office Supply,C2K3RXBYEC
+Uber,"Hyderabad, India",IT,Dept Head,INR,2727,Deluxe Room,2727,1,"Dept Head from IT spent 2727 INR on Deluxe Room at Uber in Hyderabad, India.",Travel,D2VMI1KE00
+Goibibo,"Jaipur, India",Finance & Accounting,Team Lead,INR,2039,Deluxe Room,2039,1,"Team Lead from Finance & Accounting spent 2039 INR on Deluxe Room at Goibibo in Jaipur, India.",Travel,NSBE0ZFXQQ
+Ola,"Berlin, Germany",Sales,Employee,EUR,547,Flight Ticket,547,1,"Employee from Sales spent 547 EUR on Flight Ticket at Ola in Berlin, Germany.",Travel,ZY8ZOBLVBT
+Expedia,"Jaipur, India",Finance & Accounting,Team Lead,INR,10539,Flight Ticket,3513,3,"Team Lead from Finance & Accounting spent 10539 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,XSJCYKQETM
+MakeMyTrip,"Lucknow, India",IT,Employee,INR,4646,Deluxe Room,2323,2,"Employee from IT spent 4646 INR on Deluxe Room at MakeMyTrip in Lucknow, India.",Travel,UUWFX1M787
+Swiggy,"Hyderabad, India",Human Resource,Team Lead,INR,8148,Meal,4074,2,"Team Lead from Human Resource spent 8148 INR on Meal at Swiggy in Hyderabad, India.",Meals,O8X2JZS5UJ
+Uber,"Toronto, Canada",Marketing,Manager,CAD,2225,Flight Ticket,2225,1,"Manager from Marketing spent 2225 CAD on Flight Ticket at Uber in Toronto, Canada.",Travel,BFRW1V5KZ8
+Uber,"Sydney, Australia",Sales,Dept Head,AUD,7772,Deluxe Room,3886,2,"Dept Head from Sales spent 7772 AUD on Deluxe Room at Uber in Sydney, Australia.",Travel,K2VILGQUDG
+Amazon,"Ahmedabad, India",Sales,Team Lead,INR,13863,Laptop,4621,3,"Team Lead from Sales spent 13863 INR on Laptop at Amazon in Ahmedabad, India.",Office Supply,VF4WRCSAFP
+OYO,"Dubai, UAE",Marketing,Dept Head,AED,1314,Deluxe Room,1314,1,"Dept Head from Marketing spent 1314 AED on Deluxe Room at OYO in Dubai, UAE.",Travel,QN38MNDY24
+MakeMyTrip,"Kolkata, India",IT,Employee,INR,6532,Deluxe Room,3266,2,"Employee from IT spent 6532 INR on Deluxe Room at MakeMyTrip in Kolkata, India.",Travel,RVQAB9PKUH
+Flipkart,"Kolkata, India",Customer Support,Manager,INR,5172,Printer,2586,2,"Manager from Customer Support spent 5172 INR on Printer at Flipkart in Kolkata, India.",Office Supply,5LA0R46C15
+Ola,"Mumbai, India",Operations,Dept Head,INR,829,Deluxe Room,829,1,"Dept Head from Operations spent 829 INR on Deluxe Room at Ola in Mumbai, India.",Travel,EJ8KBFLDJA
+Amazon,"Mumbai, India",Customer Support,Dept Head,INR,6330,Projector,2110,3,"Dept Head from Customer Support spent 6330 INR on Projector at Amazon in Mumbai, India.",Office Supply,56CUAA4WD2
+Amazon,"Hyderabad, India",Operations,Dept Head,INR,1896,Printer,632,3,"Dept Head from Operations spent 1896 INR on Printer at Amazon in Hyderabad, India.",Office Supply,H4OWV1UY4L
+Flipkart,"Hyderabad, India",Human Resource,Manager,INR,4404,Printer,1468,3,"Manager from Human Resource spent 4404 INR on Printer at Flipkart in Hyderabad, India.",Office Supply,LXFBAAY8H1
+Zomato,Hong Kong,Customer Support,Team Lead,HKD,7578,Meal,2526,3,Team Lead from Customer Support spent 7578 HKD on Meal at Zomato in Hong Kong.,Meals,X60ATAN5RM
+Flipkart,Hong Kong,Sales,Dept Head,HKD,3602,Printer,3602,1,Dept Head from Sales spent 3602 HKD on Printer at Flipkart in Hong Kong.,Office Supply,25Y7TJ07UI
+Uber,"Mumbai, India",Customer Support,Dept Head,INR,4164,Flight Ticket,2082,2,"Dept Head from Customer Support spent 4164 INR on Flight Ticket at Uber in Mumbai, India.",Travel,M737IE71UG
+Zomato,"Pune, India",Customer Support,Dept Head,INR,3799,Meal,3799,1,"Dept Head from Customer Support spent 3799 INR on Meal at Zomato in Pune, India.",Meals,PU60ABEXT8
+Uber,"Mumbai, India",IT,Manager,INR,1722,Deluxe Room,574,3,"Manager from IT spent 1722 INR on Deluxe Room at Uber in Mumbai, India.",Travel,WD4NGGV4NL
+MakeMyTrip,"Pune, India",Customer Support,Dept Head,INR,2986,Deluxe Room,1493,2,"Dept Head from Customer Support spent 2986 INR on Deluxe Room at MakeMyTrip in Pune, India.",Travel,2OWQ3SREVP
+Uber,"New Delhi, India",Customer Support,Employee,INR,8704,Deluxe Room,4352,2,"Employee from Customer Support spent 8704 INR on Deluxe Room at Uber in New Delhi, India.",Travel,T4VLPXWGXF
+Expedia,"Hyderabad, India",Operations,Team Lead,INR,4069,Deluxe Room,4069,1,"Team Lead from Operations spent 4069 INR on Deluxe Room at Expedia in Hyderabad, India.",Travel,SPA1GJ951S
+Flipkart,"Lucknow, India",Marketing,Employee,INR,8650,Printer,4325,2,"Employee from Marketing spent 8650 INR on Printer at Flipkart in Lucknow, India.",Office Supply,4ZS5KEZN2Y
+Swiggy,"Chennai, India",Sales,Employee,INR,7635,Meal,2545,3,"Employee from Sales spent 7635 INR on Meal at Swiggy in Chennai, India.",Meals,24BR63WQGX
+Flipkart,"Chennai, India",Sales,Manager,INR,1975,Office Chair,1975,1,"Manager from Sales spent 1975 INR on Office Chair at Flipkart in Chennai, India.",Office Supply,UVN9957S24
+Swiggy,"New Delhi, India",Sales,Dept Head,INR,1432,Meal,716,2,"Dept Head from Sales spent 1432 INR on Meal at Swiggy in New Delhi, India.",Meals,JM4JMW4K7Y
+Swiggy,"Dubai, UAE",Customer Support,Team Lead,AED,7886,Meal,3943,2,"Team Lead from Customer Support spent 7886 AED on Meal at Swiggy in Dubai, UAE.",Meals,GAB3V5HIP3
+Amazon,"New Delhi, India",IT,Team Lead,INR,9114,Projector,3038,3,"Team Lead from IT spent 9114 INR on Projector at Amazon in New Delhi, India.",Office Supply,JYWC409NLR
+Ola,"Jaipur, India",Customer Support,Employee,INR,2739,Deluxe Room,2739,1,"Employee from Customer Support spent 2739 INR on Deluxe Room at Ola in Jaipur, India.",Travel,SBRRUOJCTN
+OYO,"Sydney, Australia",Marketing,Manager,AUD,3189,Deluxe Room,3189,1,"Manager from Marketing spent 3189 AUD on Deluxe Room at OYO in Sydney, Australia.",Travel,RPUSV4GYOO
+Ola,"Paris, France",Customer Support,Manager,EUR,10191,Flight Ticket,3397,3,"Manager from Customer Support spent 10191 EUR on Flight Ticket at Ola in Paris, France.",Travel,1VMRJ3NGBR
+Uber,Singapore,Operations,Employee,SGD,4370,Deluxe Room,2185,2,Employee from Operations spent 4370 SGD on Deluxe Room at Uber in Singapore.,Travel,RGKM125I1S
+OYO,"Jaipur, India",Human Resource,Manager,INR,6310,Flight Ticket,3155,2,"Manager from Human Resource spent 6310 INR on Flight Ticket at OYO in Jaipur, India.",Travel,BC7JR09JJM
+Swiggy,"Chennai, India",Sales,Team Lead,INR,3156,Meal,3156,1,"Team Lead from Sales spent 3156 INR on Meal at Swiggy in Chennai, India.",Meals,MRSPXMBKRP
+Expedia,"New Delhi, India",Human Resource,Employee,INR,12549,Flight Ticket,4183,3,"Employee from Human Resource spent 12549 INR on Flight Ticket at Expedia in New Delhi, India.",Travel,5GZO5B2X7R
+MakeMyTrip,"Mumbai, India",IT,Team Lead,INR,7002,Deluxe Room,3501,2,"Team Lead from IT spent 7002 INR on Deluxe Room at MakeMyTrip in Mumbai, India.",Travel,HTV40BY26N
+Expedia,"Chennai, India",Sales,Employee,INR,6075,Flight Ticket,2025,3,"Employee from Sales spent 6075 INR on Flight Ticket at Expedia in Chennai, India.",Travel,9O5QPPFFUO
+Amazon,"Ahmedabad, India",Marketing,Dept Head,INR,14082,Office Chair,4694,3,"Dept Head from Marketing spent 14082 INR on Office Chair at Amazon in Ahmedabad, India.",Office Supply,I8D35PNYDD
+Amazon,"Pune, India",IT,Team Lead,INR,3832,Laptop,3832,1,"Team Lead from IT spent 3832 INR on Laptop at Amazon in Pune, India.",Office Supply,QAY6ECBF05
+Flipkart,"Bangalore, India",IT,Team Lead,INR,1170,Office Chair,1170,1,"Team Lead from IT spent 1170 INR on Office Chair at Flipkart in Bangalore, India.",Office Supply,LNV2KF66U3
+Amazon,"Ahmedabad, India",Finance & Accounting,Team Lead,INR,4690,Printer,4690,1,"Team Lead from Finance & Accounting spent 4690 INR on Printer at Amazon in Ahmedabad, India.",Office Supply,27ZZ2PZXZH
+OYO,"Pune, India",Sales,Team Lead,INR,3928,Deluxe Room,1964,2,"Team Lead from Sales spent 3928 INR on Deluxe Room at OYO in Pune, India.",Travel,1OYBTL1DOM
+OYO,"Toronto, Canada",IT,Employee,CAD,1399,Deluxe Room,1399,1,"Employee from IT spent 1399 CAD on Deluxe Room at OYO in Toronto, Canada.",Travel,XGTVI33WOO
+Uber,"Pune, India",Marketing,Team Lead,INR,10209,Flight Ticket,3403,3,"Team Lead from Marketing spent 10209 INR on Flight Ticket at Uber in Pune, India.",Travel,QOJ0XDVUW4
+Ola,"Kolkata, India",Human Resource,Team Lead,INR,4233,Flight Ticket,4233,1,"Team Lead from Human Resource spent 4233 INR on Flight Ticket at Ola in Kolkata, India.",Travel,CI1WA24BH2
+OYO,"Dubai, UAE",Human Resource,Employee,AED,7836,Deluxe Room,2612,3,"Employee from Human Resource spent 7836 AED on Deluxe Room at OYO in Dubai, UAE.",Travel,UOCCMHZ8RG
+Goibibo,"New Delhi, India",Customer Support,Manager,INR,6662,Deluxe Room,3331,2,"Manager from Customer Support spent 6662 INR on Deluxe Room at Goibibo in New Delhi, India.",Travel,G151DDG9HP
+Goibibo,"New York, USA",Marketing,Employee,USD,10827,Flight Ticket,3609,3,"Employee from Marketing spent 10827 USD on Flight Ticket at Goibibo in New York, USA.",Travel,ZX3YXGJWFL
+MakeMyTrip,"Kolkata, India",Operations,Team Lead,INR,1474,Flight Ticket,737,2,"Team Lead from Operations spent 1474 INR on Flight Ticket at MakeMyTrip in Kolkata, India.",Travel,9C9LYK8D6Q
+Goibibo,"Chennai, India",Sales,Dept Head,INR,4189,Flight Ticket,4189,1,"Dept Head from Sales spent 4189 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,KWM9FYEVW0
+Zomato,"Hyderabad, India",Human Resource,Dept Head,INR,3012,Meal,1004,3,"Dept Head from Human Resource spent 3012 INR on Meal at Zomato in Hyderabad, India.",Meals,A4IBWD8DY8
+MakeMyTrip,"Bangalore, India",Marketing,Dept Head,INR,6526,Deluxe Room,3263,2,"Dept Head from Marketing spent 6526 INR on Deluxe Room at MakeMyTrip in Bangalore, India.",Travel,GX1U2YSIQ8
+Swiggy,"Ahmedabad, India",Operations,Dept Head,INR,3855,Meal,3855,1,"Dept Head from Operations spent 3855 INR on Meal at Swiggy in Ahmedabad, India.",Meals,ZQX59F4F2Z
+Swiggy,"New Delhi, India",Operations,Dept Head,INR,1953,Meal,651,3,"Dept Head from Operations spent 1953 INR on Meal at Swiggy in New Delhi, India.",Meals,2EDOU226S3
+OYO,"Pune, India",Finance & Accounting,Team Lead,INR,774,Flight Ticket,774,1,"Team Lead from Finance & Accounting spent 774 INR on Flight Ticket at OYO in Pune, India.",Travel,RYZG4NOEX3
+Goibibo,"Paris, France",IT,Team Lead,EUR,4572,Deluxe Room,2286,2,"Team Lead from IT spent 4572 EUR on Deluxe Room at Goibibo in Paris, France.",Travel,V1AZ0J43Z8
+Ola,"Kolkata, India",IT,Employee,INR,4245,Flight Ticket,1415,3,"Employee from IT spent 4245 INR on Flight Ticket at Ola in Kolkata, India.",Travel,EFP3D1X6PV
+Goibibo,"Lucknow, India",Sales,Employee,INR,6219,Flight Ticket,2073,3,"Employee from Sales spent 6219 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,VK9OBOPBC2
+Flipkart,"Ahmedabad, India",Marketing,Dept Head,INR,3335,Printer,3335,1,"Dept Head from Marketing spent 3335 INR on Printer at Flipkart in Ahmedabad, India.",Office Supply,8M2ILC4UW2
+Expedia,"Chennai, India",Finance & Accounting,Manager,INR,3876,Flight Ticket,3876,1,"Manager from Finance & Accounting spent 3876 INR on Flight Ticket at Expedia in Chennai, India.",Travel,9W6SMO1OVQ
+Goibibo,"Lucknow, India",Customer Support,Manager,INR,2233,Deluxe Room,2233,1,"Manager from Customer Support spent 2233 INR on Deluxe Room at Goibibo in Lucknow, India.",Travel,B7BWWG6LNQ
+Amazon,"Chennai, India",Marketing,Dept Head,INR,3200,Laptop,1600,2,"Dept Head from Marketing spent 3200 INR on Laptop at Amazon in Chennai, India.",Office Supply,TUZOPVDWS9
+Swiggy,"Mumbai, India",Operations,Employee,INR,8046,Meal,4023,2,"Employee from Operations spent 8046 INR on Meal at Swiggy in Mumbai, India.",Meals,Y8P7H2W79G
+Amazon,"Toronto, Canada",Customer Support,Employee,CAD,3217,Printer,3217,1,"Employee from Customer Support spent 3217 CAD on Printer at Amazon in Toronto, Canada.",Office Supply,N2MFWYG214
+Flipkart,"Ahmedabad, India",Sales,Manager,INR,4202,Laptop,4202,1,"Manager from Sales spent 4202 INR on Laptop at Flipkart in Ahmedabad, India.",Office Supply,RVMUI9N667
+Uber,"Pune, India",Operations,Manager,INR,4778,Deluxe Room,2389,2,"Manager from Operations spent 4778 INR on Deluxe Room at Uber in Pune, India.",Travel,Z0QV6W26IH
+Uber,"Ahmedabad, India",Finance & Accounting,Employee,INR,790,Deluxe Room,790,1,"Employee from Finance & Accounting spent 790 INR on Deluxe Room at Uber in Ahmedabad, India.",Travel,KJJHTOEM9K
+Goibibo,"Chennai, India",Customer Support,Dept Head,INR,11505,Deluxe Room,3835,3,"Dept Head from Customer Support spent 11505 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,08WBLOD7IV
+Swiggy,"Mumbai, India",Sales,Dept Head,INR,2467,Meal,2467,1,"Dept Head from Sales spent 2467 INR on Meal at Swiggy in Mumbai, India.",Meals,DFWPYRZJA5
+Goibibo,"New York, USA",IT,Team Lead,USD,3453,Flight Ticket,1151,3,"Team Lead from IT spent 3453 USD on Flight Ticket at Goibibo in New York, USA.",Travel,NI78R1OL24
+Uber,"Pune, India",Sales,Manager,INR,4766,Flight Ticket,4766,1,"Manager from Sales spent 4766 INR on Flight Ticket at Uber in Pune, India.",Travel,09JT3EA6H9
+Expedia,"Pune, India",Finance & Accounting,Dept Head,INR,3510,Deluxe Room,1170,3,"Dept Head from Finance & Accounting spent 3510 INR on Deluxe Room at Expedia in Pune, India.",Travel,398LOZJ9E2
+Ola,"Jaipur, India",Sales,Dept Head,INR,5634,Deluxe Room,2817,2,"Dept Head from Sales spent 5634 INR on Deluxe Room at Ola in Jaipur, India.",Travel,XKODUZEKK3
+Zomato,"Chennai, India",Customer Support,Dept Head,INR,3199,Meal,3199,1,"Dept Head from Customer Support spent 3199 INR on Meal at Zomato in Chennai, India.",Meals,QIVI916U7C
+Swiggy,Singapore,Customer Support,Team Lead,SGD,8826,Meal,4413,2,Team Lead from Customer Support spent 8826 SGD on Meal at Swiggy in Singapore.,Meals,LZZY9QWXZI
+MakeMyTrip,"Sydney, Australia",IT,Employee,AUD,7290,Deluxe Room,2430,3,"Employee from IT spent 7290 AUD on Deluxe Room at MakeMyTrip in Sydney, Australia.",Travel,T6X2BFKU69
+Flipkart,"Hyderabad, India",Finance & Accounting,Team Lead,INR,1798,Office Chair,899,2,"Team Lead from Finance & Accounting spent 1798 INR on Office Chair at Flipkart in Hyderabad, India.",Office Supply,JTT5OKFR9E
+Zomato,"Mumbai, India",Human Resource,Employee,INR,2527,Meal,2527,1,"Employee from Human Resource spent 2527 INR on Meal at Zomato in Mumbai, India.",Meals,D1HCLC3763
+Zomato,"Lucknow, India",Marketing,Dept Head,INR,9510,Meal,4755,2,"Dept Head from Marketing spent 9510 INR on Meal at Zomato in Lucknow, India.",Meals,SPARAR45W7
+Flipkart,"New Delhi, India",IT,Team Lead,INR,10971,Office Chair,3657,3,"Team Lead from IT spent 10971 INR on Office Chair at Flipkart in New Delhi, India.",Office Supply,5LAXPWEDU6
+Expedia,"Kolkata, India",Human Resource,Team Lead,INR,3494,Deluxe Room,3494,1,"Team Lead from Human Resource spent 3494 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,VC9UWFA6GS
+MakeMyTrip,"Pune, India",IT,Employee,INR,1835,Deluxe Room,1835,1,"Employee from IT spent 1835 INR on Deluxe Room at MakeMyTrip in Pune, India.",Travel,P12YYN57ZY
+Goibibo,"London, UK",Finance & Accounting,Manager,GBP,3802,Deluxe Room,3802,1,"Manager from Finance & Accounting spent 3802 GBP on Deluxe Room at Goibibo in London, UK.",Travel,8GZYUQIU3P
+OYO,"Chennai, India",Customer Support,Dept Head,INR,10044,Flight Ticket,3348,3,"Dept Head from Customer Support spent 10044 INR on Flight Ticket at OYO in Chennai, India.",Travel,19RSJLSBMS
+Flipkart,"Sydney, Australia",IT,Manager,AUD,4576,Office Chair,2288,2,"Manager from IT spent 4576 AUD on Office Chair at Flipkart in Sydney, Australia.",Office Supply,434JN6V26S
+OYO,"Hyderabad, India",Operations,Team Lead,INR,2123,Flight Ticket,2123,1,"Team Lead from Operations spent 2123 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,49UQXA3FFC
+MakeMyTrip,"Lucknow, India",Human Resource,Manager,INR,9334,Flight Ticket,4667,2,"Manager from Human Resource spent 9334 INR on Flight Ticket at MakeMyTrip in Lucknow, India.",Travel,YE5SLFD5BY
+Swiggy,"Kolkata, India",Human Resource,Dept Head,INR,2272,Meal,2272,1,"Dept Head from Human Resource spent 2272 INR on Meal at Swiggy in Kolkata, India.",Meals,5CPMQIH1XY
+MakeMyTrip,"Berlin, Germany",Marketing,Dept Head,EUR,534,Flight Ticket,534,1,"Dept Head from Marketing spent 534 EUR on Flight Ticket at MakeMyTrip in Berlin, Germany.",Travel,ZWGZFI8FMG
+MakeMyTrip,"Hyderabad, India",Customer Support,Team Lead,INR,11967,Deluxe Room,3989,3,"Team Lead from Customer Support spent 11967 INR on Deluxe Room at MakeMyTrip in Hyderabad, India.",Travel,I2D0QPM01H
+Uber,"Pune, India",Finance & Accounting,Employee,INR,4992,Flight Ticket,4992,1,"Employee from Finance & Accounting spent 4992 INR on Flight Ticket at Uber in Pune, India.",Travel,F93CWR84PR
+MakeMyTrip,"Kolkata, India",Sales,Team Lead,INR,7893,Deluxe Room,2631,3,"Team Lead from Sales spent 7893 INR on Deluxe Room at MakeMyTrip in Kolkata, India.",Travel,48RESH46XQ
+MakeMyTrip,"Sydney, Australia",Customer Support,Manager,AUD,2565,Deluxe Room,855,3,"Manager from Customer Support spent 2565 AUD on Deluxe Room at MakeMyTrip in Sydney, Australia.",Travel,DZ9KNILDGT
+Uber,"Hyderabad, India",Marketing,Employee,INR,5482,Flight Ticket,2741,2,"Employee from Marketing spent 5482 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,3Z9J1TP0XC
+Ola,"Lucknow, India",Customer Support,Employee,INR,2801,Deluxe Room,2801,1,"Employee from Customer Support spent 2801 INR on Deluxe Room at Ola in Lucknow, India.",Travel,2X5NLX9J08
+MakeMyTrip,"Chennai, India",Sales,Employee,INR,3324,Flight Ticket,3324,1,"Employee from Sales spent 3324 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,GDWWIY6XM7
+Expedia,"Jaipur, India",IT,Manager,INR,4044,Flight Ticket,1348,3,"Manager from IT spent 4044 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,LV13PTWAE1
+Swiggy,"Ahmedabad, India",Operations,Team Lead,INR,2760,Meal,920,3,"Team Lead from Operations spent 2760 INR on Meal at Swiggy in Ahmedabad, India.",Meals,79ALVZZ3AI
+Goibibo,"Lucknow, India",IT,Employee,INR,1274,Flight Ticket,1274,1,"Employee from IT spent 1274 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,3VZH0MWXWG
+Amazon,"New York, USA",Marketing,Team Lead,USD,7398,Laptop,2466,3,"Team Lead from Marketing spent 7398 USD on Laptop at Amazon in New York, USA.",Office Supply,XMXLKNC9P6
+MakeMyTrip,"Paris, France",Marketing,Dept Head,EUR,7106,Deluxe Room,3553,2,"Dept Head from Marketing spent 7106 EUR on Deluxe Room at MakeMyTrip in Paris, France.",Travel,5EXCZRHVWB
+MakeMyTrip,"Kolkata, India",Human Resource,Dept Head,INR,1577,Flight Ticket,1577,1,"Dept Head from Human Resource spent 1577 INR on Flight Ticket at MakeMyTrip in Kolkata, India.",Travel,ESBFPF2XY1
+OYO,"Sydney, Australia",IT,Team Lead,AUD,5559,Deluxe Room,1853,3,"Team Lead from IT spent 5559 AUD on Deluxe Room at OYO in Sydney, Australia.",Travel,3Y4AXUTO7Z
+Flipkart,"Lucknow, India",Finance & Accounting,Employee,INR,13278,Laptop,4426,3,"Employee from Finance & Accounting spent 13278 INR on Laptop at Flipkart in Lucknow, India.",Office Supply,HHFS4MIFQ2
+Expedia,"Kolkata, India",Sales,Dept Head,INR,4377,Deluxe Room,4377,1,"Dept Head from Sales spent 4377 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,MIK87SY0M0
+Expedia,"Mumbai, India",Customer Support,Team Lead,INR,8566,Deluxe Room,4283,2,"Team Lead from Customer Support spent 8566 INR on Deluxe Room at Expedia in Mumbai, India.",Travel,OWML4OYRV7
+Expedia,"Hyderabad, India",Sales,Dept Head,INR,5094,Flight Ticket,1698,3,"Dept Head from Sales spent 5094 INR on Flight Ticket at Expedia in Hyderabad, India.",Travel,NVEP6WS5DO
+OYO,"Kolkata, India",IT,Dept Head,INR,6152,Deluxe Room,3076,2,"Dept Head from IT spent 6152 INR on Deluxe Room at OYO in Kolkata, India.",Travel,21Y1Q94Y4C
+OYO,"Toronto, Canada",Finance & Accounting,Team Lead,CAD,694,Flight Ticket,694,1,"Team Lead from Finance & Accounting spent 694 CAD on Flight Ticket at OYO in Toronto, Canada.",Travel,34WVIQ3YKQ
+Flipkart,"Jaipur, India",IT,Manager,INR,902,Printer,902,1,"Manager from IT spent 902 INR on Printer at Flipkart in Jaipur, India.",Office Supply,YBVP1BV6HF
+Flipkart,"Jaipur, India",Operations,Dept Head,INR,1113,Printer,1113,1,"Dept Head from Operations spent 1113 INR on Printer at Flipkart in Jaipur, India.",Office Supply,ZWPPKFD8K2
+Swiggy,"Lucknow, India",Finance & Accounting,Team Lead,INR,1531,Meal,1531,1,"Team Lead from Finance & Accounting spent 1531 INR on Meal at Swiggy in Lucknow, India.",Meals,EQHWXBN2ML
+Goibibo,"Mumbai, India",Customer Support,Employee,INR,1048,Flight Ticket,1048,1,"Employee from Customer Support spent 1048 INR on Flight Ticket at Goibibo in Mumbai, India.",Travel,0YYU8T9LAT
+Flipkart,"Mumbai, India",Customer Support,Employee,INR,5850,Printer,2925,2,"Employee from Customer Support spent 5850 INR on Printer at Flipkart in Mumbai, India.",Office Supply,SRVEQKMIVG
+Amazon,"Lucknow, India",Finance & Accounting,Dept Head,INR,6872,Projector,3436,2,"Dept Head from Finance & Accounting spent 6872 INR on Projector at Amazon in Lucknow, India.",Office Supply,VPR9HTFXSZ
+Amazon,"Kolkata, India",Finance & Accounting,Team Lead,INR,2536,Printer,1268,2,"Team Lead from Finance & Accounting spent 2536 INR on Printer at Amazon in Kolkata, India.",Office Supply,3PJVZ9MMOW
+Zomato,"Ahmedabad, India",IT,Employee,INR,513,Meal,513,1,"Employee from IT spent 513 INR on Meal at Zomato in Ahmedabad, India.",Meals,KRBNLV8WE5
+OYO,"Mumbai, India",Customer Support,Employee,INR,1938,Deluxe Room,969,2,"Employee from Customer Support spent 1938 INR on Deluxe Room at OYO in Mumbai, India.",Travel,MZMS6AOTMT
+Flipkart,"Bangalore, India",Operations,Dept Head,INR,3686,Laptop,3686,1,"Dept Head from Operations spent 3686 INR on Laptop at Flipkart in Bangalore, India.",Office Supply,FK138YHCNN
+Ola,"Berlin, Germany",Finance & Accounting,Dept Head,EUR,12924,Flight Ticket,4308,3,"Dept Head from Finance & Accounting spent 12924 EUR on Flight Ticket at Ola in Berlin, Germany.",Travel,N4W2EVCGTZ
+MakeMyTrip,"Jaipur, India",Sales,Manager,INR,2882,Flight Ticket,1441,2,"Manager from Sales spent 2882 INR on Flight Ticket at MakeMyTrip in Jaipur, India.",Travel,CBCX6E3ZYY
+Amazon,"New Delhi, India",Customer Support,Dept Head,INR,4338,Office Chair,1446,3,"Dept Head from Customer Support spent 4338 INR on Office Chair at Amazon in New Delhi, India.",Office Supply,JYS2JE2NH2
+Zomato,"Jaipur, India",IT,Dept Head,INR,6152,Meal,3076,2,"Dept Head from IT spent 6152 INR on Meal at Zomato in Jaipur, India.",Meals,L5LT9JY4T3
+Swiggy,"Chennai, India",IT,Employee,INR,2600,Meal,1300,2,"Employee from IT spent 2600 INR on Meal at Swiggy in Chennai, India.",Meals,EZ3GX4SSOX
+Uber,"New Delhi, India",IT,Manager,INR,1750,Deluxe Room,875,2,"Manager from IT spent 1750 INR on Deluxe Room at Uber in New Delhi, India.",Travel,I51OBTZKK5
+Zomato,"New Delhi, India",Finance & Accounting,Employee,INR,7962,Meal,2654,3,"Employee from Finance & Accounting spent 7962 INR on Meal at Zomato in New Delhi, India.",Meals,I67B8TKWTP
+Zomato,"Hyderabad, India",Customer Support,Employee,INR,3798,Meal,1899,2,"Employee from Customer Support spent 3798 INR on Meal at Zomato in Hyderabad, India.",Meals,05XO8LOZNM
+Zomato,"New Delhi, India",Finance & Accounting,Team Lead,INR,8102,Meal,4051,2,"Team Lead from Finance & Accounting spent 8102 INR on Meal at Zomato in New Delhi, India.",Meals,6TTRRSKZWX
+Expedia,"Pune, India",Sales,Team Lead,INR,9441,Flight Ticket,3147,3,"Team Lead from Sales spent 9441 INR on Flight Ticket at Expedia in Pune, India.",Travel,MPZY5A2LM6
+OYO,"Bangalore, India",IT,Team Lead,INR,9746,Flight Ticket,4873,2,"Team Lead from IT spent 9746 INR on Flight Ticket at OYO in Bangalore, India.",Travel,J1QHT43BU1
+Goibibo,"Jaipur, India",Marketing,Employee,INR,1265,Flight Ticket,1265,1,"Employee from Marketing spent 1265 INR on Flight Ticket at Goibibo in Jaipur, India.",Travel,XCWTZN3MK3
+Ola,"Bangalore, India",Human Resource,Manager,INR,2562,Flight Ticket,854,3,"Manager from Human Resource spent 2562 INR on Flight Ticket at Ola in Bangalore, India.",Travel,UIWQY64Q40
+Goibibo,"Lucknow, India",IT,Manager,INR,9546,Flight Ticket,3182,3,"Manager from IT spent 9546 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,4GCY6XFT9B
+OYO,"Pune, India",Operations,Employee,INR,7890,Flight Ticket,2630,3,"Employee from Operations spent 7890 INR on Flight Ticket at OYO in Pune, India.",Travel,ACNA4AZJQM
+OYO,"New Delhi, India",Marketing,Employee,INR,4428,Flight Ticket,2214,2,"Employee from Marketing spent 4428 INR on Flight Ticket at OYO in New Delhi, India.",Travel,HHCM7N5XS5
+Ola,"Paris, France",Operations,Manager,EUR,4436,Deluxe Room,4436,1,"Manager from Operations spent 4436 EUR on Deluxe Room at Ola in Paris, France.",Travel,06NMVBA2VC
+Ola,"Kolkata, India",Operations,Team Lead,INR,6382,Deluxe Room,3191,2,"Team Lead from Operations spent 6382 INR on Deluxe Room at Ola in Kolkata, India.",Travel,JFC9PARJEB
+Uber,"Pune, India",Customer Support,Team Lead,INR,7566,Flight Ticket,3783,2,"Team Lead from Customer Support spent 7566 INR on Flight Ticket at Uber in Pune, India.",Travel,ZLUIRWXGRZ
+Goibibo,"Kolkata, India",Operations,Dept Head,INR,1984,Deluxe Room,992,2,"Dept Head from Operations spent 1984 INR on Deluxe Room at Goibibo in Kolkata, India.",Travel,G80VLRKW7Z
+Swiggy,"New Delhi, India",Human Resource,Team Lead,INR,6861,Meal,2287,3,"Team Lead from Human Resource spent 6861 INR on Meal at Swiggy in New Delhi, India.",Meals,20AKU7YTCQ
+Expedia,"New Delhi, India",Operations,Employee,INR,7182,Deluxe Room,2394,3,"Employee from Operations spent 7182 INR on Deluxe Room at Expedia in New Delhi, India.",Travel,JHUY5NJIZQ
+OYO,"Ahmedabad, India",Finance & Accounting,Manager,INR,10632,Flight Ticket,3544,3,"Manager from Finance & Accounting spent 10632 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,TTSLP1PTYB
+Amazon,"Hyderabad, India",Customer Support,Employee,INR,5144,Projector,2572,2,"Employee from Customer Support spent 5144 INR on Projector at Amazon in Hyderabad, India.",Office Supply,L575377B8O
+Swiggy,"Kolkata, India",Sales,Team Lead,INR,3351,Meal,3351,1,"Team Lead from Sales spent 3351 INR on Meal at Swiggy in Kolkata, India.",Meals,WQQ4B2NB8T
+Ola,"Kolkata, India",Sales,Team Lead,INR,929,Deluxe Room,929,1,"Team Lead from Sales spent 929 INR on Deluxe Room at Ola in Kolkata, India.",Travel,QAI6OU7K37
+Ola,"Bangalore, India",Marketing,Team Lead,INR,5868,Deluxe Room,2934,2,"Team Lead from Marketing spent 5868 INR on Deluxe Room at Ola in Bangalore, India.",Travel,2QAD5B597J
+MakeMyTrip,"Lucknow, India",Finance & Accounting,Team Lead,INR,4155,Flight Ticket,4155,1,"Team Lead from Finance & Accounting spent 4155 INR on Flight Ticket at MakeMyTrip in Lucknow, India.",Travel,QW6818O3KL
+Expedia,"Sydney, Australia",Finance & Accounting,Employee,AUD,4322,Deluxe Room,4322,1,"Employee from Finance & Accounting spent 4322 AUD on Deluxe Room at Expedia in Sydney, Australia.",Travel,M6YZRYP8SC
+Swiggy,"London, UK",IT,Dept Head,GBP,4242,Meal,1414,3,"Dept Head from IT spent 4242 GBP on Meal at Swiggy in London, UK.",Meals,EQB3IOP1VD
+Swiggy,"New Delhi, India",IT,Manager,INR,2901,Meal,967,3,"Manager from IT spent 2901 INR on Meal at Swiggy in New Delhi, India.",Meals,PIGWIXFF8M
+OYO,"Hyderabad, India",Marketing,Dept Head,INR,4771,Flight Ticket,4771,1,"Dept Head from Marketing spent 4771 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,57G620GWG2
+Flipkart,"Ahmedabad, India",Sales,Team Lead,INR,1728,Projector,1728,1,"Team Lead from Sales spent 1728 INR on Projector at Flipkart in Ahmedabad, India.",Office Supply,ANYNK0OZK8
+Swiggy,"Jaipur, India",Marketing,Employee,INR,2709,Meal,903,3,"Employee from Marketing spent 2709 INR on Meal at Swiggy in Jaipur, India.",Meals,UZ6P4438FT
+Flipkart,"Lucknow, India",Sales,Manager,INR,1047,Printer,1047,1,"Manager from Sales spent 1047 INR on Printer at Flipkart in Lucknow, India.",Office Supply,K9I9BOXM88
+Flipkart,"Ahmedabad, India",Operations,Dept Head,INR,5108,Projector,2554,2,"Dept Head from Operations spent 5108 INR on Projector at Flipkart in Ahmedabad, India.",Office Supply,NJC9Z9QY6V
+Expedia,"Ahmedabad, India",Finance & Accounting,Employee,INR,2119,Deluxe Room,2119,1,"Employee from Finance & Accounting spent 2119 INR on Deluxe Room at Expedia in Ahmedabad, India.",Travel,ZVHDNQ2H67
+Zomato,"Tokyo, Japan",Human Resource,Dept Head,JPY,7868,Meal,3934,2,"Dept Head from Human Resource spent 7868 JPY on Meal at Zomato in Tokyo, Japan.",Meals,FJ9BQK4YEG
+Uber,"Mumbai, India",Sales,Dept Head,INR,9534,Deluxe Room,3178,3,"Dept Head from Sales spent 9534 INR on Deluxe Room at Uber in Mumbai, India.",Travel,DCOXGCBRRY
+Flipkart,"Hyderabad, India",Finance & Accounting,Employee,INR,3696,Laptop,1848,2,"Employee from Finance & Accounting spent 3696 INR on Laptop at Flipkart in Hyderabad, India.",Office Supply,X4ULZGQEYU
+Flipkart,"Tokyo, Japan",Sales,Manager,JPY,2496,Printer,2496,1,"Manager from Sales spent 2496 JPY on Printer at Flipkart in Tokyo, Japan.",Office Supply,0TI49SPOSQ
+Zomato,"Lucknow, India",Operations,Dept Head,INR,1235,Meal,1235,1,"Dept Head from Operations spent 1235 INR on Meal at Zomato in Lucknow, India.",Meals,GG8G7AZW9X
+MakeMyTrip,"Ahmedabad, India",Human Resource,Manager,INR,5346,Flight Ticket,1782,3,"Manager from Human Resource spent 5346 INR on Flight Ticket at MakeMyTrip in Ahmedabad, India.",Travel,ZI2VOTEC90
+Zomato,"Sydney, Australia",IT,Team Lead,AUD,1722,Meal,861,2,"Team Lead from IT spent 1722 AUD on Meal at Zomato in Sydney, Australia.",Meals,EKEXGJ2KOL
+Amazon,"Ahmedabad, India",Finance & Accounting,Dept Head,INR,648,Printer,648,1,"Dept Head from Finance & Accounting spent 648 INR on Printer at Amazon in Ahmedabad, India.",Office Supply,R63RQ1D1LL
+Ola,"Chennai, India",Marketing,Employee,INR,1014,Flight Ticket,507,2,"Employee from Marketing spent 1014 INR on Flight Ticket at Ola in Chennai, India.",Travel,P1FL66MNWQ
+MakeMyTrip,"London, UK",Customer Support,Dept Head,GBP,8500,Flight Ticket,4250,2,"Dept Head from Customer Support spent 8500 GBP on Flight Ticket at MakeMyTrip in London, UK.",Travel,68N7478NBP
+Flipkart,"Chennai, India",Operations,Employee,INR,3459,Printer,1153,3,"Employee from Operations spent 3459 INR on Printer at Flipkart in Chennai, India.",Office Supply,86KPDDSKKZ
+Uber,"Hyderabad, India",Marketing,Manager,INR,4530,Deluxe Room,4530,1,"Manager from Marketing spent 4530 INR on Deluxe Room at Uber in Hyderabad, India.",Travel,656PGEO16Y
+Ola,"Ahmedabad, India",IT,Dept Head,INR,8934,Flight Ticket,2978,3,"Dept Head from IT spent 8934 INR on Flight Ticket at Ola in Ahmedabad, India.",Travel,QD4RG320FG
+Flipkart,"Ahmedabad, India",Customer Support,Employee,INR,13998,Printer,4666,3,"Employee from Customer Support spent 13998 INR on Printer at Flipkart in Ahmedabad, India.",Office Supply,ZY8WN1E4LL
+Zomato,"Bangalore, India",Sales,Dept Head,INR,9090,Meal,4545,2,"Dept Head from Sales spent 9090 INR on Meal at Zomato in Bangalore, India.",Meals,JW1APJ51S8
+OYO,"Mumbai, India",Operations,Manager,INR,9384,Deluxe Room,4692,2,"Manager from Operations spent 9384 INR on Deluxe Room at OYO in Mumbai, India.",Travel,VANZC07ERU
+Flipkart,"Jaipur, India",Human Resource,Employee,INR,3504,Printer,1168,3,"Employee from Human Resource spent 3504 INR on Printer at Flipkart in Jaipur, India.",Office Supply,LHVKSJUOM0
+Swiggy,"Bangalore, India",Finance & Accounting,Team Lead,INR,3850,Meal,1925,2,"Team Lead from Finance & Accounting spent 3850 INR on Meal at Swiggy in Bangalore, India.",Meals,6S0DKHIHCW
+Amazon,"New Delhi, India",IT,Dept Head,INR,2406,Projector,802,3,"Dept Head from IT spent 2406 INR on Projector at Amazon in New Delhi, India.",Office Supply,KQW2DSI8PY
+Uber,"Hyderabad, India",Finance & Accounting,Dept Head,INR,3591,Deluxe Room,1197,3,"Dept Head from Finance & Accounting spent 3591 INR on Deluxe Room at Uber in Hyderabad, India.",Travel,SVQDS59QYY
+Zomato,"New Delhi, India",Marketing,Manager,INR,8544,Meal,2848,3,"Manager from Marketing spent 8544 INR on Meal at Zomato in New Delhi, India.",Meals,FOFXPZ1WZM
+Ola,"Mumbai, India",Marketing,Team Lead,INR,9304,Flight Ticket,4652,2,"Team Lead from Marketing spent 9304 INR on Flight Ticket at Ola in Mumbai, India.",Travel,J4D6J74XJD
+Expedia,Hong Kong,IT,Employee,HKD,8970,Flight Ticket,2990,3,Employee from IT spent 8970 HKD on Flight Ticket at Expedia in Hong Kong.,Travel,YKU81HTXZ6
+Swiggy,"Berlin, Germany",Marketing,Team Lead,EUR,1007,Meal,1007,1,"Team Lead from Marketing spent 1007 EUR on Meal at Swiggy in Berlin, Germany.",Meals,WAOS7PPJUX
+Goibibo,"Bangalore, India",IT,Dept Head,INR,5190,Flight Ticket,1730,3,"Dept Head from IT spent 5190 INR on Flight Ticket at Goibibo in Bangalore, India.",Travel,N3R21UR6T9
+Goibibo,"Toronto, Canada",IT,Team Lead,CAD,6386,Deluxe Room,3193,2,"Team Lead from IT spent 6386 CAD on Deluxe Room at Goibibo in Toronto, Canada.",Travel,HDPK74FCQV
+Ola,"Mumbai, India",IT,Team Lead,INR,7770,Deluxe Room,3885,2,"Team Lead from IT spent 7770 INR on Deluxe Room at Ola in Mumbai, India.",Travel,E93EIXW4Q7
+Amazon,"Pune, India",Customer Support,Team Lead,INR,1199,Printer,1199,1,"Team Lead from Customer Support spent 1199 INR on Printer at Amazon in Pune, India.",Office Supply,FMCSJHAAPZ
+Expedia,"Jaipur, India",Customer Support,Team Lead,INR,1483,Flight Ticket,1483,1,"Team Lead from Customer Support spent 1483 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,4GXJUGM3F3
+Expedia,"Ahmedabad, India",Operations,Manager,INR,3699,Flight Ticket,1233,3,"Manager from Operations spent 3699 INR on Flight Ticket at Expedia in Ahmedabad, India.",Travel,PYF0U9AKOP
+Flipkart,"Ahmedabad, India",Finance & Accounting,Manager,INR,2784,Projector,928,3,"Manager from Finance & Accounting spent 2784 INR on Projector at Flipkart in Ahmedabad, India.",Office Supply,JGFH79OGED
+MakeMyTrip,"Toronto, Canada",Finance & Accounting,Employee,CAD,1250,Deluxe Room,1250,1,"Employee from Finance & Accounting spent 1250 CAD on Deluxe Room at MakeMyTrip in Toronto, Canada.",Travel,4BPXJJNQFZ
+MakeMyTrip,"Mumbai, India",Sales,Manager,INR,6786,Flight Ticket,2262,3,"Manager from Sales spent 6786 INR on Flight Ticket at MakeMyTrip in Mumbai, India.",Travel,G3570CGQX4
+Flipkart,"Bangalore, India",Finance & Accounting,Employee,INR,8320,Printer,4160,2,"Employee from Finance & Accounting spent 8320 INR on Printer at Flipkart in Bangalore, India.",Office Supply,5I38041L81
+Zomato,"Hyderabad, India",Human Resource,Dept Head,INR,1525,Meal,1525,1,"Dept Head from Human Resource spent 1525 INR on Meal at Zomato in Hyderabad, India.",Meals,3RUB3XMF52
+Swiggy,"Pune, India",IT,Employee,INR,2014,Meal,2014,1,"Employee from IT spent 2014 INR on Meal at Swiggy in Pune, India.",Meals,D62E0UU6BI
+Expedia,"Ahmedabad, India",Marketing,Dept Head,INR,2572,Deluxe Room,2572,1,"Dept Head from Marketing spent 2572 INR on Deluxe Room at Expedia in Ahmedabad, India.",Travel,V1272PDZ6O
+MakeMyTrip,"Pune, India",Customer Support,Manager,INR,6546,Deluxe Room,3273,2,"Manager from Customer Support spent 6546 INR on Deluxe Room at MakeMyTrip in Pune, India.",Travel,DDK5FSYSMG
+Flipkart,"Lucknow, India",Human Resource,Dept Head,INR,6056,Laptop,3028,2,"Dept Head from Human Resource spent 6056 INR on Laptop at Flipkart in Lucknow, India.",Office Supply,AZ66Q9E51O
+Goibibo,"Tokyo, Japan",Operations,Dept Head,JPY,11712,Flight Ticket,3904,3,"Dept Head from Operations spent 11712 JPY on Flight Ticket at Goibibo in Tokyo, Japan.",Travel,S0GVH7I1TF
+Ola,"Sydney, Australia",Operations,Team Lead,AUD,3282,Deluxe Room,1094,3,"Team Lead from Operations spent 3282 AUD on Deluxe Room at Ola in Sydney, Australia.",Travel,JBFSYNLSSY
+MakeMyTrip,"Bangalore, India",Marketing,Dept Head,INR,9345,Deluxe Room,3115,3,"Dept Head from Marketing spent 9345 INR on Deluxe Room at MakeMyTrip in Bangalore, India.",Travel,8KXDSB7YB3
+Ola,"Berlin, Germany",Operations,Manager,EUR,5286,Flight Ticket,1762,3,"Manager from Operations spent 5286 EUR on Flight Ticket at Ola in Berlin, Germany.",Travel,8CSM876853
+Zomato,"Jaipur, India",Operations,Employee,INR,2514,Meal,838,3,"Employee from Operations spent 2514 INR on Meal at Zomato in Jaipur, India.",Meals,WDZAM14MPB
+Flipkart,"Ahmedabad, India",Marketing,Team Lead,INR,2940,Laptop,2940,1,"Team Lead from Marketing spent 2940 INR on Laptop at Flipkart in Ahmedabad, India.",Office Supply,X9V46SGDVW
+Zomato,"Pune, India",Human Resource,Employee,INR,6984,Meal,2328,3,"Employee from Human Resource spent 6984 INR on Meal at Zomato in Pune, India.",Meals,A9VCN8ZSV6
+Swiggy,"New Delhi, India",Sales,Team Lead,INR,1874,Meal,1874,1,"Team Lead from Sales spent 1874 INR on Meal at Swiggy in New Delhi, India.",Meals,9T68P5WUN8
+MakeMyTrip,"Hyderabad, India",IT,Dept Head,INR,3937,Deluxe Room,3937,1,"Dept Head from IT spent 3937 INR on Deluxe Room at MakeMyTrip in Hyderabad, India.",Travel,T0GK6ARYDQ
+Swiggy,"Sydney, Australia",Customer Support,Employee,AUD,10461,Meal,3487,3,"Employee from Customer Support spent 10461 AUD on Meal at Swiggy in Sydney, Australia.",Meals,MA0DLQ8AP4
+OYO,"New Delhi, India",Finance & Accounting,Employee,INR,3393,Flight Ticket,3393,1,"Employee from Finance & Accounting spent 3393 INR on Flight Ticket at OYO in New Delhi, India.",Travel,UFTZTUNPT5
+Amazon,"Tokyo, Japan",Customer Support,Manager,JPY,4109,Printer,4109,1,"Manager from Customer Support spent 4109 JPY on Printer at Amazon in Tokyo, Japan.",Office Supply,8FEEWU8OSR
+MakeMyTrip,"Jaipur, India",Human Resource,Dept Head,INR,3585,Flight Ticket,1195,3,"Dept Head from Human Resource spent 3585 INR on Flight Ticket at MakeMyTrip in Jaipur, India.",Travel,ZR2KBKYLQP
+Goibibo,"Bangalore, India",Operations,Dept Head,INR,2838,Deluxe Room,2838,1,"Dept Head from Operations spent 2838 INR on Deluxe Room at Goibibo in Bangalore, India.",Travel,45N8S6WFP3
+Flipkart,"Toronto, Canada",Finance & Accounting,Team Lead,CAD,14859,Laptop,4953,3,"Team Lead from Finance & Accounting spent 14859 CAD on Laptop at Flipkart in Toronto, Canada.",Office Supply,EN8MHF4J58
+Expedia,"Pune, India",Marketing,Employee,INR,2812,Flight Ticket,1406,2,"Employee from Marketing spent 2812 INR on Flight Ticket at Expedia in Pune, India.",Travel,4MJC4YROZS
+MakeMyTrip,"Hyderabad, India",Human Resource,Team Lead,INR,1192,Deluxe Room,1192,1,"Team Lead from Human Resource spent 1192 INR on Deluxe Room at MakeMyTrip in Hyderabad, India.",Travel,6515CZNTUJ
+Ola,"Kolkata, India",Operations,Team Lead,INR,7862,Deluxe Room,3931,2,"Team Lead from Operations spent 7862 INR on Deluxe Room at Ola in Kolkata, India.",Travel,EHAKMXJ57A
+Uber,"Jaipur, India",Sales,Dept Head,INR,2172,Deluxe Room,2172,1,"Dept Head from Sales spent 2172 INR on Deluxe Room at Uber in Jaipur, India.",Travel,RTXTGA0QEZ
+MakeMyTrip,"Bangalore, India",Customer Support,Employee,INR,1623,Flight Ticket,1623,1,"Employee from Customer Support spent 1623 INR on Flight Ticket at MakeMyTrip in Bangalore, India.",Travel,FHJQFGAG4S
+OYO,"Jaipur, India",Sales,Team Lead,INR,6750,Deluxe Room,2250,3,"Team Lead from Sales spent 6750 INR on Deluxe Room at OYO in Jaipur, India.",Travel,GGRIIQV6EV
+MakeMyTrip,"Kolkata, India",Human Resource,Manager,INR,6506,Deluxe Room,3253,2,"Manager from Human Resource spent 6506 INR on Deluxe Room at MakeMyTrip in Kolkata, India.",Travel,QWMX0VE9W1
+Amazon,"Hyderabad, India",Sales,Manager,INR,735,Laptop,735,1,"Manager from Sales spent 735 INR on Laptop at Amazon in Hyderabad, India.",Office Supply,5P2AUR5HQZ
+Uber,"Jaipur, India",Operations,Manager,INR,6180,Flight Ticket,2060,3,"Manager from Operations spent 6180 INR on Flight Ticket at Uber in Jaipur, India.",Travel,423PCUZVR7
+Uber,"New Delhi, India",Customer Support,Employee,INR,2484,Flight Ticket,1242,2,"Employee from Customer Support spent 2484 INR on Flight Ticket at Uber in New Delhi, India.",Travel,4ZDMQHEB7U
+Goibibo,"Chennai, India",Operations,Team Lead,INR,2334,Deluxe Room,778,3,"Team Lead from Operations spent 2334 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,ODIIBFEDPH
+Goibibo,"Jaipur, India",Operations,Dept Head,INR,1874,Deluxe Room,937,2,"Dept Head from Operations spent 1874 INR on Deluxe Room at Goibibo in Jaipur, India.",Travel,I6H5TKDTBY
+Expedia,Hong Kong,IT,Team Lead,HKD,2415,Flight Ticket,2415,1,Team Lead from IT spent 2415 HKD on Flight Ticket at Expedia in Hong Kong.,Travel,U1UDPEQSBP
+MakeMyTrip,"Hyderabad, India",Finance & Accounting,Employee,INR,1545,Deluxe Room,515,3,"Employee from Finance & Accounting spent 1545 INR on Deluxe Room at MakeMyTrip in Hyderabad, India.",Travel,YZRDJLSO6D
+Flipkart,"Ahmedabad, India",Customer Support,Manager,INR,4301,Printer,4301,1,"Manager from Customer Support spent 4301 INR on Printer at Flipkart in Ahmedabad, India.",Office Supply,37XZXOPZ88
+Amazon,"Sydney, Australia",IT,Manager,AUD,1273,Laptop,1273,1,"Manager from IT spent 1273 AUD on Laptop at Amazon in Sydney, Australia.",Office Supply,AAZTCJ31QX
+Zomato,Singapore,Sales,Team Lead,SGD,1699,Meal,1699,1,Team Lead from Sales spent 1699 SGD on Meal at Zomato in Singapore.,Meals,EXRMAG9YIT
+Uber,Hong Kong,Finance & Accounting,Manager,HKD,12174,Deluxe Room,4058,3,Manager from Finance & Accounting spent 12174 HKD on Deluxe Room at Uber in Hong Kong.,Travel,ZPENSE0CUC
+Zomato,"Mumbai, India",Customer Support,Manager,INR,4294,Meal,4294,1,"Manager from Customer Support spent 4294 INR on Meal at Zomato in Mumbai, India.",Meals,8EC9OBVBC0
+Flipkart,"Lucknow, India",Finance & Accounting,Manager,INR,12003,Projector,4001,3,"Manager from Finance & Accounting spent 12003 INR on Projector at Flipkart in Lucknow, India.",Office Supply,K86A0ICC4J
+Uber,"Lucknow, India",Customer Support,Employee,INR,14310,Flight Ticket,4770,3,"Employee from Customer Support spent 14310 INR on Flight Ticket at Uber in Lucknow, India.",Travel,83J9FUBBMW
+Uber,"Dubai, UAE",Marketing,Team Lead,AED,4379,Flight Ticket,4379,1,"Team Lead from Marketing spent 4379 AED on Flight Ticket at Uber in Dubai, UAE.",Travel,7ESKFAKDY1
+Goibibo,"Ahmedabad, India",Human Resource,Dept Head,INR,2543,Deluxe Room,2543,1,"Dept Head from Human Resource spent 2543 INR on Deluxe Room at Goibibo in Ahmedabad, India.",Travel,VG8QCLGNQW
+Goibibo,"Jaipur, India",Operations,Dept Head,INR,3330,Flight Ticket,1665,2,"Dept Head from Operations spent 3330 INR on Flight Ticket at Goibibo in Jaipur, India.",Travel,89IAWZ5B4A
+Zomato,"London, UK",Operations,Manager,GBP,1870,Meal,935,2,"Manager from Operations spent 1870 GBP on Meal at Zomato in London, UK.",Meals,UYAY4H9PVL
+Goibibo,"London, UK",Finance & Accounting,Manager,GBP,2466,Flight Ticket,822,3,"Manager from Finance & Accounting spent 2466 GBP on Flight Ticket at Goibibo in London, UK.",Travel,L0OOWBZRVU
+Amazon,"Sydney, Australia",Human Resource,Dept Head,AUD,634,Laptop,634,1,"Dept Head from Human Resource spent 634 AUD on Laptop at Amazon in Sydney, Australia.",Office Supply,MLFNVIBK1T
+Uber,"Hyderabad, India",Customer Support,Team Lead,INR,7620,Flight Ticket,3810,2,"Team Lead from Customer Support spent 7620 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,Q6G0TMCSS4
+MakeMyTrip,"Lucknow, India",Operations,Dept Head,INR,5790,Deluxe Room,1930,3,"Dept Head from Operations spent 5790 INR on Deluxe Room at MakeMyTrip in Lucknow, India.",Travel,7R5ZVXMIJI
+Swiggy,"New Delhi, India",Customer Support,Team Lead,INR,5810,Meal,2905,2,"Team Lead from Customer Support spent 5810 INR on Meal at Swiggy in New Delhi, India.",Meals,86PSV34SN8
+Expedia,"Lucknow, India",Customer Support,Employee,INR,1960,Flight Ticket,980,2,"Employee from Customer Support spent 1960 INR on Flight Ticket at Expedia in Lucknow, India.",Travel,EDSWRIEY86
+Amazon,"Jaipur, India",Operations,Dept Head,INR,1894,Projector,1894,1,"Dept Head from Operations spent 1894 INR on Projector at Amazon in Jaipur, India.",Office Supply,K99DUGMDCV
+Flipkart,"Bangalore, India",Human Resource,Team Lead,INR,3615,Printer,3615,1,"Team Lead from Human Resource spent 3615 INR on Printer at Flipkart in Bangalore, India.",Office Supply,NWRM5XBFNO
+Goibibo,"New Delhi, India",Operations,Dept Head,INR,2234,Flight Ticket,1117,2,"Dept Head from Operations spent 2234 INR on Flight Ticket at Goibibo in New Delhi, India.",Travel,2RAHZHPM56
+Expedia,"Jaipur, India",Operations,Dept Head,INR,10221,Deluxe Room,3407,3,"Dept Head from Operations spent 10221 INR on Deluxe Room at Expedia in Jaipur, India.",Travel,7QOJF774LG
+Swiggy,"Jaipur, India",Sales,Dept Head,INR,3838,Meal,3838,1,"Dept Head from Sales spent 3838 INR on Meal at Swiggy in Jaipur, India.",Meals,6JQ9MJ9RWQ
+Expedia,"Chennai, India",Customer Support,Manager,INR,4002,Flight Ticket,1334,3,"Manager from Customer Support spent 4002 INR on Flight Ticket at Expedia in Chennai, India.",Travel,HS242WTFIU
+Expedia,"New Delhi, India",IT,Manager,INR,4036,Deluxe Room,4036,1,"Manager from IT spent 4036 INR on Deluxe Room at Expedia in New Delhi, India.",Travel,L8I5PNM2YR
+Zomato,"Bangalore, India",Finance & Accounting,Manager,INR,960,Meal,960,1,"Manager from Finance & Accounting spent 960 INR on Meal at Zomato in Bangalore, India.",Meals,L2ST25YX4U
+Ola,"Lucknow, India",Finance & Accounting,Employee,INR,14010,Flight Ticket,4670,3,"Employee from Finance & Accounting spent 14010 INR on Flight Ticket at Ola in Lucknow, India.",Travel,BDBZTGGLVL
+Swiggy,"Chennai, India",Operations,Manager,INR,5774,Meal,2887,2,"Manager from Operations spent 5774 INR on Meal at Swiggy in Chennai, India.",Meals,UYF8SGLZ92
+OYO,"Hyderabad, India",Marketing,Employee,INR,7126,Flight Ticket,3563,2,"Employee from Marketing spent 7126 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,V3GTWZI4MI
+Swiggy,Hong Kong,Operations,Team Lead,HKD,869,Meal,869,1,Team Lead from Operations spent 869 HKD on Meal at Swiggy in Hong Kong.,Meals,0HUXWE689V
+Swiggy,"London, UK",IT,Dept Head,GBP,3437,Meal,3437,1,"Dept Head from IT spent 3437 GBP on Meal at Swiggy in London, UK.",Meals,MY0557LQJU
+Expedia,"Kolkata, India",Operations,Manager,INR,2556,Flight Ticket,2556,1,"Manager from Operations spent 2556 INR on Flight Ticket at Expedia in Kolkata, India.",Travel,3O8VWSYV9U
+Flipkart,"New Delhi, India",Customer Support,Employee,INR,13563,Laptop,4521,3,"Employee from Customer Support spent 13563 INR on Laptop at Flipkart in New Delhi, India.",Office Supply,Z7DNTUGR4H
+Amazon,"Ahmedabad, India",Finance & Accounting,Team Lead,INR,1908,Laptop,636,3,"Team Lead from Finance & Accounting spent 1908 INR on Laptop at Amazon in Ahmedabad, India.",Office Supply,XSGICK6G8K
+OYO,"New Delhi, India",Marketing,Employee,INR,4569,Deluxe Room,4569,1,"Employee from Marketing spent 4569 INR on Deluxe Room at OYO in New Delhi, India.",Travel,J5RE3CV7AX
+OYO,"Berlin, Germany",Marketing,Team Lead,EUR,9999,Deluxe Room,3333,3,"Team Lead from Marketing spent 9999 EUR on Deluxe Room at OYO in Berlin, Germany.",Travel,HJL5O9FK7R
+OYO,"Bangalore, India",IT,Manager,INR,9630,Deluxe Room,4815,2,"Manager from IT spent 9630 INR on Deluxe Room at OYO in Bangalore, India.",Travel,Z46SMVS8OJ
+Goibibo,"Kolkata, India",Marketing,Employee,INR,3411,Deluxe Room,3411,1,"Employee from Marketing spent 3411 INR on Deluxe Room at Goibibo in Kolkata, India.",Travel,3SAWJV755R
+Uber,"Bangalore, India",Finance & Accounting,Team Lead,INR,3594,Flight Ticket,3594,1,"Team Lead from Finance & Accounting spent 3594 INR on Flight Ticket at Uber in Bangalore, India.",Travel,W0Z4LDWL6E
+Zomato,"Pune, India",Marketing,Team Lead,INR,5840,Meal,2920,2,"Team Lead from Marketing spent 5840 INR on Meal at Zomato in Pune, India.",Meals,HYK9JNA4KA
+MakeMyTrip,"New Delhi, India",Finance & Accounting,Employee,INR,7791,Flight Ticket,2597,3,"Employee from Finance & Accounting spent 7791 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,3O5YM5RJB9
+Flipkart,"Ahmedabad, India",Sales,Team Lead,INR,3429,Office Chair,3429,1,"Team Lead from Sales spent 3429 INR on Office Chair at Flipkart in Ahmedabad, India.",Office Supply,NYF3K92FLG
+Goibibo,"Mumbai, India",Customer Support,Dept Head,INR,4487,Deluxe Room,4487,1,"Dept Head from Customer Support spent 4487 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,YL55T1BYI3
+MakeMyTrip,"New Delhi, India",Marketing,Manager,INR,14877,Flight Ticket,4959,3,"Manager from Marketing spent 14877 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,QXEQ7VMOMN
+Ola,"Mumbai, India",Operations,Employee,INR,6855,Deluxe Room,2285,3,"Employee from Operations spent 6855 INR on Deluxe Room at Ola in Mumbai, India.",Travel,4Z31RQ3HBO
+Expedia,"Pune, India",Customer Support,Manager,INR,7728,Deluxe Room,3864,2,"Manager from Customer Support spent 7728 INR on Deluxe Room at Expedia in Pune, India.",Travel,I0X8HE5W66
+OYO,"Kolkata, India",Sales,Team Lead,INR,4470,Deluxe Room,1490,3,"Team Lead from Sales spent 4470 INR on Deluxe Room at OYO in Kolkata, India.",Travel,KH2S0BQ8O2
+Swiggy,"Kolkata, India",Operations,Dept Head,INR,13494,Meal,4498,3,"Dept Head from Operations spent 13494 INR on Meal at Swiggy in Kolkata, India.",Meals,LQJPY0FIW2
+Expedia,"Lucknow, India",Sales,Team Lead,INR,9772,Deluxe Room,4886,2,"Team Lead from Sales spent 9772 INR on Deluxe Room at Expedia in Lucknow, India.",Travel,9ZFJDMHU80
+Flipkart,"Hyderabad, India",Human Resource,Team Lead,INR,8664,Printer,2888,3,"Team Lead from Human Resource spent 8664 INR on Printer at Flipkart in Hyderabad, India.",Office Supply,PL089WYTBB
+MakeMyTrip,"London, UK",Finance & Accounting,Team Lead,GBP,1142,Deluxe Room,571,2,"Team Lead from Finance & Accounting spent 1142 GBP on Deluxe Room at MakeMyTrip in London, UK.",Travel,OROMS6SZK0
+Swiggy,"Jaipur, India",IT,Manager,INR,4504,Meal,2252,2,"Manager from IT spent 4504 INR on Meal at Swiggy in Jaipur, India.",Meals,1K84F00WSL
+Swiggy,"Hyderabad, India",IT,Employee,INR,1090,Meal,545,2,"Employee from IT spent 1090 INR on Meal at Swiggy in Hyderabad, India.",Meals,QEF1R49EVZ
+Goibibo,"Pune, India",Marketing,Team Lead,INR,1816,Deluxe Room,908,2,"Team Lead from Marketing spent 1816 INR on Deluxe Room at Goibibo in Pune, India.",Travel,PC4NE6JX59
+Flipkart,"Jaipur, India",Human Resource,Dept Head,INR,13269,Printer,4423,3,"Dept Head from Human Resource spent 13269 INR on Printer at Flipkart in Jaipur, India.",Office Supply,HE0ZC9MGSF
+Swiggy,"Mumbai, India",IT,Manager,INR,5512,Meal,2756,2,"Manager from IT spent 5512 INR on Meal at Swiggy in Mumbai, India.",Meals,9OZDH917NQ
+Goibibo,"Tokyo, Japan",Customer Support,Employee,JPY,7436,Deluxe Room,3718,2,"Employee from Customer Support spent 7436 JPY on Deluxe Room at Goibibo in Tokyo, Japan.",Travel,O8RQXX2GG2
+MakeMyTrip,"Bangalore, India",IT,Team Lead,INR,6057,Flight Ticket,2019,3,"Team Lead from IT spent 6057 INR on Flight Ticket at MakeMyTrip in Bangalore, India.",Travel,2UFK2XD8L5
+Ola,"Paris, France",Finance & Accounting,Team Lead,EUR,4776,Deluxe Room,1592,3,"Team Lead from Finance & Accounting spent 4776 EUR on Deluxe Room at Ola in Paris, France.",Travel,1R0876ILUN
+OYO,"Ahmedabad, India",Sales,Manager,INR,3285,Flight Ticket,3285,1,"Manager from Sales spent 3285 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,O6UYANCKV0
+Flipkart,"Bangalore, India",Customer Support,Employee,INR,13209,Laptop,4403,3,"Employee from Customer Support spent 13209 INR on Laptop at Flipkart in Bangalore, India.",Office Supply,ZNUHBY4W8B
+Swiggy,"Paris, France",Operations,Dept Head,EUR,1290,Meal,1290,1,"Dept Head from Operations spent 1290 EUR on Meal at Swiggy in Paris, France.",Meals,YPFEK8JWJV
+Goibibo,"Chennai, India",Human Resource,Manager,INR,4108,Flight Ticket,4108,1,"Manager from Human Resource spent 4108 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,CMX4YPEPOX
+OYO,"Chennai, India",Sales,Employee,INR,4473,Deluxe Room,4473,1,"Employee from Sales spent 4473 INR on Deluxe Room at OYO in Chennai, India.",Travel,YSSBQPFOSE
+Swiggy,"Kolkata, India",Marketing,Dept Head,INR,3121,Meal,3121,1,"Dept Head from Marketing spent 3121 INR on Meal at Swiggy in Kolkata, India.",Meals,6SB43OM0RD
+Amazon,"Jaipur, India",Human Resource,Employee,INR,3533,Office Chair,3533,1,"Employee from Human Resource spent 3533 INR on Office Chair at Amazon in Jaipur, India.",Office Supply,48YZAQXL5U
+Zomato,"Chennai, India",Finance & Accounting,Employee,INR,8086,Meal,4043,2,"Employee from Finance & Accounting spent 8086 INR on Meal at Zomato in Chennai, India.",Meals,UB9UBGM6M0
+MakeMyTrip,"Tokyo, Japan",Operations,Dept Head,JPY,3566,Deluxe Room,1783,2,"Dept Head from Operations spent 3566 JPY on Deluxe Room at MakeMyTrip in Tokyo, Japan.",Travel,9274CCKEIT
+MakeMyTrip,"New Delhi, India",Finance & Accounting,Manager,INR,2754,Flight Ticket,918,3,"Manager from Finance & Accounting spent 2754 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,CIFT7DL0XK
+Ola,"New Delhi, India",Human Resource,Team Lead,INR,1134,Flight Ticket,1134,1,"Team Lead from Human Resource spent 1134 INR on Flight Ticket at Ola in New Delhi, India.",Travel,53OUMY70H6
+Goibibo,"Chennai, India",Finance & Accounting,Team Lead,INR,12852,Deluxe Room,4284,3,"Team Lead from Finance & Accounting spent 12852 INR on Deluxe Room at Goibibo in Chennai, India.",Travel,PDJSZAFO10
+Zomato,"Paris, France",IT,Manager,EUR,1506,Meal,753,2,"Manager from IT spent 1506 EUR on Meal at Zomato in Paris, France.",Meals,WRGKTG8XBV
+Zomato,"Kolkata, India",Human Resource,Manager,INR,1295,Meal,1295,1,"Manager from Human Resource spent 1295 INR on Meal at Zomato in Kolkata, India.",Meals,TH55LHB6LI
+OYO,"Ahmedabad, India",Operations,Manager,INR,5614,Deluxe Room,2807,2,"Manager from Operations spent 5614 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,YGWT4MV9HZ
+Uber,"Mumbai, India",Sales,Manager,INR,13974,Deluxe Room,4658,3,"Manager from Sales spent 13974 INR on Deluxe Room at Uber in Mumbai, India.",Travel,J91M6K29O8
+Goibibo,"Mumbai, India",Customer Support,Employee,INR,4350,Deluxe Room,2175,2,"Employee from Customer Support spent 4350 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,7CL5KCR9P1
+Expedia,"Kolkata, India",Marketing,Dept Head,INR,5128,Deluxe Room,2564,2,"Dept Head from Marketing spent 5128 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,5BA7VIP795
+Goibibo,"Mumbai, India",Operations,Team Lead,INR,9284,Flight Ticket,4642,2,"Team Lead from Operations spent 9284 INR on Flight Ticket at Goibibo in Mumbai, India.",Travel,8VYRRJIVM0
+Zomato,"Pune, India",Sales,Dept Head,INR,14616,Meal,4872,3,"Dept Head from Sales spent 14616 INR on Meal at Zomato in Pune, India.",Meals,92DYDD7FZM
+Swiggy,"Kolkata, India",Human Resource,Manager,INR,1569,Meal,1569,1,"Manager from Human Resource spent 1569 INR on Meal at Swiggy in Kolkata, India.",Meals,8SZOXN4U1H
+Zomato,"Ahmedabad, India",Customer Support,Manager,INR,4103,Meal,4103,1,"Manager from Customer Support spent 4103 INR on Meal at Zomato in Ahmedabad, India.",Meals,3QM4C9V6AL
+Uber,"Jaipur, India",Customer Support,Team Lead,INR,12537,Deluxe Room,4179,3,"Team Lead from Customer Support spent 12537 INR on Deluxe Room at Uber in Jaipur, India.",Travel,EQL0YFSC8D
+Expedia,"Lucknow, India",Marketing,Team Lead,INR,6960,Deluxe Room,3480,2,"Team Lead from Marketing spent 6960 INR on Deluxe Room at Expedia in Lucknow, India.",Travel,AR76GD2P2N
+Amazon,"New Delhi, India",IT,Manager,INR,748,Printer,748,1,"Manager from IT spent 748 INR on Printer at Amazon in New Delhi, India.",Office Supply,AEGXEID4TX
+Uber,"Mumbai, India",Finance & Accounting,Manager,INR,1283,Flight Ticket,1283,1,"Manager from Finance & Accounting spent 1283 INR on Flight Ticket at Uber in Mumbai, India.",Travel,9PRTSXL9CI
+Flipkart,"Toronto, Canada",Finance & Accounting,Dept Head,CAD,2333,Projector,2333,1,"Dept Head from Finance & Accounting spent 2333 CAD on Projector at Flipkart in Toronto, Canada.",Office Supply,D27KB8TJG0
+Zomato,"Ahmedabad, India",Operations,Team Lead,INR,14043,Meal,4681,3,"Team Lead from Operations spent 14043 INR on Meal at Zomato in Ahmedabad, India.",Meals,D0EFPE6Q42
+Expedia,"London, UK",Human Resource,Employee,GBP,2020,Flight Ticket,1010,2,"Employee from Human Resource spent 2020 GBP on Flight Ticket at Expedia in London, UK.",Travel,O9M1OTH9WP
+OYO,"Pune, India",IT,Team Lead,INR,6228,Flight Ticket,2076,3,"Team Lead from IT spent 6228 INR on Flight Ticket at OYO in Pune, India.",Travel,TLN1FE09WC
+Goibibo,"Lucknow, India",Sales,Team Lead,INR,9604,Flight Ticket,4802,2,"Team Lead from Sales spent 9604 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,FTD0JA9IZQ
+Uber,"Chennai, India",Finance & Accounting,Dept Head,INR,9050,Deluxe Room,4525,2,"Dept Head from Finance & Accounting spent 9050 INR on Deluxe Room at Uber in Chennai, India.",Travel,JAX1JJGJAE
+Ola,"Paris, France",Sales,Employee,EUR,3977,Flight Ticket,3977,1,"Employee from Sales spent 3977 EUR on Flight Ticket at Ola in Paris, France.",Travel,VOH66DG8EP
+Swiggy,"Bangalore, India",Human Resource,Manager,INR,3755,Meal,3755,1,"Manager from Human Resource spent 3755 INR on Meal at Swiggy in Bangalore, India.",Meals,F88L8VO40C
+Uber,"London, UK",Human Resource,Team Lead,GBP,1520,Deluxe Room,1520,1,"Team Lead from Human Resource spent 1520 GBP on Deluxe Room at Uber in London, UK.",Travel,B2DLCMB30R
+Zomato,"Dubai, UAE",Sales,Manager,AED,4092,Meal,1364,3,"Manager from Sales spent 4092 AED on Meal at Zomato in Dubai, UAE.",Meals,NTI2VC4TNL
+OYO,"Pune, India",Customer Support,Manager,INR,5292,Flight Ticket,2646,2,"Manager from Customer Support spent 5292 INR on Flight Ticket at OYO in Pune, India.",Travel,6G56YI5A5E
+Amazon,"Ahmedabad, India",Operations,Manager,INR,1326,Printer,663,2,"Manager from Operations spent 1326 INR on Printer at Amazon in Ahmedabad, India.",Office Supply,BR0LP432PS
+Goibibo,"Lucknow, India",IT,Manager,INR,4440,Deluxe Room,2220,2,"Manager from IT spent 4440 INR on Deluxe Room at Goibibo in Lucknow, India.",Travel,FPBCYQK98C
+Swiggy,"Sydney, Australia",Marketing,Dept Head,AUD,1650,Meal,825,2,"Dept Head from Marketing spent 1650 AUD on Meal at Swiggy in Sydney, Australia.",Meals,JV682J5DJA
+Goibibo,"Hyderabad, India",Finance & Accounting,Dept Head,INR,5124,Deluxe Room,1708,3,"Dept Head from Finance & Accounting spent 5124 INR on Deluxe Room at Goibibo in Hyderabad, India.",Travel,3GUO9QH7TR
+OYO,"Hyderabad, India",Customer Support,Team Lead,INR,818,Flight Ticket,818,1,"Team Lead from Customer Support spent 818 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,37XHQZ41YZ
+Flipkart,"New Delhi, India",Sales,Employee,INR,3165,Laptop,3165,1,"Employee from Sales spent 3165 INR on Laptop at Flipkart in New Delhi, India.",Office Supply,F18S5BHDU6
+Goibibo,"Mumbai, India",Marketing,Manager,INR,1597,Deluxe Room,1597,1,"Manager from Marketing spent 1597 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,COAHGP4DKH
+Ola,"Lucknow, India",Human Resource,Team Lead,INR,1512,Flight Ticket,756,2,"Team Lead from Human Resource spent 1512 INR on Flight Ticket at Ola in Lucknow, India.",Travel,1NCZ58CLY7
+Expedia,"Mumbai, India",Customer Support,Dept Head,INR,2040,Flight Ticket,1020,2,"Dept Head from Customer Support spent 2040 INR on Flight Ticket at Expedia in Mumbai, India.",Travel,3QXSO5KJZV
+Uber,"Jaipur, India",Operations,Employee,INR,6888,Deluxe Room,3444,2,"Employee from Operations spent 6888 INR on Deluxe Room at Uber in Jaipur, India.",Travel,7KHWYEMF0X
+Amazon,"Toronto, Canada",Finance & Accounting,Employee,CAD,4948,Projector,4948,1,"Employee from Finance & Accounting spent 4948 CAD on Projector at Amazon in Toronto, Canada.",Office Supply,I5JKZ779I9
+Swiggy,"Bangalore, India",Finance & Accounting,Employee,INR,4509,Meal,1503,3,"Employee from Finance & Accounting spent 4509 INR on Meal at Swiggy in Bangalore, India.",Meals,IY3NW2JOJG
+Swiggy,"Pune, India",Operations,Team Lead,INR,2794,Meal,2794,1,"Team Lead from Operations spent 2794 INR on Meal at Swiggy in Pune, India.",Meals,DC937SPYP2
+Ola,"New Delhi, India",IT,Team Lead,INR,9714,Deluxe Room,4857,2,"Team Lead from IT spent 9714 INR on Deluxe Room at Ola in New Delhi, India.",Travel,7B443IX84E
+MakeMyTrip,"Jaipur, India",Operations,Team Lead,INR,2914,Flight Ticket,2914,1,"Team Lead from Operations spent 2914 INR on Flight Ticket at MakeMyTrip in Jaipur, India.",Travel,E8H6OY2VVW
+Flipkart,"New York, USA",IT,Employee,USD,9118,Printer,4559,2,"Employee from IT spent 9118 USD on Printer at Flipkart in New York, USA.",Office Supply,E9VPU3XMNM
+Amazon,"Paris, France",Customer Support,Team Lead,EUR,1861,Printer,1861,1,"Team Lead from Customer Support spent 1861 EUR on Printer at Amazon in Paris, France.",Office Supply,1ERSA1I45A
+OYO,"Hyderabad, India",Customer Support,Manager,INR,12306,Flight Ticket,4102,3,"Manager from Customer Support spent 12306 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,39U45TN4LP
+Uber,"Jaipur, India",Human Resource,Team Lead,INR,12624,Deluxe Room,4208,3,"Team Lead from Human Resource spent 12624 INR on Deluxe Room at Uber in Jaipur, India.",Travel,0E6SUDZZQJ
+OYO,"Bangalore, India",Finance & Accounting,Dept Head,INR,3408,Deluxe Room,3408,1,"Dept Head from Finance & Accounting spent 3408 INR on Deluxe Room at OYO in Bangalore, India.",Travel,ICW1M3RXNW
+Swiggy,Singapore,Operations,Team Lead,SGD,7446,Meal,2482,3,Team Lead from Operations spent 7446 SGD on Meal at Swiggy in Singapore.,Meals,EAF38SIQTU
+Amazon,"Chennai, India",Customer Support,Employee,INR,1924,Projector,962,2,"Employee from Customer Support spent 1924 INR on Projector at Amazon in Chennai, India.",Office Supply,WKA27BIS0A
+Expedia,"Hyderabad, India",Human Resource,Employee,INR,13893,Deluxe Room,4631,3,"Employee from Human Resource spent 13893 INR on Deluxe Room at Expedia in Hyderabad, India.",Travel,WNWSKCYDG6
+Ola,"Bangalore, India",IT,Manager,INR,4516,Deluxe Room,2258,2,"Manager from IT spent 4516 INR on Deluxe Room at Ola in Bangalore, India.",Travel,L8BAYP7DK3
+Goibibo,"Pune, India",Sales,Team Lead,INR,4168,Deluxe Room,2084,2,"Team Lead from Sales spent 4168 INR on Deluxe Room at Goibibo in Pune, India.",Travel,G6HHNDF7OL
+Zomato,"Ahmedabad, India",Human Resource,Dept Head,INR,7666,Meal,3833,2,"Dept Head from Human Resource spent 7666 INR on Meal at Zomato in Ahmedabad, India.",Meals,LWGLRMU16H
+Expedia,"Bangalore, India",Finance & Accounting,Dept Head,INR,1084,Deluxe Room,1084,1,"Dept Head from Finance & Accounting spent 1084 INR on Deluxe Room at Expedia in Bangalore, India.",Travel,K0AREM4FYV
+Uber,"New Delhi, India",Human Resource,Employee,INR,8512,Deluxe Room,4256,2,"Employee from Human Resource spent 8512 INR on Deluxe Room at Uber in New Delhi, India.",Travel,KMVDUPIMC6
+Zomato,"Jaipur, India",Operations,Dept Head,INR,7566,Meal,2522,3,"Dept Head from Operations spent 7566 INR on Meal at Zomato in Jaipur, India.",Meals,7CT0506Y15
+MakeMyTrip,"Paris, France",Operations,Dept Head,EUR,4000,Flight Ticket,2000,2,"Dept Head from Operations spent 4000 EUR on Flight Ticket at MakeMyTrip in Paris, France.",Travel,Z2ZSD3YW2D
+Ola,"Pune, India",Operations,Employee,INR,3397,Deluxe Room,3397,1,"Employee from Operations spent 3397 INR on Deluxe Room at Ola in Pune, India.",Travel,EHHCS1YE7H
+Zomato,"Ahmedabad, India",Human Resource,Dept Head,INR,4436,Meal,4436,1,"Dept Head from Human Resource spent 4436 INR on Meal at Zomato in Ahmedabad, India.",Meals,DTMWDPVJ1J
+Swiggy,"Bangalore, India",Marketing,Team Lead,INR,618,Meal,618,1,"Team Lead from Marketing spent 618 INR on Meal at Swiggy in Bangalore, India.",Meals,WGRAKG31G3
+Zomato,"Mumbai, India",Finance & Accounting,Dept Head,INR,4934,Meal,2467,2,"Dept Head from Finance & Accounting spent 4934 INR on Meal at Zomato in Mumbai, India.",Meals,ZYBWBZ9KD3
+MakeMyTrip,"Jaipur, India",Customer Support,Employee,INR,1650,Flight Ticket,1650,1,"Employee from Customer Support spent 1650 INR on Flight Ticket at MakeMyTrip in Jaipur, India.",Travel,K3RXFW3229
+Swiggy,Singapore,Sales,Employee,SGD,7918,Meal,3959,2,Employee from Sales spent 7918 SGD on Meal at Swiggy in Singapore.,Meals,WY4E272SXZ
+OYO,"Kolkata, India",Customer Support,Manager,INR,3414,Deluxe Room,1138,3,"Manager from Customer Support spent 3414 INR on Deluxe Room at OYO in Kolkata, India.",Travel,X4KIY2VWY2
+Zomato,"Mumbai, India",Sales,Manager,INR,4452,Meal,1484,3,"Manager from Sales spent 4452 INR on Meal at Zomato in Mumbai, India.",Meals,00M75478KE
+Zomato,"Dubai, UAE",Marketing,Employee,AED,4734,Meal,1578,3,"Employee from Marketing spent 4734 AED on Meal at Zomato in Dubai, UAE.",Meals,XQP5B7GMHG
+OYO,"London, UK",Sales,Dept Head,GBP,6296,Deluxe Room,3148,2,"Dept Head from Sales spent 6296 GBP on Deluxe Room at OYO in London, UK.",Travel,5WE57A9T6G
+Zomato,"New Delhi, India",Finance & Accounting,Team Lead,INR,6570,Meal,2190,3,"Team Lead from Finance & Accounting spent 6570 INR on Meal at Zomato in New Delhi, India.",Meals,3GZXG8NE78
+Goibibo,"Chennai, India",IT,Team Lead,INR,9860,Flight Ticket,4930,2,"Team Lead from IT spent 9860 INR on Flight Ticket at Goibibo in Chennai, India.",Travel,8HWG1J18DZ
+Zomato,"Berlin, Germany",Customer Support,Team Lead,EUR,4529,Meal,4529,1,"Team Lead from Customer Support spent 4529 EUR on Meal at Zomato in Berlin, Germany.",Meals,S94E9EBCMU
+Ola,"Chennai, India",Customer Support,Dept Head,INR,4502,Flight Ticket,4502,1,"Dept Head from Customer Support spent 4502 INR on Flight Ticket at Ola in Chennai, India.",Travel,XQIR11MY1J
+OYO,"Kolkata, India",Operations,Employee,INR,2669,Deluxe Room,2669,1,"Employee from Operations spent 2669 INR on Deluxe Room at OYO in Kolkata, India.",Travel,EX22XL3MVI
+OYO,"Bangalore, India",Operations,Team Lead,INR,8168,Deluxe Room,4084,2,"Team Lead from Operations spent 8168 INR on Deluxe Room at OYO in Bangalore, India.",Travel,448N2ZPUTM
+Amazon,"Lucknow, India",Sales,Manager,INR,6034,Projector,3017,2,"Manager from Sales spent 6034 INR on Projector at Amazon in Lucknow, India.",Office Supply,EROS7174NZ
+MakeMyTrip,"Pune, India",Finance & Accounting,Employee,INR,2039,Flight Ticket,2039,1,"Employee from Finance & Accounting spent 2039 INR on Flight Ticket at MakeMyTrip in Pune, India.",Travel,S9T5O4RUR0
+Amazon,"Dubai, UAE",Human Resource,Employee,AED,2717,Printer,2717,1,"Employee from Human Resource spent 2717 AED on Printer at Amazon in Dubai, UAE.",Office Supply,7OJRKM5Z4T
+Swiggy,"Chennai, India",Finance & Accounting,Employee,INR,628,Meal,628,1,"Employee from Finance & Accounting spent 628 INR on Meal at Swiggy in Chennai, India.",Meals,AIJWDEZUC9
+Ola,"Mumbai, India",Marketing,Dept Head,INR,11841,Deluxe Room,3947,3,"Dept Head from Marketing spent 11841 INR on Deluxe Room at Ola in Mumbai, India.",Travel,1XTJCFZ0P7
+Flipkart,"New Delhi, India",Operations,Dept Head,INR,3584,Office Chair,3584,1,"Dept Head from Operations spent 3584 INR on Office Chair at Flipkart in New Delhi, India.",Office Supply,YQRG111GDH
+Expedia,"Kolkata, India",Operations,Employee,INR,4936,Deluxe Room,2468,2,"Employee from Operations spent 4936 INR on Deluxe Room at Expedia in Kolkata, India.",Travel,25B3L5IMMJ
+Uber,"New Delhi, India",Human Resource,Manager,INR,897,Flight Ticket,897,1,"Manager from Human Resource spent 897 INR on Flight Ticket at Uber in New Delhi, India.",Travel,M02AW755SW
+Ola,"Hyderabad, India",Customer Support,Manager,INR,12744,Flight Ticket,4248,3,"Manager from Customer Support spent 12744 INR on Flight Ticket at Ola in Hyderabad, India.",Travel,VOPPZQ5OPS
+Amazon,"Jaipur, India",Marketing,Manager,INR,1244,Office Chair,622,2,"Manager from Marketing spent 1244 INR on Office Chair at Amazon in Jaipur, India.",Office Supply,M6UCEVPE7V
+Flipkart,"Paris, France",Sales,Manager,EUR,4761,Office Chair,1587,3,"Manager from Sales spent 4761 EUR on Office Chair at Flipkart in Paris, France.",Office Supply,8Y9QU8819H
+Expedia,"Lucknow, India",Human Resource,Manager,INR,2045,Flight Ticket,2045,1,"Manager from Human Resource spent 2045 INR on Flight Ticket at Expedia in Lucknow, India.",Travel,CGV3CRXXGK
+OYO,"Dubai, UAE",Finance & Accounting,Dept Head,AED,2602,Deluxe Room,2602,1,"Dept Head from Finance & Accounting spent 2602 AED on Deluxe Room at OYO in Dubai, UAE.",Travel,GHZUHU5376
+MakeMyTrip,"Mumbai, India",IT,Manager,INR,7700,Flight Ticket,3850,2,"Manager from IT spent 7700 INR on Flight Ticket at MakeMyTrip in Mumbai, India.",Travel,0Z3HEWXAZ4
+Uber,"Ahmedabad, India",Operations,Employee,INR,2664,Flight Ticket,2664,1,"Employee from Operations spent 2664 INR on Flight Ticket at Uber in Ahmedabad, India.",Travel,PH7EDE724T
+MakeMyTrip,"Jaipur, India",Operations,Dept Head,INR,7914,Deluxe Room,3957,2,"Dept Head from Operations spent 7914 INR on Deluxe Room at MakeMyTrip in Jaipur, India.",Travel,K7J2TC68JF
+Swiggy,"Pune, India",Sales,Dept Head,INR,7254,Meal,3627,2,"Dept Head from Sales spent 7254 INR on Meal at Swiggy in Pune, India.",Meals,PYN57S4HD5
+Zomato,"Jaipur, India",Marketing,Employee,INR,10884,Meal,3628,3,"Employee from Marketing spent 10884 INR on Meal at Zomato in Jaipur, India.",Meals,HAHOHQAGWX
+Expedia,"Sydney, Australia",Human Resource,Employee,AUD,4661,Deluxe Room,4661,1,"Employee from Human Resource spent 4661 AUD on Deluxe Room at Expedia in Sydney, Australia.",Travel,409KICYS2B
+Ola,"New Delhi, India",Marketing,Dept Head,INR,3099,Flight Ticket,1033,3,"Dept Head from Marketing spent 3099 INR on Flight Ticket at Ola in New Delhi, India.",Travel,1PVE7A6YF8
+Amazon,"Bangalore, India",Finance & Accounting,Dept Head,INR,9264,Laptop,3088,3,"Dept Head from Finance & Accounting spent 9264 INR on Laptop at Amazon in Bangalore, India.",Office Supply,UV5DYV0J5V
+Zomato,"Kolkata, India",Sales,Dept Head,INR,6090,Meal,2030,3,"Dept Head from Sales spent 6090 INR on Meal at Zomato in Kolkata, India.",Meals,J7MBL1LIRU
+Uber,"Jaipur, India",Finance & Accounting,Dept Head,INR,4725,Flight Ticket,4725,1,"Dept Head from Finance & Accounting spent 4725 INR on Flight Ticket at Uber in Jaipur, India.",Travel,8XNWSQIID2
+Expedia,"Paris, France",Marketing,Team Lead,EUR,6086,Flight Ticket,3043,2,"Team Lead from Marketing spent 6086 EUR on Flight Ticket at Expedia in Paris, France.",Travel,YSTDSF2QHX
+Expedia,"New Delhi, India",Operations,Dept Head,INR,6744,Flight Ticket,3372,2,"Dept Head from Operations spent 6744 INR on Flight Ticket at Expedia in New Delhi, India.",Travel,TBJOVNA12Y
+Amazon,"Ahmedabad, India",IT,Team Lead,INR,6810,Laptop,3405,2,"Team Lead from IT spent 6810 INR on Laptop at Amazon in Ahmedabad, India.",Office Supply,3WXO215KPI
+Ola,"Jaipur, India",Human Resource,Manager,INR,6249,Deluxe Room,2083,3,"Manager from Human Resource spent 6249 INR on Deluxe Room at Ola in Jaipur, India.",Travel,UBVH3C1JDU
+Swiggy,"Bangalore, India",Finance & Accounting,Dept Head,INR,2528,Meal,2528,1,"Dept Head from Finance & Accounting spent 2528 INR on Meal at Swiggy in Bangalore, India.",Meals,WHKV7Y9RKQ
+Amazon,"Sydney, Australia",IT,Employee,AUD,1550,Laptop,1550,1,"Employee from IT spent 1550 AUD on Laptop at Amazon in Sydney, Australia.",Office Supply,51N0XAHPPR
+Amazon,"Bangalore, India",Marketing,Manager,INR,6988,Projector,3494,2,"Manager from Marketing spent 6988 INR on Projector at Amazon in Bangalore, India.",Office Supply,6RCPY414MU
+MakeMyTrip,"New York, USA",Human Resource,Employee,USD,4886,Flight Ticket,4886,1,"Employee from Human Resource spent 4886 USD on Flight Ticket at MakeMyTrip in New York, USA.",Travel,OXJ9HNHVLO
+Amazon,"Hyderabad, India",Human Resource,Dept Head,INR,9268,Printer,4634,2,"Dept Head from Human Resource spent 9268 INR on Printer at Amazon in Hyderabad, India.",Office Supply,JXLGNSSBXJ
+Ola,"Pune, India",Sales,Dept Head,INR,838,Deluxe Room,838,1,"Dept Head from Sales spent 838 INR on Deluxe Room at Ola in Pune, India.",Travel,3GZPL3F6JH
+OYO,"Ahmedabad, India",Customer Support,Manager,INR,4452,Deluxe Room,1484,3,"Manager from Customer Support spent 4452 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,9TOKIYZZW8
+Swiggy,"Sydney, Australia",Finance & Accounting,Team Lead,AUD,2105,Meal,2105,1,"Team Lead from Finance & Accounting spent 2105 AUD on Meal at Swiggy in Sydney, Australia.",Meals,9NSDF3MJ2H
+Flipkart,"Lucknow, India",Operations,Manager,INR,3135,Printer,3135,1,"Manager from Operations spent 3135 INR on Printer at Flipkart in Lucknow, India.",Office Supply,8SH5EBFDYL
+Swiggy,"Pune, India",IT,Dept Head,INR,1656,Meal,552,3,"Dept Head from IT spent 1656 INR on Meal at Swiggy in Pune, India.",Meals,J0UV354WQ3
+Swiggy,"New Delhi, India",Operations,Employee,INR,1230,Meal,615,2,"Employee from Operations spent 1230 INR on Meal at Swiggy in New Delhi, India.",Meals,NNRBNV1SL4
+OYO,"Chennai, India",Finance & Accounting,Team Lead,INR,5613,Flight Ticket,1871,3,"Team Lead from Finance & Accounting spent 5613 INR on Flight Ticket at OYO in Chennai, India.",Travel,9J8K0EZ6QU
+OYO,Hong Kong,Sales,Dept Head,HKD,1956,Deluxe Room,652,3,Dept Head from Sales spent 1956 HKD on Deluxe Room at OYO in Hong Kong.,Travel,R16TV3V9FZ
+Zomato,"Jaipur, India",Finance & Accounting,Dept Head,INR,9084,Meal,3028,3,"Dept Head from Finance & Accounting spent 9084 INR on Meal at Zomato in Jaipur, India.",Meals,8IKBNO4Z2Q
+Swiggy,"Jaipur, India",Operations,Employee,INR,8134,Meal,4067,2,"Employee from Operations spent 8134 INR on Meal at Swiggy in Jaipur, India.",Meals,8I7YQTXYH2
+OYO,"Kolkata, India",Human Resource,Dept Head,INR,4516,Flight Ticket,4516,1,"Dept Head from Human Resource spent 4516 INR on Flight Ticket at OYO in Kolkata, India.",Travel,6CRIV1MVRZ
+Uber,"London, UK",Operations,Manager,GBP,2080,Flight Ticket,2080,1,"Manager from Operations spent 2080 GBP on Flight Ticket at Uber in London, UK.",Travel,K1HS9328QX
+Uber,"Lucknow, India",Sales,Team Lead,INR,2048,Flight Ticket,2048,1,"Team Lead from Sales spent 2048 INR on Flight Ticket at Uber in Lucknow, India.",Travel,8BSF1Z9KMR
+Expedia,"Pune, India",Human Resource,Manager,INR,3708,Deluxe Room,1854,2,"Manager from Human Resource spent 3708 INR on Deluxe Room at Expedia in Pune, India.",Travel,38FT5B6XTR
+MakeMyTrip,"Hyderabad, India",Sales,Employee,INR,3438,Deluxe Room,1719,2,"Employee from Sales spent 3438 INR on Deluxe Room at MakeMyTrip in Hyderabad, India.",Travel,ZB3L7E9G26
+Swiggy,"Sydney, Australia",IT,Team Lead,AUD,3575,Meal,3575,1,"Team Lead from IT spent 3575 AUD on Meal at Swiggy in Sydney, Australia.",Meals,MCK0QVY5WJ
+Ola,"Pune, India",Human Resource,Team Lead,INR,4243,Deluxe Room,4243,1,"Team Lead from Human Resource spent 4243 INR on Deluxe Room at Ola in Pune, India.",Travel,NX3E5PTGRA
+OYO,"Lucknow, India",Human Resource,Manager,INR,559,Deluxe Room,559,1,"Manager from Human Resource spent 559 INR on Deluxe Room at OYO in Lucknow, India.",Travel,MIPI8557U3
+Zomato,"Bangalore, India",Operations,Dept Head,INR,11412,Meal,3804,3,"Dept Head from Operations spent 11412 INR on Meal at Zomato in Bangalore, India.",Meals,IBG1Y8VC0G
+MakeMyTrip,"New Delhi, India",Finance & Accounting,Team Lead,INR,13101,Flight Ticket,4367,3,"Team Lead from Finance & Accounting spent 13101 INR on Flight Ticket at MakeMyTrip in New Delhi, India.",Travel,2YQ6E9SSP1
+OYO,"Mumbai, India",Sales,Manager,INR,3789,Deluxe Room,3789,1,"Manager from Sales spent 3789 INR on Deluxe Room at OYO in Mumbai, India.",Travel,RDSTWVMLYJ
+Amazon,"Hyderabad, India",Human Resource,Employee,INR,1424,Laptop,1424,1,"Employee from Human Resource spent 1424 INR on Laptop at Amazon in Hyderabad, India.",Office Supply,YT379LZ00F
+OYO,"Ahmedabad, India",Sales,Manager,INR,3332,Deluxe Room,3332,1,"Manager from Sales spent 3332 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,VPDL9QN2XE
+Amazon,"Kolkata, India",Customer Support,Team Lead,INR,5014,Projector,2507,2,"Team Lead from Customer Support spent 5014 INR on Projector at Amazon in Kolkata, India.",Office Supply,SDRPUCDV3Y
+Goibibo,"Mumbai, India",Marketing,Team Lead,INR,735,Deluxe Room,735,1,"Team Lead from Marketing spent 735 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,1OCUQYJ2FE
+Flipkart,"Ahmedabad, India",Human Resource,Dept Head,INR,8352,Projector,4176,2,"Dept Head from Human Resource spent 8352 INR on Projector at Flipkart in Ahmedabad, India.",Office Supply,DO10KFAIPA
+Uber,"Pune, India",Customer Support,Employee,INR,13584,Flight Ticket,4528,3,"Employee from Customer Support spent 13584 INR on Flight Ticket at Uber in Pune, India.",Travel,RWK7XRCSAK
+Uber,"Pune, India",Customer Support,Manager,INR,9436,Deluxe Room,4718,2,"Manager from Customer Support spent 9436 INR on Deluxe Room at Uber in Pune, India.",Travel,NM5R51J1ZT
+Expedia,"Berlin, Germany",Human Resource,Team Lead,EUR,4446,Deluxe Room,2223,2,"Team Lead from Human Resource spent 4446 EUR on Deluxe Room at Expedia in Berlin, Germany.",Travel,AXTTUX0LBF
+Expedia,"Chennai, India",Human Resource,Manager,INR,6534,Flight Ticket,2178,3,"Manager from Human Resource spent 6534 INR on Flight Ticket at Expedia in Chennai, India.",Travel,2J08JU8ERZ
+OYO,"Jaipur, India",Operations,Dept Head,INR,4851,Flight Ticket,1617,3,"Dept Head from Operations spent 4851 INR on Flight Ticket at OYO in Jaipur, India.",Travel,QR35ECFOWD
+Expedia,"Ahmedabad, India",Operations,Dept Head,INR,8124,Flight Ticket,4062,2,"Dept Head from Operations spent 8124 INR on Flight Ticket at Expedia in Ahmedabad, India.",Travel,D9I13QXUBO
+Amazon,"Pune, India",Marketing,Employee,INR,4072,Laptop,2036,2,"Employee from Marketing spent 4072 INR on Laptop at Amazon in Pune, India.",Office Supply,DJ7I2NGEQO
+Swiggy,"Bangalore, India",Marketing,Employee,INR,4188,Meal,2094,2,"Employee from Marketing spent 4188 INR on Meal at Swiggy in Bangalore, India.",Meals,R7D72GGGM1
+Zomato,"Tokyo, Japan",Operations,Manager,JPY,2834,Meal,2834,1,"Manager from Operations spent 2834 JPY on Meal at Zomato in Tokyo, Japan.",Meals,KLD05MJCGP
+OYO,"Kolkata, India",Customer Support,Dept Head,INR,2516,Deluxe Room,2516,1,"Dept Head from Customer Support spent 2516 INR on Deluxe Room at OYO in Kolkata, India.",Travel,N6SC4GW44U
+Zomato,"Toronto, Canada",Operations,Dept Head,CAD,11601,Meal,3867,3,"Dept Head from Operations spent 11601 CAD on Meal at Zomato in Toronto, Canada.",Meals,1FK68HK11B
+OYO,"Ahmedabad, India",Human Resource,Manager,INR,8232,Deluxe Room,4116,2,"Manager from Human Resource spent 8232 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,PGVARE0GMP
+OYO,"Bangalore, India",Sales,Employee,INR,4242,Flight Ticket,1414,3,"Employee from Sales spent 4242 INR on Flight Ticket at OYO in Bangalore, India.",Travel,DVSTSU8Q55
+Uber,"Pune, India",Operations,Team Lead,INR,9562,Deluxe Room,4781,2,"Team Lead from Operations spent 9562 INR on Deluxe Room at Uber in Pune, India.",Travel,J1QR8UMFNY
+Goibibo,"Pune, India",Sales,Employee,INR,4700,Deluxe Room,2350,2,"Employee from Sales spent 4700 INR on Deluxe Room at Goibibo in Pune, India.",Travel,9LUHCDKSMU
+Amazon,"New Delhi, India",Sales,Manager,INR,4242,Laptop,2121,2,"Manager from Sales spent 4242 INR on Laptop at Amazon in New Delhi, India.",Office Supply,RLCI7YOOTN
+Zomato,"Ahmedabad, India",IT,Employee,INR,4281,Meal,4281,1,"Employee from IT spent 4281 INR on Meal at Zomato in Ahmedabad, India.",Meals,IDTYGK4DMG
+Zomato,"Dubai, UAE",Customer Support,Manager,AED,10797,Meal,3599,3,"Manager from Customer Support spent 10797 AED on Meal at Zomato in Dubai, UAE.",Meals,TZQCFAHGZ3
+Expedia,"Toronto, Canada",Customer Support,Employee,CAD,2828,Deluxe Room,2828,1,"Employee from Customer Support spent 2828 CAD on Deluxe Room at Expedia in Toronto, Canada.",Travel,LBRDVE9I54
+OYO,"New Delhi, India",Marketing,Manager,INR,6876,Flight Ticket,3438,2,"Manager from Marketing spent 6876 INR on Flight Ticket at OYO in New Delhi, India.",Travel,F7IR2DCBFJ
+OYO,"Toronto, Canada",Operations,Team Lead,CAD,4469,Flight Ticket,4469,1,"Team Lead from Operations spent 4469 CAD on Flight Ticket at OYO in Toronto, Canada.",Travel,N5V9N6LTCB
+Swiggy,"Pune, India",Sales,Manager,INR,5343,Meal,1781,3,"Manager from Sales spent 5343 INR on Meal at Swiggy in Pune, India.",Meals,5Y87EN9HX5
+Ola,"Mumbai, India",Human Resource,Manager,INR,11673,Flight Ticket,3891,3,"Manager from Human Resource spent 11673 INR on Flight Ticket at Ola in Mumbai, India.",Travel,46GZUGCFKP
+Uber,"Jaipur, India",Operations,Employee,INR,3084,Deluxe Room,1542,2,"Employee from Operations spent 3084 INR on Deluxe Room at Uber in Jaipur, India.",Travel,Y3XXVRVR9D
+Zomato,Singapore,Operations,Team Lead,SGD,1633,Meal,1633,1,Team Lead from Operations spent 1633 SGD on Meal at Zomato in Singapore.,Meals,Q53Y4U3AVA
+Goibibo,"Kolkata, India",Finance & Accounting,Manager,INR,4964,Flight Ticket,4964,1,"Manager from Finance & Accounting spent 4964 INR on Flight Ticket at Goibibo in Kolkata, India.",Travel,K9HW6Y0B54
+Zomato,"Pune, India",Operations,Team Lead,INR,3864,Meal,3864,1,"Team Lead from Operations spent 3864 INR on Meal at Zomato in Pune, India.",Meals,O4DU2LK23Y
+Swiggy,"Jaipur, India",IT,Team Lead,INR,8754,Meal,2918,3,"Team Lead from IT spent 8754 INR on Meal at Swiggy in Jaipur, India.",Meals,OF0QLJGOHO
+Uber,"Lucknow, India",Marketing,Team Lead,INR,2234,Deluxe Room,1117,2,"Team Lead from Marketing spent 2234 INR on Deluxe Room at Uber in Lucknow, India.",Travel,2RFG76HHYW
+Swiggy,"Hyderabad, India",Sales,Team Lead,INR,12744,Meal,4248,3,"Team Lead from Sales spent 12744 INR on Meal at Swiggy in Hyderabad, India.",Meals,9ND7EYG0IG
+Flipkart,"Chennai, India",IT,Manager,INR,1560,Printer,1560,1,"Manager from IT spent 1560 INR on Printer at Flipkart in Chennai, India.",Office Supply,IWN6GT2HC6
+OYO,"Kolkata, India",Human Resource,Dept Head,INR,1571,Deluxe Room,1571,1,"Dept Head from Human Resource spent 1571 INR on Deluxe Room at OYO in Kolkata, India.",Travel,TW5GS5EG0B
+Uber,"Ahmedabad, India",Marketing,Team Lead,INR,4654,Flight Ticket,2327,2,"Team Lead from Marketing spent 4654 INR on Flight Ticket at Uber in Ahmedabad, India.",Travel,UEBZ9IVO8C
+OYO,"Pune, India",Finance & Accounting,Dept Head,INR,13095,Deluxe Room,4365,3,"Dept Head from Finance & Accounting spent 13095 INR on Deluxe Room at OYO in Pune, India.",Travel,D53PE9LARB
+Zomato,"Toronto, Canada",Human Resource,Team Lead,CAD,4082,Meal,4082,1,"Team Lead from Human Resource spent 4082 CAD on Meal at Zomato in Toronto, Canada.",Meals,SW24LMVTWZ
+Uber,"Hyderabad, India",Sales,Manager,INR,1403,Deluxe Room,1403,1,"Manager from Sales spent 1403 INR on Deluxe Room at Uber in Hyderabad, India.",Travel,81ZM7RP9K2
+Flipkart,"Lucknow, India",Operations,Dept Head,INR,523,Projector,523,1,"Dept Head from Operations spent 523 INR on Projector at Flipkart in Lucknow, India.",Office Supply,9LCLOWTH5K
+Uber,"Pune, India",Operations,Employee,INR,13278,Deluxe Room,4426,3,"Employee from Operations spent 13278 INR on Deluxe Room at Uber in Pune, India.",Travel,MRNFMAFMCP
+Zomato,"Pune, India",Human Resource,Team Lead,INR,3900,Meal,1300,3,"Team Lead from Human Resource spent 3900 INR on Meal at Zomato in Pune, India.",Meals,E2ROUYJA2F
+Flipkart,"Tokyo, Japan",Finance & Accounting,Manager,JPY,3310,Printer,3310,1,"Manager from Finance & Accounting spent 3310 JPY on Printer at Flipkart in Tokyo, Japan.",Office Supply,SE06IS5Y4E
+Ola,"Lucknow, India",Sales,Manager,INR,10533,Flight Ticket,3511,3,"Manager from Sales spent 10533 INR on Flight Ticket at Ola in Lucknow, India.",Travel,4RMQ96N90T
+Zomato,"Sydney, Australia",Operations,Manager,AUD,3404,Meal,1702,2,"Manager from Operations spent 3404 AUD on Meal at Zomato in Sydney, Australia.",Meals,1UI5KQF68X
+Ola,"Jaipur, India",Sales,Employee,INR,2769,Flight Ticket,923,3,"Employee from Sales spent 2769 INR on Flight Ticket at Ola in Jaipur, India.",Travel,AIMTHFOIYI
+Flipkart,"New York, USA",Sales,Dept Head,USD,2526,Office Chair,1263,2,"Dept Head from Sales spent 2526 USD on Office Chair at Flipkart in New York, USA.",Office Supply,11BKFDNB41
+Amazon,"Kolkata, India",Human Resource,Dept Head,INR,3968,Printer,3968,1,"Dept Head from Human Resource spent 3968 INR on Printer at Amazon in Kolkata, India.",Office Supply,IEQ5LQKJ6L
+Uber,"Toronto, Canada",Marketing,Team Lead,CAD,2244,Flight Ticket,1122,2,"Team Lead from Marketing spent 2244 CAD on Flight Ticket at Uber in Toronto, Canada.",Travel,SI13DDV86U
+Zomato,Singapore,Finance & Accounting,Dept Head,SGD,14931,Meal,4977,3,Dept Head from Finance & Accounting spent 14931 SGD on Meal at Zomato in Singapore.,Meals,54QCPLP073
+Ola,"New Delhi, India",Finance & Accounting,Employee,INR,1809,Deluxe Room,1809,1,"Employee from Finance & Accounting spent 1809 INR on Deluxe Room at Ola in New Delhi, India.",Travel,69Q7172IYU
+Expedia,"Kolkata, India",Marketing,Manager,INR,5094,Flight Ticket,2547,2,"Manager from Marketing spent 5094 INR on Flight Ticket at Expedia in Kolkata, India.",Travel,6CTO5B4NU4
+Zomato,"Toronto, Canada",Finance & Accounting,Manager,CAD,4083,Meal,4083,1,"Manager from Finance & Accounting spent 4083 CAD on Meal at Zomato in Toronto, Canada.",Meals,AZDEIUP4VH
+Goibibo,"New Delhi, India",IT,Dept Head,INR,1663,Flight Ticket,1663,1,"Dept Head from IT spent 1663 INR on Flight Ticket at Goibibo in New Delhi, India.",Travel,GLSHZPQ3MU
+Goibibo,"London, UK",Sales,Dept Head,GBP,3519,Deluxe Room,1173,3,"Dept Head from Sales spent 3519 GBP on Deluxe Room at Goibibo in London, UK.",Travel,L0IQAE94NL
+Swiggy,"Hyderabad, India",Marketing,Employee,INR,2496,Meal,1248,2,"Employee from Marketing spent 2496 INR on Meal at Swiggy in Hyderabad, India.",Meals,RC7UE2UR1T
+Ola,"Lucknow, India",Operations,Dept Head,INR,617,Flight Ticket,617,1,"Dept Head from Operations spent 617 INR on Flight Ticket at Ola in Lucknow, India.",Travel,PVRG5E65CM
+OYO,"New York, USA",Operations,Manager,USD,3534,Deluxe Room,1178,3,"Manager from Operations spent 3534 USD on Deluxe Room at OYO in New York, USA.",Travel,RZZPV8ISFN
+Swiggy,"Dubai, UAE",Sales,Team Lead,AED,635,Meal,635,1,"Team Lead from Sales spent 635 AED on Meal at Swiggy in Dubai, UAE.",Meals,JW7F5RLLAR
+Flipkart,"Ahmedabad, India",Sales,Team Lead,INR,4916,Office Chair,2458,2,"Team Lead from Sales spent 4916 INR on Office Chair at Flipkart in Ahmedabad, India.",Office Supply,5QQKDL5L13
+Amazon,"Bangalore, India",Human Resource,Dept Head,INR,9700,Office Chair,4850,2,"Dept Head from Human Resource spent 9700 INR on Office Chair at Amazon in Bangalore, India.",Office Supply,569RX3WCB0
+Uber,"New Delhi, India",Human Resource,Employee,INR,623,Flight Ticket,623,1,"Employee from Human Resource spent 623 INR on Flight Ticket at Uber in New Delhi, India.",Travel,RHBHMO7JFP
+Uber,"Lucknow, India",Customer Support,Team Lead,INR,1988,Deluxe Room,1988,1,"Team Lead from Customer Support spent 1988 INR on Deluxe Room at Uber in Lucknow, India.",Travel,MR0QK83MJI
+Uber,Singapore,Marketing,Employee,SGD,1488,Flight Ticket,744,2,Employee from Marketing spent 1488 SGD on Flight Ticket at Uber in Singapore.,Travel,H4DEBO4HBH
+OYO,"Jaipur, India",Human Resource,Team Lead,INR,2774,Flight Ticket,1387,2,"Team Lead from Human Resource spent 2774 INR on Flight Ticket at OYO in Jaipur, India.",Travel,QPLAV2RG5O
+OYO,"Hyderabad, India",Customer Support,Employee,INR,8252,Flight Ticket,4126,2,"Employee from Customer Support spent 8252 INR on Flight Ticket at OYO in Hyderabad, India.",Travel,MWX8A6PQ3G
+MakeMyTrip,"Lucknow, India",Customer Support,Manager,INR,7736,Flight Ticket,3868,2,"Manager from Customer Support spent 7736 INR on Flight Ticket at MakeMyTrip in Lucknow, India.",Travel,5JCTTLXRMG
+Amazon,"Mumbai, India",Marketing,Team Lead,INR,1694,Office Chair,1694,1,"Team Lead from Marketing spent 1694 INR on Office Chair at Amazon in Mumbai, India.",Office Supply,0OOQJH8WVE
+Zomato,"Lucknow, India",IT,Dept Head,INR,3942,Meal,1314,3,"Dept Head from IT spent 3942 INR on Meal at Zomato in Lucknow, India.",Meals,HSAGXZJF34
+Uber,"London, UK",Human Resource,Employee,GBP,8556,Deluxe Room,2852,3,"Employee from Human Resource spent 8556 GBP on Deluxe Room at Uber in London, UK.",Travel,2LBFTIBQBX
+Expedia,"Jaipur, India",Marketing,Manager,INR,1296,Flight Ticket,1296,1,"Manager from Marketing spent 1296 INR on Flight Ticket at Expedia in Jaipur, India.",Travel,HILC6PHS9J
+OYO,"Bangalore, India",Sales,Manager,INR,8850,Flight Ticket,2950,3,"Manager from Sales spent 8850 INR on Flight Ticket at OYO in Bangalore, India.",Travel,19JDXRPWZ2
+OYO,Singapore,Sales,Manager,SGD,5226,Flight Ticket,1742,3,Manager from Sales spent 5226 SGD on Flight Ticket at OYO in Singapore.,Travel,KPV1BOB7TY
+Uber,"Jaipur, India",Finance & Accounting,Employee,INR,2139,Flight Ticket,2139,1,"Employee from Finance & Accounting spent 2139 INR on Flight Ticket at Uber in Jaipur, India.",Travel,308IZH615S
+MakeMyTrip,"Jaipur, India",Finance & Accounting,Dept Head,INR,1655,Deluxe Room,1655,1,"Dept Head from Finance & Accounting spent 1655 INR on Deluxe Room at MakeMyTrip in Jaipur, India.",Travel,NVJ16BEP3X
+Swiggy,"Sydney, Australia",Human Resource,Employee,AUD,12663,Meal,4221,3,"Employee from Human Resource spent 12663 AUD on Meal at Swiggy in Sydney, Australia.",Meals,1NEO9UI9B0
+Ola,"Pune, India",Operations,Employee,INR,1509,Flight Ticket,1509,1,"Employee from Operations spent 1509 INR on Flight Ticket at Ola in Pune, India.",Travel,VM4RE0KXQ3
+Flipkart,"Lucknow, India",Operations,Manager,INR,3843,Office Chair,3843,1,"Manager from Operations spent 3843 INR on Office Chair at Flipkart in Lucknow, India.",Office Supply,7ZIXYBH3AM
+Zomato,"New Delhi, India",Sales,Employee,INR,8568,Meal,2856,3,"Employee from Sales spent 8568 INR on Meal at Zomato in New Delhi, India.",Meals,QNM6XO5H2W
+MakeMyTrip,"London, UK",Sales,Dept Head,GBP,11007,Flight Ticket,3669,3,"Dept Head from Sales spent 11007 GBP on Flight Ticket at MakeMyTrip in London, UK.",Travel,37EYSIW5XZ
+Flipkart,"Bangalore, India",IT,Dept Head,INR,2000,Laptop,2000,1,"Dept Head from IT spent 2000 INR on Laptop at Flipkart in Bangalore, India.",Office Supply,QLN56Y98LT
+Swiggy,"Jaipur, India",Marketing,Dept Head,INR,8400,Meal,2800,3,"Dept Head from Marketing spent 8400 INR on Meal at Swiggy in Jaipur, India.",Meals,FSF7BZ8D3O
+Zomato,"Mumbai, India",Finance & Accounting,Dept Head,INR,11526,Meal,3842,3,"Dept Head from Finance & Accounting spent 11526 INR on Meal at Zomato in Mumbai, India.",Meals,WTIEXT7OCB
+Ola,"Sydney, Australia",Marketing,Team Lead,AUD,6484,Deluxe Room,3242,2,"Team Lead from Marketing spent 6484 AUD on Deluxe Room at Ola in Sydney, Australia.",Travel,53WUA7C9VF
+Uber,"Lucknow, India",IT,Team Lead,INR,13542,Flight Ticket,4514,3,"Team Lead from IT spent 13542 INR on Flight Ticket at Uber in Lucknow, India.",Travel,GY3O3N4OX6
+OYO,"New Delhi, India",Human Resource,Team Lead,INR,4178,Flight Ticket,2089,2,"Team Lead from Human Resource spent 4178 INR on Flight Ticket at OYO in New Delhi, India.",Travel,WVMQ9LYQ8T
+Ola,"New York, USA",Customer Support,Employee,USD,13650,Flight Ticket,4550,3,"Employee from Customer Support spent 13650 USD on Flight Ticket at Ola in New York, USA.",Travel,NG7WBKYBQO
+Zomato,"Toronto, Canada",Finance & Accounting,Employee,CAD,8553,Meal,2851,3,"Employee from Finance & Accounting spent 8553 CAD on Meal at Zomato in Toronto, Canada.",Meals,X0IX38IVTY
+MakeMyTrip,"Sydney, Australia",Operations,Employee,AUD,14682,Deluxe Room,4894,3,"Employee from Operations spent 14682 AUD on Deluxe Room at MakeMyTrip in Sydney, Australia.",Travel,QJEEBJ4PG2
+Swiggy,"Lucknow, India",Marketing,Team Lead,INR,4549,Meal,4549,1,"Team Lead from Marketing spent 4549 INR on Meal at Swiggy in Lucknow, India.",Meals,RBDGGFAC2K
+Swiggy,"New Delhi, India",Human Resource,Employee,INR,4389,Meal,4389,1,"Employee from Human Resource spent 4389 INR on Meal at Swiggy in New Delhi, India.",Meals,RHYYZHAQ0M
+Goibibo,"New Delhi, India",Operations,Dept Head,INR,4676,Deluxe Room,4676,1,"Dept Head from Operations spent 4676 INR on Deluxe Room at Goibibo in New Delhi, India.",Travel,CIZ4N0OCL0
+Goibibo,"Dubai, UAE",IT,Employee,AED,2150,Flight Ticket,1075,2,"Employee from IT spent 2150 AED on Flight Ticket at Goibibo in Dubai, UAE.",Travel,M8APXYW4F6
+OYO,"Kolkata, India",Human Resource,Employee,INR,6748,Deluxe Room,3374,2,"Employee from Human Resource spent 6748 INR on Deluxe Room at OYO in Kolkata, India.",Travel,LB3ZNL92ZB
+Flipkart,"Pune, India",IT,Manager,INR,4777,Projector,4777,1,"Manager from IT spent 4777 INR on Projector at Flipkart in Pune, India.",Office Supply,78E41QF1O2
+MakeMyTrip,"Toronto, Canada",Operations,Manager,CAD,2640,Flight Ticket,2640,1,"Manager from Operations spent 2640 CAD on Flight Ticket at MakeMyTrip in Toronto, Canada.",Travel,T3ECJUFWJ0
+OYO,"Lucknow, India",Human Resource,Manager,INR,8979,Flight Ticket,2993,3,"Manager from Human Resource spent 8979 INR on Flight Ticket at OYO in Lucknow, India.",Travel,QQBBRMGE1G
+OYO,"Chennai, India",Human Resource,Dept Head,INR,11760,Deluxe Room,3920,3,"Dept Head from Human Resource spent 11760 INR on Deluxe Room at OYO in Chennai, India.",Travel,JZCS6PBF3Q
+Uber,"Lucknow, India",Customer Support,Employee,INR,3727,Deluxe Room,3727,1,"Employee from Customer Support spent 3727 INR on Deluxe Room at Uber in Lucknow, India.",Travel,I8ZU0NE46O
+Goibibo,"New Delhi, India",Sales,Employee,INR,4704,Deluxe Room,2352,2,"Employee from Sales spent 4704 INR on Deluxe Room at Goibibo in New Delhi, India.",Travel,4ZQWTSHQNH
+Expedia,"Hyderabad, India",Finance & Accounting,Dept Head,INR,1971,Deluxe Room,657,3,"Dept Head from Finance & Accounting spent 1971 INR on Deluxe Room at Expedia in Hyderabad, India.",Travel,FP6EH0HV6E
+Uber,"Bangalore, India",Customer Support,Employee,INR,10974,Deluxe Room,3658,3,"Employee from Customer Support spent 10974 INR on Deluxe Room at Uber in Bangalore, India.",Travel,S4VCNGZXEF
+Swiggy,"Ahmedabad, India",Human Resource,Manager,INR,7654,Meal,3827,2,"Manager from Human Resource spent 7654 INR on Meal at Swiggy in Ahmedabad, India.",Meals,8UFRBCQRVI
+MakeMyTrip,"Ahmedabad, India",Operations,Employee,INR,4998,Flight Ticket,1666,3,"Employee from Operations spent 4998 INR on Flight Ticket at MakeMyTrip in Ahmedabad, India.",Travel,FB4RAZ0MC3
+Swiggy,"New Delhi, India",Human Resource,Employee,INR,2816,Meal,1408,2,"Employee from Human Resource spent 2816 INR on Meal at Swiggy in New Delhi, India.",Meals,ZYCFDTAYK5
+Amazon,"Ahmedabad, India",Sales,Team Lead,INR,1364,Office Chair,1364,1,"Team Lead from Sales spent 1364 INR on Office Chair at Amazon in Ahmedabad, India.",Office Supply,6B5YZK48FA
+Zomato,"New Delhi, India",Operations,Dept Head,INR,4383,Meal,4383,1,"Dept Head from Operations spent 4383 INR on Meal at Zomato in New Delhi, India.",Meals,HQIVEXBPMH
+Uber,"Jaipur, India",Marketing,Employee,INR,8642,Flight Ticket,4321,2,"Employee from Marketing spent 8642 INR on Flight Ticket at Uber in Jaipur, India.",Travel,M58BJCMDV0
+Ola,"Chennai, India",Finance & Accounting,Team Lead,INR,4134,Deluxe Room,4134,1,"Team Lead from Finance & Accounting spent 4134 INR on Deluxe Room at Ola in Chennai, India.",Travel,9B31K4WSFH
+Flipkart,"Chennai, India",Sales,Team Lead,INR,7185,Office Chair,2395,3,"Team Lead from Sales spent 7185 INR on Office Chair at Flipkart in Chennai, India.",Office Supply,UUWTXXR6TV
+Swiggy,"Lucknow, India",Customer Support,Employee,INR,8838,Meal,2946,3,"Employee from Customer Support spent 8838 INR on Meal at Swiggy in Lucknow, India.",Meals,YF7IS71P25
+Expedia,"Bangalore, India",Finance & Accounting,Dept Head,INR,2597,Flight Ticket,2597,1,"Dept Head from Finance & Accounting spent 2597 INR on Flight Ticket at Expedia in Bangalore, India.",Travel,IZX9O5QDWF
+OYO,"Jaipur, India",Finance & Accounting,Dept Head,INR,1134,Flight Ticket,1134,1,"Dept Head from Finance & Accounting spent 1134 INR on Flight Ticket at OYO in Jaipur, India.",Travel,SAD0KGIRKR
+Uber,"Mumbai, India",Finance & Accounting,Employee,INR,2702,Flight Ticket,1351,2,"Employee from Finance & Accounting spent 2702 INR on Flight Ticket at Uber in Mumbai, India.",Travel,ZT6XJ7XHES
+Goibibo,"Mumbai, India",Marketing,Dept Head,INR,8922,Deluxe Room,4461,2,"Dept Head from Marketing spent 8922 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,4VQNO91Z00
+Ola,"Hyderabad, India",Human Resource,Team Lead,INR,3169,Flight Ticket,3169,1,"Team Lead from Human Resource spent 3169 INR on Flight Ticket at Ola in Hyderabad, India.",Travel,LLMET2RTKM
+Expedia,"Mumbai, India",Sales,Dept Head,INR,3568,Deluxe Room,3568,1,"Dept Head from Sales spent 3568 INR on Deluxe Room at Expedia in Mumbai, India.",Travel,V68VGABV9R
+Ola,"Pune, India",Customer Support,Dept Head,INR,1672,Deluxe Room,836,2,"Dept Head from Customer Support spent 1672 INR on Deluxe Room at Ola in Pune, India.",Travel,V92M0JILRY
+Amazon,"Pune, India",Marketing,Manager,INR,7240,Projector,3620,2,"Manager from Marketing spent 7240 INR on Projector at Amazon in Pune, India.",Office Supply,O02T2RIBKH
+OYO,"Paris, France",IT,Team Lead,EUR,13968,Flight Ticket,4656,3,"Team Lead from IT spent 13968 EUR on Flight Ticket at OYO in Paris, France.",Travel,CLF7ZBGQBS
+Flipkart,"Mumbai, India",Sales,Employee,INR,5982,Printer,1994,3,"Employee from Sales spent 5982 INR on Printer at Flipkart in Mumbai, India.",Office Supply,XJBQINMRKZ
+Flipkart,"Jaipur, India",Human Resource,Employee,INR,3774,Printer,3774,1,"Employee from Human Resource spent 3774 INR on Printer at Flipkart in Jaipur, India.",Office Supply,0V9MU19DCR
+OYO,"Chennai, India",Operations,Manager,INR,4786,Flight Ticket,2393,2,"Manager from Operations spent 4786 INR on Flight Ticket at OYO in Chennai, India.",Travel,KAMU38D6BE
+Uber,"Kolkata, India",Operations,Employee,INR,8544,Flight Ticket,2848,3,"Employee from Operations spent 8544 INR on Flight Ticket at Uber in Kolkata, India.",Travel,B5NXKS0SRQ
+Amazon,Hong Kong,Finance & Accounting,Employee,HKD,2966,Laptop,2966,1,Employee from Finance & Accounting spent 2966 HKD on Laptop at Amazon in Hong Kong.,Office Supply,96LPS4SPX1
+Expedia,"Hyderabad, India",Customer Support,Dept Head,INR,2728,Flight Ticket,1364,2,"Dept Head from Customer Support spent 2728 INR on Flight Ticket at Expedia in Hyderabad, India.",Travel,FO9GQMM0Q0
+Expedia,"Lucknow, India",Operations,Dept Head,INR,8622,Flight Ticket,2874,3,"Dept Head from Operations spent 8622 INR on Flight Ticket at Expedia in Lucknow, India.",Travel,AI0ZL7U96U
+MakeMyTrip,"Chennai, India",IT,Team Lead,INR,14196,Flight Ticket,4732,3,"Team Lead from IT spent 14196 INR on Flight Ticket at MakeMyTrip in Chennai, India.",Travel,81DF9S8YIM
+Ola,"Ahmedabad, India",Human Resource,Dept Head,INR,12387,Flight Ticket,4129,3,"Dept Head from Human Resource spent 12387 INR on Flight Ticket at Ola in Ahmedabad, India.",Travel,PKS2EO67EN
+Goibibo,"Jaipur, India",Marketing,Dept Head,INR,2073,Flight Ticket,2073,1,"Dept Head from Marketing spent 2073 INR on Flight Ticket at Goibibo in Jaipur, India.",Travel,OK9YZEYIVX
+Ola,Singapore,IT,Manager,SGD,6750,Flight Ticket,3375,2,Manager from IT spent 6750 SGD on Flight Ticket at Ola in Singapore.,Travel,BKO169MTTH
+Goibibo,"Pune, India",Customer Support,Manager,INR,3706,Deluxe Room,1853,2,"Manager from Customer Support spent 3706 INR on Deluxe Room at Goibibo in Pune, India.",Travel,1IQNRZPFPG
+Flipkart,"Chennai, India",Finance & Accounting,Manager,INR,13662,Printer,4554,3,"Manager from Finance & Accounting spent 13662 INR on Printer at Flipkart in Chennai, India.",Office Supply,ONP8VKYNDT
+Swiggy,"Dubai, UAE",Finance & Accounting,Employee,AED,9330,Meal,4665,2,"Employee from Finance & Accounting spent 9330 AED on Meal at Swiggy in Dubai, UAE.",Meals,92BACTGRLA
+OYO,"Paris, France",IT,Manager,EUR,7558,Flight Ticket,3779,2,"Manager from IT spent 7558 EUR on Flight Ticket at OYO in Paris, France.",Travel,UHS8D54W1L
+Amazon,"Kolkata, India",Marketing,Team Lead,INR,1971,Office Chair,657,3,"Team Lead from Marketing spent 1971 INR on Office Chair at Amazon in Kolkata, India.",Office Supply,8LKXWSG9X0
+Amazon,"Pune, India",IT,Manager,INR,3705,Office Chair,3705,1,"Manager from IT spent 3705 INR on Office Chair at Amazon in Pune, India.",Office Supply,C5H5QG9AGJ
+Flipkart,"Chennai, India",Operations,Manager,INR,1542,Printer,771,2,"Manager from Operations spent 1542 INR on Printer at Flipkart in Chennai, India.",Office Supply,Z0HJ8J8X4Q
+Goibibo,"Lucknow, India",Finance & Accounting,Employee,INR,3602,Flight Ticket,3602,1,"Employee from Finance & Accounting spent 3602 INR on Flight Ticket at Goibibo in Lucknow, India.",Travel,FVBYJZ8A5W
+Swiggy,"Toronto, Canada",Human Resource,Employee,CAD,1545,Meal,1545,1,"Employee from Human Resource spent 1545 CAD on Meal at Swiggy in Toronto, Canada.",Meals,Z1C03H71XF
+Zomato,"Paris, France",Operations,Manager,EUR,4700,Meal,2350,2,"Manager from Operations spent 4700 EUR on Meal at Zomato in Paris, France.",Meals,CK8NP0YT6F
+Zomato,"New Delhi, India",Marketing,Dept Head,INR,4892,Meal,4892,1,"Dept Head from Marketing spent 4892 INR on Meal at Zomato in New Delhi, India.",Meals,Y4ALVENY3S
+Amazon,"Lucknow, India",Customer Support,Employee,INR,4387,Laptop,4387,1,"Employee from Customer Support spent 4387 INR on Laptop at Amazon in Lucknow, India.",Office Supply,BF2ZWUXXTG
+Flipkart,"Berlin, Germany",Customer Support,Dept Head,EUR,9412,Laptop,4706,2,"Dept Head from Customer Support spent 9412 EUR on Laptop at Flipkart in Berlin, Germany.",Office Supply,X3VOYEXGPB
+Goibibo,"Pune, India",Sales,Manager,INR,14313,Deluxe Room,4771,3,"Manager from Sales spent 14313 INR on Deluxe Room at Goibibo in Pune, India.",Travel,X6PPRYU62K
+Zomato,"Ahmedabad, India",Finance & Accounting,Manager,INR,2565,Meal,2565,1,"Manager from Finance & Accounting spent 2565 INR on Meal at Zomato in Ahmedabad, India.",Meals,LVFSK1TL49
+OYO,"Ahmedabad, India",Operations,Dept Head,INR,1816,Flight Ticket,908,2,"Dept Head from Operations spent 1816 INR on Flight Ticket at OYO in Ahmedabad, India.",Travel,AAT41F4IHW
+MakeMyTrip,"Chennai, India",Operations,Dept Head,INR,14016,Deluxe Room,4672,3,"Dept Head from Operations spent 14016 INR on Deluxe Room at MakeMyTrip in Chennai, India.",Travel,AVR3Z0BDEA
+Expedia,"Tokyo, Japan",Marketing,Employee,JPY,4840,Deluxe Room,2420,2,"Employee from Marketing spent 4840 JPY on Deluxe Room at Expedia in Tokyo, Japan.",Travel,DKZXWY5O17
+Goibibo,"Mumbai, India",Operations,Manager,INR,8108,Deluxe Room,4054,2,"Manager from Operations spent 8108 INR on Deluxe Room at Goibibo in Mumbai, India.",Travel,GWISYA21AX
+Swiggy,"Kolkata, India",Sales,Team Lead,INR,663,Meal,663,1,"Team Lead from Sales spent 663 INR on Meal at Swiggy in Kolkata, India.",Meals,HT4RBUP3LE
+MakeMyTrip,"New Delhi, India",Marketing,Dept Head,INR,4937,Deluxe Room,4937,1,"Dept Head from Marketing spent 4937 INR on Deluxe Room at MakeMyTrip in New Delhi, India.",Travel,FJAXBH1XA7
+Uber,"Kolkata, India",Sales,Dept Head,INR,4916,Flight Ticket,4916,1,"Dept Head from Sales spent 4916 INR on Flight Ticket at Uber in Kolkata, India.",Travel,RMDC9NCNK0
+OYO,"Ahmedabad, India",Sales,Employee,INR,14691,Deluxe Room,4897,3,"Employee from Sales spent 14691 INR on Deluxe Room at OYO in Ahmedabad, India.",Travel,79QMBY336R
+Ola,"Jaipur, India",Customer Support,Team Lead,INR,1012,Deluxe Room,1012,1,"Team Lead from Customer Support spent 1012 INR on Deluxe Room at Ola in Jaipur, India.",Travel,QPPGHYS406
+Flipkart,"Paris, France",IT,Manager,EUR,2806,Projector,2806,1,"Manager from IT spent 2806 EUR on Projector at Flipkart in Paris, France.",Office Supply,M8G81UDPBR
+OYO,"Berlin, Germany",Operations,Manager,EUR,6288,Flight Ticket,3144,2,"Manager from Operations spent 6288 EUR on Flight Ticket at OYO in Berlin, Germany.",Travel,TRMGSUYLCM
+Zomato,"London, UK",Human Resource,Dept Head,GBP,2592,Meal,864,3,"Dept Head from Human Resource spent 2592 GBP on Meal at Zomato in London, UK.",Meals,TGURMERKGB
+Uber,"Ahmedabad, India",Operations,Manager,INR,7410,Deluxe Room,2470,3,"Manager from Operations spent 7410 INR on Deluxe Room at Uber in Ahmedabad, India.",Travel,EUDTHVUTDY
+Flipkart,"Bangalore, India",Sales,Employee,INR,6216,Printer,3108,2,"Employee from Sales spent 6216 INR on Printer at Flipkart in Bangalore, India.",Office Supply,39ECHZ7JHI
+Flipkart,"Hyderabad, India",IT,Dept Head,INR,13704,Office Chair,4568,3,"Dept Head from IT spent 13704 INR on Office Chair at Flipkart in Hyderabad, India.",Office Supply,V77BLY2NML
+Amazon,"Chennai, India",IT,Team Lead,INR,6034,Projector,3017,2,"Team Lead from IT spent 6034 INR on Projector at Amazon in Chennai, India.",Office Supply,K1SA9WP1NR
+Expedia,"New Delhi, India",Sales,Employee,INR,4712,Flight Ticket,2356,2,"Employee from Sales spent 4712 INR on Flight Ticket at Expedia in New Delhi, India.",Travel,5NAYPOVA0C
+Swiggy,"Bangalore, India",IT,Team Lead,INR,3474,Meal,1158,3,"Team Lead from IT spent 3474 INR on Meal at Swiggy in Bangalore, India.",Meals,H80U8Y9NRY
+Swiggy,"Pune, India",Customer Support,Employee,INR,4768,Meal,2384,2,"Employee from Customer Support spent 4768 INR on Meal at Swiggy in Pune, India.",Meals,CZXSO0X5JL
+Uber,"Hyderabad, India",Operations,Manager,INR,7730,Flight Ticket,3865,2,"Manager from Operations spent 7730 INR on Flight Ticket at Uber in Hyderabad, India.",Travel,ETMRZUXZBV
+Zomato,"Pune, India",Operations,Team Lead,INR,2934,Meal,1467,2,"Team Lead from Operations spent 2934 INR on Meal at Zomato in Pune, India.",Meals,POK3O6HK3T
+OYO,"Bangalore, India",Finance & Accounting,Manager,INR,6624,Flight Ticket,3312,2,"Manager from Finance & Accounting spent 6624 INR on Flight Ticket at OYO in Bangalore, India.",Travel,D8O9K0TQJE
+Expedia,Hong Kong,Human Resource,Dept Head,HKD,6714,Deluxe Room,2238,3,Dept Head from Human Resource spent 6714 HKD on Deluxe Room at Expedia in Hong Kong.,Travel,9E3WGJVCUO
+MakeMyTrip,"Sydney, Australia",IT,Employee,AUD,4684,Deluxe Room,4684,1,"Employee from IT spent 4684 AUD on Deluxe Room at MakeMyTrip in Sydney, Australia.",Travel,2MEPOHYQ70
+Uber,"Pune, India",Human Resource,Employee,INR,2920,Flight Ticket,2920,1,"Employee from Human Resource spent 2920 INR on Flight Ticket at Uber in Pune, India.",Travel,OFEW7UZ78L
+OYO,"New Delhi, India",Sales,Team Lead,INR,4864,Flight Ticket,4864,1,"Team Lead from Sales spent 4864 INR on Flight Ticket at OYO in New Delhi, India.",Travel,5E8WGJVCUL
